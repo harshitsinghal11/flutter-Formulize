@@ -1,0 +1,4024 @@
+[
+  {
+    "id": "12_phy_1_01",
+    "classLevel": "12",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Fields",
+    "title": "Quantization of Charge",
+    "latexCode": "q = \\pm ne",
+    "explanation": "Charge is always an integral multiple of the basic quantum of charge (e), where n is an integer and e is 1.6 × 10^-19 C.",
+    "containsFormulas": true,
+    "searchTags": ["quantization", "charge", "electron", "proton"]
+  },
+  {
+    "id": "12_phy_1_02",
+    "classLevel": "12",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Fields",
+    "title": "Coulomb's Law (Scalar & Vector)",
+    "latexCode": "\\begin{aligned} F &= \\frac{1}{4\\pi\\varepsilon_0} \\frac{|q_1 q_2|}{r^2} \\\\ \\vec{F}_{12} &= \\frac{1}{4\\pi\\varepsilon_0} \\frac{q_1 q_2}{r^2} \\hat{r}_{21} \\end{aligned}",
+    "explanation": "The first equation gives the magnitude of the electrostatic force. The second is the vector form, showing direction along the unit vector.",
+    "containsFormulas": true,
+    "searchTags": ["coulomb", "force", "vector", "electrostatic"]
+  },
+  {
+    "id": "12_phy_1_03",
+    "classLevel": "12",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Fields",
+    "title": "Electric Field & Point Charge",
+    "latexCode": "\\begin{aligned} \\vec{E} &= \\frac{\\vec{F}}{q_0} \\\\ E &= \\frac{1}{4\\pi\\varepsilon_0} \\frac{q}{r^2} \\end{aligned}",
+    "explanation": "Electric field is defined as force per unit charge. The second equation calculates the field produced by a single point charge at distance r.",
+    "containsFormulas": true,
+    "searchTags": ["electric", "field", "point", "charge", "intensity"]
+  },
+  {
+    "id": "12_phy_1_04",
+    "classLevel": "12",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Fields",
+    "title": "Electric Dipole & Torque",
+    "latexCode": "\\begin{aligned} \\vec{p} &= q(2\\vec{a}) \\\\ \\vec{\\tau} &= \\vec{p} \\times \\vec{E} = pE \\sin\\theta \\end{aligned}",
+    "explanation": "Dipole moment (p) is charge times separation distance. Torque (τ) aligns the dipole with an external uniform electric field.",
+    "containsFormulas": true,
+    "searchTags": ["dipole", "moment", "torque", "rotation", "cross product"]
+  },
+  {
+    "id": "12_phy_1_05",
+    "classLevel": "12",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Fields",
+    "title": "Electric Field of a Short Dipole",
+    "latexCode": "\\begin{aligned} E_{axial} &= \\frac{1}{4\\pi\\varepsilon_0} \\frac{2p}{r^3} \\\\ E_{equatorial} &= \\frac{1}{4\\pi\\varepsilon_0} \\frac{p}{r^3} \\end{aligned}",
+    "explanation": "Calculates the electric field on the axis and the equatorial plane of a short dipole (where distance r is much greater than dipole length a).",
+    "containsFormulas": true,
+    "searchTags": ["axial", "equatorial", "dipole", "field"]
+  },
+  {
+    "id": "12_phy_1_06",
+    "classLevel": "12",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Fields",
+    "title": "Electric Flux & Gauss's Law",
+    "latexCode": "\\begin{aligned} \\Phi_E &= \\oint \\vec{E} \\cdot d\\vec{A} \\\\ \\Phi_E &= \\frac{q_{enc}}{\\varepsilon_0} \\end{aligned}",
+    "explanation": "Electric flux is the dot product of the electric field and area vector. Gauss's Law states total flux equals enclosed charge over permittivity.",
+    "containsFormulas": true,
+    "searchTags": ["flux", "gauss", "integral", "enclosed", "permittivity"]
+  },
+  {
+    "id": "12_phy_1_07",
+    "classLevel": "12",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Fields",
+    "title": "Gauss's Law: Wire & Sheet",
+    "latexCode": "\\begin{aligned} E_{wire} &= \\frac{\\lambda}{2\\pi\\varepsilon_0 r} \\\\ E_{sheet} &= \\frac{\\sigma}{2\\varepsilon_0} \\end{aligned}",
+    "explanation": "Electric field due to an infinitely long straight charged wire (λ = linear charge density) and an infinite plane sheet (σ = surface charge density).",
+    "containsFormulas": true,
+    "searchTags": ["wire", "sheet", "plane", "infinite", "charge density"]
+  },
+  {
+    "id": "12_phy_1_08",
+    "classLevel": "12",
+    "subject": "Physics",
+    "chapter": "Electric Charges and Fields",
+    "title": "Gauss's Law: Spherical Shell",
+    "latexCode": "\\begin{aligned} E_{out} &= \\frac{1}{4\\pi\\varepsilon_0} \\frac{q}{r^2} \\; (r \\ge R) \\\\ E_{in} &= 0 \\; (r < R) \\end{aligned}",
+    "explanation": "Outside a uniformly charged thin spherical shell, it acts like a point charge. Inside the shell, the electric field is exactly zero.",
+    "containsFormulas": true,
+    "searchTags": ["sphere", "shell", "hollow", "inside", "outside"]
+  },
+
+
+  {
+    "id": "12_phy_2_01",
+    "classLevel": "12",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "title": "Electrostatic Potential",
+    "latexCode": "\\begin{aligned} V &= \\frac{W}{q_0} \\\\ V &= \\frac{1}{4\\pi\\varepsilon_0} \\frac{q}{r} \\end{aligned}",
+    "explanation": "Potential is the work done bringing a test charge from infinity. The second equation calculates the potential at a distance r from a single point charge.",
+    "containsFormulas": true,
+    "searchTags": ["potential", "work", "point charge", "volt", "voltage"]
+  },
+  {
+    "id": "12_phy_2_02",
+    "classLevel": "12",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "title": "Potential due to an Electric Dipole",
+    "latexCode": "V = \\frac{1}{4\\pi\\varepsilon_0} \\frac{p \\cos\\theta}{r^2}",
+    "explanation": "Calculates the electric potential at a distance r from the center of a dipole, where θ is the angle from the dipole axis.",
+    "containsFormulas": true,
+    "searchTags": ["dipole", "potential", "angle", "axis"]
+  },
+  {
+    "id": "12_phy_2_03",
+    "classLevel": "12",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "title": "Electric Field & Potential Gradient",
+    "latexCode": "E = -\\frac{dV}{dr}",
+    "explanation": "The electric field is the negative of the potential gradient. It points in the direction of decreasing potential.",
+    "containsFormulas": true,
+    "searchTags": ["gradient", "electric field", "potential difference", "derivative"]
+  },
+  {
+    "id": "12_phy_2_04",
+    "classLevel": "12",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "title": "Electrostatic Potential Energy",
+    "latexCode": "U = \\frac{1}{4\\pi\\varepsilon_0} \\frac{q_1 q_2}{r}",
+    "explanation": "The work done in assembling a system of two point charges at a separation distance of r.",
+    "containsFormulas": true,
+    "searchTags": ["energy", "potential energy", "system", "charges", "work"]
+  },
+  {
+    "id": "12_phy_2_05",
+    "classLevel": "12",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "title": "Potential Energy of a Dipole",
+    "latexCode": "U = -\\vec{p} \\cdot \\vec{E} = -pE \\cos\\theta",
+    "explanation": "The potential energy of an electric dipole placed in a uniform external electric field.",
+    "containsFormulas": true,
+    "searchTags": ["dipole", "external field", "potential energy", "dot product"]
+  },
+  {
+    "id": "12_phy_2_06",
+    "classLevel": "12",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "title": "Capacitance & Parallel Plate Capacitor",
+    "latexCode": "\\begin{aligned} C &= \\frac{Q}{V} \\\\ C &= \\frac{\\varepsilon_0 A}{d} \\end{aligned}",
+    "explanation": "Capacitance is the ratio of charge to voltage. The second equation is for a parallel plate capacitor with area A and plate separation d.",
+    "containsFormulas": true,
+    "searchTags": ["capacitance", "parallel plate", "area", "distance", "farad"]
+  },
+  {
+    "id": "12_phy_2_07",
+    "classLevel": "12",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "title": "Effect of Dielectric on Capacitance",
+    "latexCode": "C = K C_0 = \\frac{K \\varepsilon_0 A}{d}",
+    "explanation": "When a dielectric material is inserted between the plates, the capacitance increases by a factor of K (the dielectric constant).",
+    "containsFormulas": true,
+    "searchTags": ["dielectric", "constant", "slab", "medium", "polarization"]
+  },
+  {
+    "id": "12_phy_2_08",
+    "classLevel": "12",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "title": "Capacitors in Series & Parallel",
+    "latexCode": "\\begin{aligned} \\frac{1}{C_s} &= \\frac{1}{C_1} + \\frac{1}{C_2} + \\dots \\\\ C_p &= C_1 + C_2 + \\dots \\end{aligned}",
+    "explanation": "The top equation calculates the equivalent capacitance for capacitors in series. The bottom equation is for capacitors in parallel.",
+    "containsFormulas": true,
+    "searchTags": ["series", "parallel", "equivalent", "combination", "circuit"]
+  },
+  {
+    "id": "12_phy_2_09",
+    "classLevel": "12",
+    "subject": "Physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "title": "Energy Stored & Energy Density",
+    "latexCode": "\\begin{aligned} U &= \\frac{1}{2}CV^2 = \\frac{Q^2}{2C} \\\\ u &= \\frac{1}{2}\\varepsilon_0 E^2 \\end{aligned}",
+    "explanation": "The top equation calculates the total electrostatic energy stored in a capacitor. The bottom equation calculates the energy density (energy per unit volume).",
+    "containsFormulas": true,
+    "searchTags": ["energy stored", "density", "capacitor", "volume", "joule"]
+  },
+
+
+
+  {
+    "id": "12_phy_3_01",
+    "classLevel": "12",
+    "subject": "Physics",
+    "chapter": "Current Electricity",
+    "title": "Electric Current & Drift Velocity",
+    "latexCode": "\\begin{aligned} I &= \\frac{dq}{dt} \\\\ v_d &= \\frac{eE}{m}\\tau \\end{aligned}",
+    "explanation": "Current is the rate of flow of charge. Drift velocity (v_d) is the average velocity attained by charged particles in a material due to an electric field.",
+    "containsFormulas": true,
+    "searchTags": ["current", "drift", "velocity", "flow", "charge", "relaxation"]
+  },
+  {
+    "id": "12_phy_3_02",
+    "classLevel": "12",
+    "subject": "Physics",
+    "chapter": "Current Electricity",
+    "title": "Relation: Current & Drift Velocity",
+    "latexCode": "I = neA v_d",
+    "explanation": "Relates current (I) to the number density of electrons (n), fundamental charge (e), cross-sectional area (A), and drift velocity (v_d).",
+    "containsFormulas": true,
+    "searchTags": ["relation", "current", "drift velocity", "density", "area"]
+  },
+  {
+    "id": "12_phy_3_03",
+    "classLevel": "12",
+    "subject": "Physics",
+    "chapter": "Current Electricity",
+    "title": "Ohm's Law & Resistance",
+    "latexCode": "\\begin{aligned} V &= IR \\\\ R &= \\rho \\frac{l}{A} \\end{aligned}",
+    "explanation": "Voltage across a conductor is proportional to current. Resistance (R) depends on the material's resistivity (ρ), length (l), and cross-sectional area (A).",
+    "containsFormulas": true,
+    "searchTags": ["ohm", "voltage", "current", "resistance", "resistivity", "length"]
+  },
+  {
+    "id": "12_phy_3_04",
+    "classLevel": "12",
+    "subject": "Physics",
+    "chapter": "Current Electricity",
+    "title": "Resistivity & Mobility",
+    "latexCode": "\\begin{aligned} \\rho &= \\frac{m}{ne^2\\tau} \\\\ \\mu &= \\frac{v_d}{E} \\end{aligned}",
+    "explanation": "Resistivity (ρ) depends inversely on relaxation time (τ). Mobility (μ) is defined as the drift velocity per unit electric field.",
+    "containsFormulas": true,
+    "searchTags": ["resistivity", "mobility", "relaxation time", "electric field"]
+  },
+  {
+    "id": "12_phy_3_05",
+    "classLevel": "12",
+    "subject": "Physics",
+    "chapter": "Current Electricity",
+    "title": "Current Density & Vector Ohm's Law",
+    "latexCode": "\\begin{aligned} J &= \\frac{I}{A} \\\\ \\vec{J} &= \\sigma \\vec{E} \\end{aligned}",
+    "explanation": "Current density (J) is current per unit area. The microscopic (vector) form of Ohm's Law relates it to conductivity (σ) and electric field.",
+    "containsFormulas": true,
+    "searchTags": ["density", "vector", "ohm", "conductivity", "microscopic"]
+  },
+  {
+    "id": "12_phy_3_06",
+    "classLevel": "12",
+    "subject": "Physics",
+    "chapter": "Current Electricity",
+    "title": "Temperature Dependence of Resistance",
+    "latexCode": "R_T = R_0 [1 + \\alpha (T - T_0)]",
+    "explanation": "Calculates how resistance changes with temperature. α is the temperature coefficient of resistivity.",
+    "containsFormulas": true,
+    "searchTags": ["temperature", "dependence", "coefficient", "heat", "alpha"]
+  },
+  {
+    "id": "12_phy_3_07",
+    "classLevel": "12",
+    "subject": "Physics",
+    "chapter": "Current Electricity",
+    "title": "Electrical Power",
+    "latexCode": "P = VI = I^2R = \\frac{V^2}{R}",
+    "explanation": "The rate at which electrical energy is dissipated by a resistor in a circuit.",
+    "containsFormulas": true,
+    "searchTags": ["power", "energy", "dissipation", "watt", "circuit"]
+  },
+  {
+    "id": "12_phy_3_08",
+    "classLevel": "12",
+    "subject": "Physics",
+    "chapter": "Current Electricity",
+    "title": "EMF & Internal Resistance",
+    "latexCode": "\\begin{aligned} V &= \\varepsilon - Ir \\\\ I &= \\frac{\\varepsilon}{R + r} \\end{aligned}",
+    "explanation": "Terminal voltage (V) is the electromotive force (ε) minus the voltage drop across the battery's internal resistance (r).",
+    "containsFormulas": true,
+    "searchTags": ["emf", "terminal", "voltage", "internal", "resistance", "battery"]
+  },
+  {
+    "id": "12_phy_3_09",
+    "classLevel": "12",
+    "subject": "Physics",
+    "chapter": "Current Electricity",
+    "title": "Combination of Cells",
+    "latexCode": "\\begin{aligned} \\varepsilon_{eq} &= \\varepsilon_1 + \\varepsilon_2 \\; \\text{(Series)} \\\\ \\frac{\\varepsilon_{eq}}{r_{eq}} &= \\frac{\\varepsilon_1}{r_1} + \\frac{\\varepsilon_2}{r_2} \\; \\text{(Parallel)} \\end{aligned}",
+    "explanation": "Formulas to find the equivalent EMF when multiple batteries (cells) are connected in series or parallel.",
+    "containsFormulas": true,
+    "searchTags": ["cells", "batteries", "series", "parallel", "combination", "equivalent"]
+  },
+  {
+    "id": "12_phy_3_10",
+    "classLevel": "12",
+    "subject": "Physics",
+    "chapter": "Current Electricity",
+    "title": "Kirchhoff's Rules",
+    "latexCode": "\\begin{aligned} \\sum I &= 0 \\quad \\text{(Junction)} \\\\ \\sum \\Delta V &= 0 \\quad \\text{(Loop)} \\end{aligned}",
+    "explanation": "The Junction Rule (KCL) is based on conservation of charge. The Loop Rule (KVL) is based on conservation of energy.",
+    "containsFormulas": true,
+    "searchTags": ["kirchhoff", "junction", "loop", "kcl", "kvl", "conservation"]
+  },
+  {
+    "id": "12_phy_3_11",
+    "classLevel": "12",
+    "subject": "Physics",
+    "chapter": "Current Electricity",
+    "title": "Wheatstone Bridge (Balanced)",
+    "latexCode": "\\frac{P}{Q} = \\frac{R}{S}",
+    "explanation": "The condition for a balanced Wheatstone bridge where no current flows through the galvanometer. Used to find an unknown resistance.",
+    "containsFormulas": true,
+    "searchTags": ["wheatstone", "bridge", "balanced", "galvanometer", "unknown resistance"]
+  },
+
+  {
+    "id": "12_phy_4_01",
+    "classLevel": "12",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "title": "Biot-Savart Law",
+    "latexCode": "\\begin{aligned} d\\vec{B} &= \\frac{\\mu_0}{4\\pi} \\frac{I d\\vec{l} \\times \\hat{r}}{r^2} \\\\ |d\\vec{B}| &= \\frac{\\mu_0}{4\\pi} \\frac{I dl \\sin\\theta}{r^2} \\end{aligned}",
+    "explanation": "Calculates the magnetic field (dB) generated by a tiny current element (Idl). The first equation is the vector form, the second gives the magnitude.",
+    "containsFormulas": true,
+    "searchTags": ["biot", "savart", "magnetic field", "current element", "vector"]
+  },
+  {
+    "id": "12_phy_4_02",
+    "classLevel": "12",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "title": "Magnetic Field of a Circular Loop",
+    "latexCode": "\\begin{aligned} B_{axis} &= \\frac{\\mu_0 I R^2}{2(x^2 + R^2)^{3/2}} \\\\ B_{center} &= \\frac{\\mu_0 I}{2R} \\end{aligned}",
+    "explanation": "The top equation finds the magnetic field on the axis of a circular current loop at distance x. The bottom equation finds the field exactly at the center (x = 0).",
+    "containsFormulas": true,
+    "searchTags": ["circular", "loop", "axis", "center", "radius"]
+  },
+  {
+    "id": "12_phy_4_03",
+    "classLevel": "12",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "title": "Ampere's Circuital Law",
+    "latexCode": "\\oint \\vec{B} \\cdot d\\vec{l} = \\mu_0 I_{enc}",
+    "explanation": "The line integral of the magnetic field around any closed loop is equal to the permeability of free space times the total current enclosed by the loop.",
+    "containsFormulas": true,
+    "searchTags": ["ampere", "circuital", "integral", "enclosed current"]
+  },
+  {
+    "id": "12_phy_4_04",
+    "classLevel": "12",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "title": "Magnetic Field of Solenoid & Toroid",
+    "latexCode": "B = \\mu_0 n I",
+    "explanation": "Calculates the uniform magnetic field inside a long solenoid or a toroid, where 'n' is the number of turns per unit length.",
+    "containsFormulas": true,
+    "searchTags": ["solenoid", "toroid", "turns", "uniform field"]
+  },
+  {
+    "id": "12_phy_4_05",
+    "classLevel": "12",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "title": "Lorentz Force",
+    "latexCode": "\\vec{F} = q(\\vec{E} + \\vec{v} \\times \\vec{B})",
+    "explanation": "The total force on a moving charge in the presence of both electric and magnetic fields.",
+    "containsFormulas": true,
+    "searchTags": ["lorentz", "force", "moving charge", "cross product", "velocity"]
+  },
+  {
+    "id": "12_phy_4_06",
+    "classLevel": "12",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "title": "Motion in a Magnetic Field",
+    "latexCode": "\\begin{aligned} r &= \\frac{mv}{qB} \\\\ T &= \\frac{2\\pi m}{qB} \\end{aligned}",
+    "explanation": "When a charge moves perpendicular to a magnetic field, it moves in a circle. These calculate the radius (r) of the path and the time period (T) of one revolution.",
+    "containsFormulas": true,
+    "searchTags": ["circular motion", "radius", "time period", "cyclotron", "frequency"]
+  },
+  {
+    "id": "12_phy_4_07",
+    "classLevel": "12",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "title": "Magnetic Force on a Conductor",
+    "latexCode": "\\vec{F} = I(\\vec{l} \\times \\vec{B})",
+    "explanation": "The magnetic force experienced by a straight wire of length l carrying current I in a uniform magnetic field.",
+    "containsFormulas": true,
+    "searchTags": ["conductor", "wire", "force", "current carrying"]
+  },
+  {
+    "id": "12_phy_4_08",
+    "classLevel": "12",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "title": "Force Between Parallel Currents",
+    "latexCode": "\\frac{F}{L} = \\frac{\\mu_0 I_1 I_2}{2\\pi d}",
+    "explanation": "The magnetic force per unit length between two long parallel wires separated by distance d. Like currents attract, opposite currents repel.",
+    "containsFormulas": true,
+    "searchTags": ["parallel wires", "force per unit length", "attract", "repel"]
+  },
+  {
+    "id": "12_phy_4_09",
+    "classLevel": "12",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "title": "Torque on a Current Loop",
+    "latexCode": "\\begin{aligned} \\vec{m} &= NI\\vec{A} \\\\ \\vec{\\tau} &= \\vec{m} \\times \\vec{B} = mB\\sin\\theta \\end{aligned}",
+    "explanation": "The first equation defines the magnetic dipole moment (m) of a coil. The second calculates the torque (τ) the coil experiences in a magnetic field.",
+    "containsFormulas": true,
+    "searchTags": ["torque", "loop", "dipole moment", "coil", "area"]
+  },
+  {
+    "id": "12_phy_4_10",
+    "classLevel": "12",
+    "subject": "Physics",
+    "chapter": "Moving Charges and Magnetism",
+    "title": "Galvanometer Conversion",
+    "latexCode": "\\begin{aligned} S &= \\frac{I_g R_g}{I - I_g} \\; \\text{(Ammeter)} \\\\ R &= \\frac{V}{I_g} - R_g \\; \\text{(Voltmeter)} \\end{aligned}",
+    "explanation": "Formulas to convert a galvanometer into an ammeter (by connecting a small shunt resistance S in parallel) or a voltmeter (by connecting a high resistance R in series).",
+    "containsFormulas": true,
+    "searchTags": ["galvanometer", "ammeter", "voltmeter", "shunt", "conversion", "resistance"]
+  },
+
+
+  {
+    "id": "12_phy_5_01",
+    "classLevel": "12",
+    "subject": "Physics",
+    "chapter": "Magnetism and Matter",
+    "title": "Magnetic Dipole Moment",
+    "latexCode": "\\vec{m} = N I A \\hat{n}",
+    "explanation": "Magnetic moment of a current loop. N = number of turns, I = current, A = area, n-hat = normal to loop.",
+    "containsFormulas": true,
+    "searchTags": [
+      "magnetic",
+      "dipole",
+      "moment",
+      "current",
+      "loop"
+    ]
+  },
+  {
+    "id": "12_phy_5_02",
+    "classLevel": "12",
+    "subject": "Physics",
+    "chapter": "Magnetism and Matter",
+    "title": "Torque & Potential Energy of Magnetic Dipole",
+    "latexCode": "\\begin{aligned} \\vec{\\tau} &= \\vec{m} \\times \\vec{B} \\quad \\Rightarrow \\quad \\tau = mB\\sin\\theta \\\\ U &= -\\vec{m} \\cdot \\vec{B} = -mB\\cos\\theta \\end{aligned}",
+    "explanation": "Torque acts to align the dipole with the field. Potential energy is minimum (most stable) when dipole is aligned with B.",
+    "containsFormulas": true,
+    "searchTags": [
+      "torque",
+      "potential energy",
+      "magnetic dipole",
+      "align"
+    ]
+  },
+  {
+    "id": "12_phy_5_03",
+    "classLevel": "12",
+    "subject": "Physics",
+    "chapter": "Magnetism and Matter",
+    "title": "Axial & Equatorial Field of a Bar Magnet",
+    "latexCode": "\\begin{aligned} B_{axial} &= \\frac{\\mu_0}{4\\pi} \\frac{2m}{r^3} \\\\ B_{equatorial} &= \\frac{\\mu_0}{4\\pi} \\frac{m}{r^3} \\end{aligned}",
+    "explanation": "Axial field (along the axis) is twice the equatorial field (perpendicular bisector). Both assume r >> l (dipole approximation).",
+    "containsFormulas": true,
+    "searchTags": [
+      "bar magnet",
+      "axial",
+      "equatorial",
+      "field",
+      "dipole"
+    ]
+  },
+  {
+    "id": "12_phy_5_04",
+    "classLevel": "12",
+    "subject": "Physics",
+    "chapter": "Magnetism and Matter",
+    "title": "Gauss's Law for Magnetism",
+    "latexCode": "\\oint \\vec{B} \\cdot d\\vec{A} = 0",
+    "explanation": "Net magnetic flux through any closed surface is always zero. Magnetic monopoles do not exist.",
+    "containsFormulas": true,
+    "searchTags": [
+      "gauss",
+      "magnetism",
+      "flux",
+      "monopole",
+      "closed surface"
+    ]
+  },
+  {
+    "id": "12_phy_5_05",
+    "classLevel": "12",
+    "subject": "Physics",
+    "chapter": "Magnetism and Matter",
+    "title": "Susceptibility, Permeability & Curie's Law",
+    "latexCode": "\\begin{aligned} \\chi_m &= \\frac{M}{H} \\\\ \\mu_r &= 1 + \\chi_m \\\\ \\chi_m &= \\frac{C}{T} \\quad \\text{(Curie's Law)} \\end{aligned}",
+    "explanation": "χ_m is magnetic susceptibility; μ_r is relative permeability. Curie's Law: susceptibility of paramagnetic material is inversely proportional to absolute temperature T.",
+    "containsFormulas": true,
+    "searchTags": [
+      "susceptibility",
+      "permeability",
+      "curie",
+      "paramagnetic",
+      "temperature"
+    ]
+  },
+  {
+    "id": "12_phy_6_01",
+    "classLevel": "12",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "title": "Magnetic Flux",
+    "latexCode": "\\Phi_B = \\vec{B} \\cdot \\vec{A} = BA\\cos\\theta",
+    "explanation": "Magnetic flux is the total field lines passing through a surface. θ is the angle between B and the area vector.",
+    "containsFormulas": true,
+    "searchTags": [
+      "magnetic flux",
+      "faraday",
+      "field lines",
+      "angle"
+    ]
+  },
+  {
+    "id": "12_phy_6_02",
+    "classLevel": "12",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "title": "Faraday's Law of Induction",
+    "latexCode": "\\varepsilon = -N\\frac{d\\Phi_B}{dt}",
+    "explanation": "Induced EMF equals the negative rate of change of magnetic flux. The negative sign (Lenz's Law) indicates opposition to the cause.",
+    "containsFormulas": true,
+    "searchTags": [
+      "faraday",
+      "induced emf",
+      "flux",
+      "lenz",
+      "induction"
+    ]
+  },
+  {
+    "id": "12_phy_6_03",
+    "classLevel": "12",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "title": "Motional EMF",
+    "latexCode": "\\varepsilon = Blv\\sin\\theta",
+    "explanation": "EMF induced when a conductor of length l moves with velocity v at angle θ in magnetic field B. For perpendicular motion (θ = 90°), ε = Blv.",
+    "containsFormulas": true,
+    "searchTags": [
+      "motional emf",
+      "conductor",
+      "velocity",
+      "magnetic field"
+    ]
+  },
+  {
+    "id": "12_phy_6_04",
+    "classLevel": "12",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "title": "Self-Inductance",
+    "latexCode": "\\begin{aligned} \\Phi &= LI \\\\ \\varepsilon &= -L\\frac{dI}{dt} \\end{aligned}",
+    "explanation": "L is the self-inductance in Henry (H). The induced back-EMF opposes the change in current that causes it.",
+    "containsFormulas": true,
+    "searchTags": [
+      "self inductance",
+      "inductor",
+      "henry",
+      "back emf"
+    ]
+  },
+  {
+    "id": "12_phy_6_05",
+    "classLevel": "12",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "title": "Inductance of a Solenoid",
+    "latexCode": "L = \\mu_0 n^2 V = \\frac{\\mu_0 N^2 A}{l}",
+    "explanation": "Inductance of a solenoid with N turns, length l, cross-sectional area A. n = N/l is the turn density per unit length.",
+    "containsFormulas": true,
+    "searchTags": [
+      "solenoid",
+      "inductance",
+      "turns",
+      "permeability"
+    ]
+  },
+  {
+    "id": "12_phy_6_06",
+    "classLevel": "12",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "title": "Mutual Inductance",
+    "latexCode": "\\begin{aligned} \\Phi_{21} &= M I_1 \\\\ \\varepsilon_2 &= -M\\frac{dI_1}{dt} \\end{aligned}",
+    "explanation": "M is mutual inductance between two coils. A change in current in coil 1 induces EMF in coil 2 proportional to M.",
+    "containsFormulas": true,
+    "searchTags": [
+      "mutual inductance",
+      "coupling",
+      "two coils",
+      "emf"
+    ]
+  },
+  {
+    "id": "12_phy_6_07",
+    "classLevel": "12",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "title": "Energy Stored in an Inductor",
+    "latexCode": "U = \\frac{1}{2}LI^2",
+    "explanation": "Energy stored in the magnetic field of an inductor carrying current I with self-inductance L. Analogous to ½CV² for a capacitor.",
+    "containsFormulas": true,
+    "searchTags": [
+      "energy",
+      "inductor",
+      "magnetic field",
+      "stored"
+    ]
+  },
+  {
+    "id": "12_phy_6_08",
+    "classLevel": "12",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Induction",
+    "title": "EMF of a Rotating Coil (AC Generator)",
+    "latexCode": "\\varepsilon = NBA\\omega\\sin(\\omega t) = \\varepsilon_0 \\sin(\\omega t)",
+    "explanation": "EMF generated by a coil of N turns, area A, rotating with angular velocity ω in field B. Peak EMF: ε₀ = NBAω.",
+    "containsFormulas": true,
+    "searchTags": [
+      "generator",
+      "rotating coil",
+      "emf",
+      "ac",
+      "angular velocity",
+      "peak"
+    ]
+  },
+  {
+    "id": "12_phy_7_01",
+    "classLevel": "12",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "title": "Instantaneous & RMS Values",
+    "latexCode": "\\begin{aligned} V &= V_0\\sin(\\omega t), \\quad I = I_0\\sin(\\omega t) \\\\ V_{rms} &= \\frac{V_0}{\\sqrt{2}}, \\quad I_{rms} = \\frac{I_0}{\\sqrt{2}} \\end{aligned}",
+    "explanation": "V₀ and I₀ are peak values. RMS values are the effective DC-equivalent values used in power calculations.",
+    "containsFormulas": true,
+    "searchTags": [
+      "rms",
+      "peak",
+      "ac voltage",
+      "current",
+      "effective value"
+    ]
+  },
+  {
+    "id": "12_phy_7_02",
+    "classLevel": "12",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "title": "Inductive & Capacitive Reactance",
+    "latexCode": "\\begin{aligned} X_L &= \\omega L = 2\\pi f L \\\\ X_C &= \\frac{1}{\\omega C} = \\frac{1}{2\\pi f C} \\end{aligned}",
+    "explanation": "X_L increases with frequency; X_C decreases with frequency. Both are in ohms (Ω). Inductor blocks high-f AC; capacitor blocks low-f AC.",
+    "containsFormulas": true,
+    "searchTags": [
+      "reactance",
+      "inductive",
+      "capacitive",
+      "frequency",
+      "ohm"
+    ]
+  },
+  {
+    "id": "12_phy_7_03",
+    "classLevel": "12",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "title": "Impedance of Series LCR Circuit",
+    "latexCode": "\\begin{aligned} Z &= \\sqrt{R^2 + (X_L - X_C)^2} \\\\ \\tan\\phi &= \\frac{X_L - X_C}{R} \\end{aligned}",
+    "explanation": "Z is total impedance (Ω). φ is phase angle between voltage and current. If X_L > X_C circuit is inductive; if X_C > X_L it is capacitive.",
+    "containsFormulas": true,
+    "searchTags": [
+      "impedance",
+      "lcr",
+      "series",
+      "phase angle",
+      "resistance"
+    ]
+  },
+  {
+    "id": "12_phy_7_04",
+    "classLevel": "12",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "title": "Resonance in LCR Circuit",
+    "latexCode": "\\begin{aligned} X_L = X_C \\Rightarrow \\omega_0 &= \\frac{1}{\\sqrt{LC}} \\\\ f_0 &= \\frac{1}{2\\pi\\sqrt{LC}} \\end{aligned}",
+    "explanation": "At resonance, impedance is minimum (= R only) and current is maximum. Resonant frequency depends only on L and C.",
+    "containsFormulas": true,
+    "searchTags": [
+      "resonance",
+      "frequency",
+      "lc",
+      "maximum current",
+      "lcr"
+    ]
+  },
+  {
+    "id": "12_phy_7_05",
+    "classLevel": "12",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "title": "Quality Factor (Q-Factor)",
+    "latexCode": "Q = \\frac{\\omega_0 L}{R} = \\frac{1}{\\omega_0 CR} = \\frac{1}{R}\\sqrt{\\frac{L}{C}}",
+    "explanation": "Q measures sharpness of resonance. Higher Q = narrower bandwidth = more selective circuit. Bandwidth = ω₀/Q.",
+    "containsFormulas": true,
+    "searchTags": [
+      "quality factor",
+      "q factor",
+      "sharpness",
+      "resonance",
+      "bandwidth"
+    ]
+  },
+  {
+    "id": "12_phy_7_06",
+    "classLevel": "12",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "title": "Average Power & Power Factor",
+    "latexCode": "P_{avg} = V_{rms} I_{rms} \\cos\\phi = I_{rms}^2 R",
+    "explanation": "cos φ is the power factor. For pure inductor or capacitor, φ = 90° so average power = 0 (wattless current — no energy dissipated).",
+    "containsFormulas": true,
+    "searchTags": [
+      "power",
+      "power factor",
+      "average",
+      "rms",
+      "wattless"
+    ]
+  },
+  {
+    "id": "12_phy_7_07",
+    "classLevel": "12",
+    "subject": "Physics",
+    "chapter": "Alternating Current",
+    "title": "Transformer Equation",
+    "latexCode": "\\begin{aligned} \\frac{V_s}{V_p} &= \\frac{N_s}{N_p} = \\frac{I_p}{I_s} \\\\ V_p I_p &= V_s I_s \\quad \\text{(ideal transformer)} \\end{aligned}",
+    "explanation": "Turns ratio determines voltage transformation. For an ideal (100% efficient) transformer, input power equals output power.",
+    "containsFormulas": true,
+    "searchTags": [
+      "transformer",
+      "turns ratio",
+      "voltage",
+      "step up",
+      "step down"
+    ]
+  },
+  {
+    "id": "12_phy_8_01",
+    "classLevel": "12",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Waves",
+    "title": "Speed of Electromagnetic Waves",
+    "latexCode": "c = \\frac{1}{\\sqrt{\\mu_0 \\varepsilon_0}} \\approx 3 \\times 10^8 \\text{ m/s}",
+    "explanation": "Speed of light in vacuum derived from Maxwell's equations. μ₀ is permeability and ε₀ is permittivity of free space.",
+    "containsFormulas": true,
+    "searchTags": [
+      "speed of light",
+      "maxwell",
+      "electromagnetic wave",
+      "vacuum"
+    ]
+  },
+  {
+    "id": "12_phy_8_02",
+    "classLevel": "12",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Waves",
+    "title": "Wave Relation & Displacement Current",
+    "latexCode": "\\begin{aligned} c &= \\nu\\lambda \\\\ I_d &= \\varepsilon_0 \\frac{d\\Phi_E}{dt} \\end{aligned}",
+    "explanation": "c = νλ is the standard wave relation. Displacement current I_d arises from changing electric flux — key to Maxwell's modification of Ampere's law.",
+    "containsFormulas": true,
+    "searchTags": [
+      "displacement current",
+      "wave equation",
+      "frequency",
+      "wavelength",
+      "maxwell"
+    ]
+  },
+  {
+    "id": "12_phy_8_03",
+    "classLevel": "12",
+    "subject": "Physics",
+    "chapter": "Electromagnetic Waves",
+    "title": "Energy Density & Poynting Vector",
+    "latexCode": "\\begin{aligned} u &= \\frac{1}{2}\\varepsilon_0 E^2 + \\frac{B^2}{2\\mu_0} \\\\ \\vec{S} &= \\frac{1}{\\mu_0}(\\vec{E} \\times \\vec{B}) \\end{aligned}",
+    "explanation": "u is total EM energy density. The Poynting vector S gives the direction and magnitude of energy flow (power per unit area, W/m²).",
+    "containsFormulas": true,
+    "searchTags": [
+      "poynting vector",
+      "energy density",
+      "intensity",
+      "electromagnetic"
+    ]
+  },
+  {
+    "id": "12_phy_9_01",
+    "classLevel": "12",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "title": "Mirror Formula & Magnification",
+    "latexCode": "\\begin{aligned} \\frac{1}{v} + \\frac{1}{u} &= \\frac{1}{f} = \\frac{2}{R} \\\\ m &= -\\frac{v}{u} \\end{aligned}",
+    "explanation": "Sign convention: distances measured from pole. m > 0 means virtual/erect image; m < 0 means real/inverted image.",
+    "containsFormulas": true,
+    "searchTags": [
+      "mirror",
+      "focal length",
+      "magnification",
+      "spherical mirror",
+      "concave",
+      "convex"
+    ]
+  },
+  {
+    "id": "12_phy_9_02",
+    "classLevel": "12",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "title": "Snell's Law & Refractive Index",
+    "latexCode": "\\begin{aligned} n_1 \\sin\\theta_1 &= n_2 \\sin\\theta_2 \\\\ n &= \\frac{c}{v} \\end{aligned}",
+    "explanation": "Snell's law governs refraction at a boundary. Refractive index n is the ratio of speed of light in vacuum to speed in the medium.",
+    "containsFormulas": true,
+    "searchTags": [
+      "snell",
+      "refraction",
+      "refractive index",
+      "angle",
+      "medium"
+    ]
+  },
+  {
+    "id": "12_phy_9_03",
+    "classLevel": "12",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "title": "Critical Angle & Total Internal Reflection",
+    "latexCode": "\\sin\\theta_c = \\frac{n_2}{n_1} \\quad (n_1 > n_2)",
+    "explanation": "TIR occurs when light travels from denser to rarer medium and angle of incidence exceeds θ_c. Basis of optical fibre communication.",
+    "containsFormulas": true,
+    "searchTags": [
+      "critical angle",
+      "total internal reflection",
+      "tir",
+      "optical fibre"
+    ]
+  },
+  {
+    "id": "12_phy_9_04",
+    "classLevel": "12",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "title": "Refraction at Spherical Surface",
+    "latexCode": "\\frac{n_2}{v} - \\frac{n_1}{u} = \\frac{n_2 - n_1}{R}",
+    "explanation": "Relates object distance u, image distance v, and radius R for refraction at a single spherical surface between media n₁ and n₂.",
+    "containsFormulas": true,
+    "searchTags": [
+      "spherical surface",
+      "refraction",
+      "radius",
+      "refractive index"
+    ]
+  },
+  {
+    "id": "12_phy_9_05",
+    "classLevel": "12",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "title": "Lens Formula, Magnification & Power",
+    "latexCode": "\\begin{aligned} \\frac{1}{v} - \\frac{1}{u} &= \\frac{1}{f} \\\\ m &= \\frac{v}{u}, \\quad P = \\frac{1}{f} \\text{ (D)} \\end{aligned}",
+    "explanation": "Thin lens formula using sign convention. Power P in Dioptres = 1/f(metres). Convex lens: P > 0; Concave lens: P < 0.",
+    "containsFormulas": true,
+    "searchTags": [
+      "lens formula",
+      "thin lens",
+      "power",
+      "dioptre",
+      "magnification"
+    ]
+  },
+  {
+    "id": "12_phy_9_06",
+    "classLevel": "12",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "title": "Lens Maker's Equation",
+    "latexCode": "\\frac{1}{f} = (n-1)\\left(\\frac{1}{R_1} - \\frac{1}{R_2}\\right)",
+    "explanation": "Relates focal length to refractive index n and radii of curvature R₁ (first surface) and R₂ (second surface) of the lens.",
+    "containsFormulas": true,
+    "searchTags": [
+      "lens maker",
+      "focal length",
+      "radius",
+      "refractive index",
+      "manufacture"
+    ]
+  },
+  {
+    "id": "12_phy_9_07",
+    "classLevel": "12",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "title": "Combination of Thin Lenses in Contact",
+    "latexCode": "\\frac{1}{f} = \\frac{1}{f_1} + \\frac{1}{f_2} \\quad \\Rightarrow \\quad P = P_1 + P_2",
+    "explanation": "For two thin lenses in contact, equivalent focal length and power add directly. Useful for designing spectacles and camera optics.",
+    "containsFormulas": true,
+    "searchTags": [
+      "combination",
+      "lenses",
+      "equivalent",
+      "power",
+      "contact"
+    ]
+  },
+  {
+    "id": "12_phy_9_08",
+    "classLevel": "12",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "title": "Prism — Minimum Deviation",
+    "latexCode": "n = \\frac{\\sin\\left(\\dfrac{A + \\delta_m}{2}\\right)}{\\sin\\left(\\dfrac{A}{2}\\right)}",
+    "explanation": "At minimum deviation δ_m, the ray passes symmetrically through the prism. Used to accurately determine refractive index of prism material.",
+    "containsFormulas": true,
+    "searchTags": [
+      "prism",
+      "minimum deviation",
+      "refractive index",
+      "angle",
+      "symmetric"
+    ]
+  },
+  {
+    "id": "12_phy_9_09",
+    "classLevel": "12",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "title": "Compound Microscope — Magnification",
+    "latexCode": "m = m_o \\times m_e = \\frac{L}{f_o} \\times \\left(1 + \\frac{D}{f_e}\\right)",
+    "explanation": "L = tube length, D = 25 cm (least distance of distinct vision), f_o and f_e = focal lengths of objective and eyepiece respectively.",
+    "containsFormulas": true,
+    "searchTags": [
+      "microscope",
+      "magnification",
+      "objective",
+      "eyepiece",
+      "tube length"
+    ]
+  },
+  {
+    "id": "12_phy_9_10",
+    "classLevel": "12",
+    "subject": "Physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "title": "Telescope — Magnifying Power",
+    "latexCode": "m = \\frac{f_o}{f_e}",
+    "explanation": "Magnifying power of astronomical telescope in normal adjustment (final image at infinity). Large f_o and small f_e gives high magnification.",
+    "containsFormulas": true,
+    "searchTags": [
+      "telescope",
+      "magnification",
+      "objective",
+      "eyepiece",
+      "astronomical"
+    ]
+  },
+  {
+    "id": "12_phy_10_01",
+    "classLevel": "12",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "title": "Path Difference & Phase Difference",
+    "latexCode": "\\begin{aligned} \\Delta\\phi &= \\frac{2\\pi}{\\lambda} \\cdot \\Delta x \\\\ \\text{Maxima: } \\Delta x &= n\\lambda \\\\ \\text{Minima: } \\Delta x &= \\left(n + \\frac{1}{2}\\right)\\lambda \\end{aligned}",
+    "explanation": "Constructive interference when path difference is a whole number of wavelengths. Destructive when it is a half-integer multiple.",
+    "containsFormulas": true,
+    "searchTags": [
+      "path difference",
+      "phase",
+      "constructive",
+      "destructive",
+      "interference"
+    ]
+  },
+  {
+    "id": "12_phy_10_02",
+    "classLevel": "12",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "title": "Young's Double Slit — Fringe Position & Width",
+    "latexCode": "\\begin{aligned} y_n &= \\frac{n\\lambda D}{d} \\\\ \\beta &= \\frac{\\lambda D}{d} \\end{aligned}",
+    "explanation": "y_n = position of nth bright fringe. β = fringe width. D = slit-to-screen distance, d = slit separation.",
+    "containsFormulas": true,
+    "searchTags": [
+      "young's",
+      "double slit",
+      "fringe width",
+      "interference",
+      "ydse"
+    ]
+  },
+  {
+    "id": "12_phy_10_03",
+    "classLevel": "12",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "title": "Resultant Intensity in Interference",
+    "latexCode": "\\begin{aligned} I &= I_1 + I_2 + 2\\sqrt{I_1 I_2}\\cos\\Delta\\phi \\\\ I_{max} &= (\\sqrt{I_1} + \\sqrt{I_2})^2 \\\\ I_{min} &= (\\sqrt{I_1} - \\sqrt{I_2})^2 \\end{aligned}",
+    "explanation": "For equal intensities I₁ = I₂ = I₀: I_max = 4I₀ and I_min = 0. Total energy is conserved — redistributed spatially.",
+    "containsFormulas": true,
+    "searchTags": [
+      "intensity",
+      "interference",
+      "maxima",
+      "minima",
+      "superposition"
+    ]
+  },
+  {
+    "id": "12_phy_10_04",
+    "classLevel": "12",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "title": "Single Slit Diffraction — Minima Condition",
+    "latexCode": "a\\sin\\theta = n\\lambda \\quad (n = \\pm 1, \\pm 2, \\ldots)",
+    "explanation": "Condition for dark fringes in single-slit diffraction. a = slit width, θ = angle of diffraction. Central maximum is the widest and brightest.",
+    "containsFormulas": true,
+    "searchTags": [
+      "diffraction",
+      "single slit",
+      "minima",
+      "central maximum",
+      "slit width"
+    ]
+  },
+  {
+    "id": "12_phy_10_05",
+    "classLevel": "12",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "title": "Brewster's Law",
+    "latexCode": "\\tan\\theta_B = n \\quad (\\theta_B + \\theta_r = 90°)",
+    "explanation": "At Brewster's angle θ_B, reflected light is completely plane-polarised. The reflected and refracted rays are mutually perpendicular.",
+    "containsFormulas": true,
+    "searchTags": [
+      "brewster",
+      "polarisation",
+      "polarized",
+      "reflection",
+      "angle"
+    ]
+  },
+  {
+    "id": "12_phy_10_06",
+    "classLevel": "12",
+    "subject": "Physics",
+    "chapter": "Wave Optics",
+    "title": "Malus's Law",
+    "latexCode": "I = I_0 \\cos^2\\theta",
+    "explanation": "When polarised light of intensity I₀ passes through a polaroid at angle θ to its transmission axis, transmitted intensity = I₀cos²θ.",
+    "containsFormulas": true,
+    "searchTags": [
+      "malus",
+      "polaroid",
+      "intensity",
+      "polarised",
+      "analyser"
+    ]
+  },
+  {
+    "id": "12_phy_11_01",
+    "classLevel": "12",
+    "subject": "Physics",
+    "chapter": "Dual Nature of Radiation and Matter",
+    "title": "Photon Energy & Momentum",
+    "latexCode": "\\begin{aligned} E &= h\\nu = \\frac{hc}{\\lambda} \\\\ p &= \\frac{h}{\\lambda} \\end{aligned}",
+    "explanation": "A photon has energy hν and momentum h/λ but zero rest mass. h = 6.626 × 10⁻³⁴ J·s is Planck's constant.",
+    "containsFormulas": true,
+    "searchTags": [
+      "photon",
+      "energy",
+      "planck",
+      "momentum",
+      "wavelength",
+      "frequency"
+    ]
+  },
+  {
+    "id": "12_phy_11_02",
+    "classLevel": "12",
+    "subject": "Physics",
+    "chapter": "Dual Nature of Radiation and Matter",
+    "title": "Einstein's Photoelectric Equation",
+    "latexCode": "\\begin{aligned} KE_{max} &= h\\nu - \\phi_0 = h(\\nu - \\nu_0) \\\\ eV_0 &= h\\nu - \\phi_0 \\end{aligned}",
+    "explanation": "KE_max is maximum kinetic energy of emitted electrons. φ₀ = hν₀ is the work function. V₀ is stopping potential. No emission if ν < ν₀.",
+    "containsFormulas": true,
+    "searchTags": [
+      "photoelectric",
+      "einstein",
+      "work function",
+      "stopping potential",
+      "threshold frequency"
+    ]
+  },
+  {
+    "id": "12_phy_11_03",
+    "classLevel": "12",
+    "subject": "Physics",
+    "chapter": "Dual Nature of Radiation and Matter",
+    "title": "de Broglie Wavelength",
+    "latexCode": "\\lambda = \\frac{h}{p} = \\frac{h}{mv} = \\frac{h}{\\sqrt{2mK}}",
+    "explanation": "Every matter particle has an associated wavelength. For electron accelerated through potential V: λ = h/√(2meV). Smaller mass gives larger wavelength.",
+    "containsFormulas": true,
+    "searchTags": [
+      "de broglie",
+      "matter wave",
+      "wavelength",
+      "particle",
+      "wave particle duality"
+    ]
+  },
+  {
+    "id": "12_phy_12_01",
+    "classLevel": "12",
+    "subject": "Physics",
+    "chapter": "Atoms",
+    "title": "Bohr's Quantisation of Angular Momentum",
+    "latexCode": "mvr = \\frac{nh}{2\\pi} = n\\hbar",
+    "explanation": "Electrons orbit in stable shells where angular momentum is an integer multiple of h/2π. n = 1, 2, 3... is the principal quantum number.",
+    "containsFormulas": true,
+    "searchTags": [
+      "bohr",
+      "angular momentum",
+      "quantisation",
+      "orbit",
+      "shell"
+    ]
+  },
+  {
+    "id": "12_phy_12_02",
+    "classLevel": "12",
+    "subject": "Physics",
+    "chapter": "Atoms",
+    "title": "Bohr Radius & Orbital Radius",
+    "latexCode": "\\begin{aligned} a_0 &\\approx 0.529 \\text{ Å} \\\\ r_n &= n^2 a_0 \\quad \\text{(H atom)} \\\\ r_n &= \\frac{n^2 a_0}{Z} \\quad \\text{(H-like ions)} \\end{aligned}",
+    "explanation": "a₀ is the ground state radius for hydrogen ≈ 0.529 Å. Orbital radius scales as n². For hydrogen-like ions, divide by Z.",
+    "containsFormulas": true,
+    "searchTags": [
+      "bohr radius",
+      "orbit",
+      "hydrogen",
+      "principal quantum number",
+      "radius"
+    ]
+  },
+  {
+    "id": "12_phy_12_03",
+    "classLevel": "12",
+    "subject": "Physics",
+    "chapter": "Atoms",
+    "title": "Energy of Electron in nth Orbit",
+    "latexCode": "\\begin{aligned} E_n &= -\\frac{13.6}{n^2} \\text{ eV} \\quad \\text{(H atom)} \\\\ E_n &= -\\frac{13.6 Z^2}{n^2} \\text{ eV} \\quad \\text{(H-like ions)} \\end{aligned}",
+    "explanation": "Total energy is negative (bound state). Ground state: E₁ = -13.6 eV. Energy increases towards zero with higher n. Ionisation energy = 13.6 eV.",
+    "containsFormulas": true,
+    "searchTags": [
+      "energy levels",
+      "hydrogen",
+      "bohr",
+      "electron",
+      "13.6 eV",
+      "ionization"
+    ]
+  },
+  {
+    "id": "12_phy_12_04",
+    "classLevel": "12",
+    "subject": "Physics",
+    "chapter": "Atoms",
+    "title": "Rydberg Formula — Spectral Series",
+    "latexCode": "\\frac{1}{\\lambda} = R_H \\left(\\frac{1}{n_1^2} - \\frac{1}{n_2^2}\\right), \\quad n_2 > n_1",
+    "explanation": "Wavelength of photon emitted when electron falls from n₂ to n₁. R_H = 1.097×10⁷ m⁻¹. Lyman: n₁=1 (UV), Balmer: n₁=2 (visible), Paschen: n₁=3 (IR).",
+    "containsFormulas": true,
+    "searchTags": [
+      "rydberg",
+      "spectral series",
+      "lyman",
+      "balmer",
+      "paschen",
+      "wavelength",
+      "hydrogen spectrum"
+    ]
+  },
+  {
+    "id": "12_phy_13_01",
+    "classLevel": "12",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "title": "Nuclear Radius",
+    "latexCode": "R = R_0 A^{1/3} \\quad (R_0 \\approx 1.2 \\times 10^{-15} \\text{ m})",
+    "explanation": "Nuclear radius scales as cube root of mass number A. This means nuclear volume ∝ A, implying nuclear density is nearly constant for all nuclei.",
+    "containsFormulas": true,
+    "searchTags": [
+      "nuclear radius",
+      "mass number",
+      "nucleus size",
+      "density",
+      "femtometre"
+    ]
+  },
+  {
+    "id": "12_phy_13_02",
+    "classLevel": "12",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "title": "Mass Defect & Binding Energy",
+    "latexCode": "\\begin{aligned} \\Delta m &= Zm_p + Nm_n - M_{nucleus} \\\\ BE &= \\Delta m \\cdot c^2 \\\\ \\frac{BE}{A} &= \\text{Binding Energy} \\end{aligned}",
+    "explanation": "Mass defect Δm is converted to binding energy. BE/A ≈ 8 MeV for stable nuclei. Iron-56 has the maximum BE/A — most stable nucleus.",
+    "containsFormulas": true,
+    "searchTags": [
+      "mass defect",
+      "binding energy",
+      "nucleon",
+      "stability",
+      "mev",
+      "iron"
+    ]
+  },
+  {
+    "id": "12_phy_13_03",
+    "classLevel": "12",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "title": "Radioactive Decay Law & Activity",
+    "latexCode": "\\begin{aligned} N &= N_0 e^{-\\lambda t} \\\\ A &= \\lambda N = A_0 e^{-\\lambda t} \\end{aligned}",
+    "explanation": "N₀ = initial nuclei; λ = decay constant; Activity A = decays per second. SI unit: Becquerel (Bq). 1 Curie = 3.7×10¹⁰ Bq.",
+    "containsFormulas": true,
+    "searchTags": [
+      "radioactive decay",
+      "decay law",
+      "activity",
+      "becquerel",
+      "curie",
+      "lambda"
+    ]
+  },
+  {
+    "id": "12_phy_13_04",
+    "classLevel": "12",
+    "subject": "Physics",
+    "chapter": "Nuclei",
+    "title": "Half-Life & Mean Life",
+    "latexCode": "\\begin{aligned} T_{1/2} &= \\frac{\\ln 2}{\\lambda} = \\frac{0.693}{\\lambda} \\\\ \\tau &= \\frac{1}{\\lambda} \\approx 1.44\\, T_{1/2} \\end{aligned}",
+    "explanation": "T₁/₂ is the time for half the nuclei to decay. Mean life τ is the average lifetime of a nucleus — always greater than T₁/₂.",
+    "containsFormulas": true,
+    "searchTags": [
+      "half life",
+      "mean life",
+      "decay constant",
+      "radioactive",
+      "t half"
+    ]
+  },
+  {
+    "id": "12_phy_14_01",
+    "classLevel": "12",
+    "subject": "Physics",
+    "chapter": "Semiconductor Electronics",
+    "title": "Mass Action Law — Carrier Concentration",
+    "latexCode": "n_e \\cdot n_h = n_i^2",
+    "explanation": "In a semiconductor at thermal equilibrium, the product of electron (n_e) and hole (n_h) concentrations equals the square of intrinsic carrier density n_i.",
+    "containsFormulas": true,
+    "searchTags": [
+      "semiconductor",
+      "carrier",
+      "intrinsic",
+      "holes",
+      "electrons",
+      "mass action"
+    ]
+  },
+  {
+    "id": "12_phy_14_02",
+    "classLevel": "12",
+    "subject": "Physics",
+    "chapter": "Semiconductor Electronics",
+    "title": "Conductivity of a Semiconductor",
+    "latexCode": "\\sigma = e(n_e\\mu_e + n_h\\mu_h)",
+    "explanation": "Total conductivity depends on concentrations and mobilities of electrons (μ_e) and holes (μ_h). Electron mobility is generally higher.",
+    "containsFormulas": true,
+    "searchTags": [
+      "conductivity",
+      "semiconductor",
+      "mobility",
+      "electrons",
+      "holes"
+    ]
+  },
+  {
+    "id": "12_phy_14_03",
+    "classLevel": "12",
+    "subject": "Physics",
+    "chapter": "Semiconductor Electronics",
+    "title": "Transistor Current Gains (α & β)",
+    "latexCode": "\\begin{aligned} \\alpha &= \\frac{I_C}{I_E} \\quad \\text{(CB config)} \\\\ \\beta &= \\frac{I_C}{I_B} \\quad \\text{(CE config)} \\\\ \\beta &= \\frac{\\alpha}{1 - \\alpha}, \\quad I_E &= I_B + I_C \\end{aligned}",
+    "explanation": "α (common-base gain) < 1. β (common-emitter gain) is typically 20–200. The relation I_E = I_B + I_C always holds by KCL.",
+    "containsFormulas": true,
+    "searchTags": [
+      "transistor",
+      "current gain",
+      "alpha",
+      "beta",
+      "common emitter",
+      "amplifier",
+      "bjt"
+    ]
+  },
+
+
+  {
+    "id": "12_chem_1_01",
+    "classLevel": "12",
+    "subject": "Chemistry",
+    "chapter": "The Solid State",
+    "title": "Density of a Unit Cell",
+    "latexCode": "\\rho = \\frac{Z \\times M}{N_A \\times a^3}",
+    "explanation": "ρ = density of crystal (g/cm³), Z = number of atoms per unit cell, M = molar mass (g/mol), N_A = Avogadro's number (6.022×10²³), a = edge length (cm).",
+    "containsFormulas": true,
+    "searchTags": [
+      "density",
+      "unit cell",
+      "solid state",
+      "edge length",
+      "molar mass"
+    ]
+  },
+  {
+    "id": "12_chem_1_02",
+    "classLevel": "12",
+    "subject": "Chemistry",
+    "chapter": "The Solid State",
+    "title": "Atoms Per Unit Cell (Z values)",
+    "latexCode": "\\begin{aligned} Z_{SCC} &= 1 \\\\ Z_{BCC} &= 2 \\\\ Z_{FCC} &= 4 \\end{aligned}",
+    "explanation": "SCC (Simple Cubic): 8 corner atoms × 1/8 = 1. BCC: 1 (corners) + 1 (body centre) = 2. FCC: 1 (corners) + 3 (face centres) = 4.",
+    "containsFormulas": true,
+    "searchTags": [
+      "Z value",
+      "SCC",
+      "BCC",
+      "FCC",
+      "atoms per unit cell"
+    ]
+  },
+  {
+    "id": "12_chem_1_03",
+    "classLevel": "12",
+    "subject": "Chemistry",
+    "chapter": "The Solid State",
+    "title": "Packing Efficiency",
+    "latexCode": "\\begin{aligned} \\text{SCC: } &\\frac{\\pi}{6} \\approx 52.4\\% \\\\ \\text{BCC: } &\\frac{\\sqrt{3}\\pi}{8} \\approx 68\\% \\\\ \\text{FCC/HCP: } &\\frac{\\pi}{3\\sqrt{2}} \\approx 74\\% \\end{aligned}",
+    "explanation": "Packing efficiency = (Volume occupied by atoms / Total volume of unit cell) × 100%. FCC/HCP have the highest packing efficiency.",
+    "containsFormulas": true,
+    "searchTags": [
+      "packing efficiency",
+      "SCC",
+      "BCC",
+      "FCC",
+      "HCP",
+      "74",
+      "68",
+      "52"
+    ]
+  },
+  {
+    "id": "12_chem_1_04",
+    "classLevel": "12",
+    "subject": "Chemistry",
+    "chapter": "The Solid State",
+    "title": "Radius Ratio & Coordination Number",
+    "latexCode": "\\begin{aligned} r^+ / r^- < 0.155 &\\Rightarrow \\text{CN} = 3 \\\\ 0.155 - 0.225 &\\Rightarrow \\text{CN} = 4 \\text{ (tetrahedral)} \\\\ 0.225 - 0.414 &\\Rightarrow \\text{CN} = 4 \\\\ 0.414 - 0.732 &\\Rightarrow \\text{CN} = 6 \\text{ (octahedral)} \\\\ 0.732 - 1.000 &\\Rightarrow \\text{CN} = 8 \\text{ (cubic)} \\end{aligned}",
+    "explanation": "The ratio of cation radius to anion radius predicts the coordination number and geometry of an ionic crystal.",
+    "containsFormulas": true,
+    "searchTags": [
+      "radius ratio",
+      "coordination number",
+      "ionic",
+      "tetrahedral",
+      "octahedral"
+    ]
+  },
+  {
+    "id": "12_chem_1_05",
+    "classLevel": "12",
+    "subject": "Chemistry",
+    "chapter": "The Solid State",
+    "title": "Edge Length — Radius Relation",
+    "latexCode": "\\begin{aligned} \\text{SCC: } & a = 2r \\\\ \\text{BCC: } & 4r = \\sqrt{3}\\,a \\\\ \\text{FCC: } & 4r = \\sqrt{2}\\,a \\end{aligned}",
+    "explanation": "Geometric relationship between the edge length (a) and atomic radius (r) for each cubic unit cell type. Used with density formula for calculations.",
+    "containsFormulas": true,
+    "searchTags": [
+      "edge length",
+      "radius",
+      "SCC",
+      "BCC",
+      "FCC",
+      "geometric relation"
+    ]
+  },
+  {
+    "id": "12_chem_2_01",
+    "classLevel": "12",
+    "subject": "Chemistry",
+    "chapter": "Solutions",
+    "title": "Mole Fraction",
+    "latexCode": "\\begin{aligned} x_A &= \\frac{n_A}{n_A + n_B}, \\quad x_B = \\frac{n_B}{n_A + n_B} \\\\ x_A &+ x_B = 1 \\end{aligned}",
+    "explanation": "Mole fraction is the ratio of moles of one component to total moles. Dimensionless. Sum of mole fractions of all components = 1.",
+    "containsFormulas": true,
+    "searchTags": [
+      "mole fraction",
+      "concentration",
+      "solutions",
+      "dimensionless"
+    ]
+  },
+  {
+    "id": "12_chem_2_02",
+    "classLevel": "12",
+    "subject": "Chemistry",
+    "chapter": "Solutions",
+    "title": "Henry's Law",
+    "latexCode": "p = K_H \\cdot x",
+    "explanation": "The partial pressure (p) of a gas above a solution is directly proportional to its mole fraction (x) in the liquid. K_H is Henry's law constant. Higher K_H = lower solubility.",
+    "containsFormulas": true,
+    "searchTags": [
+      "henry's law",
+      "gas solubility",
+      "partial pressure",
+      "mole fraction",
+      "KH"
+    ]
+  },
+  {
+    "id": "12_chem_2_03",
+    "classLevel": "12",
+    "subject": "Chemistry",
+    "chapter": "Solutions",
+    "title": "Raoult's Law — Volatile Solute",
+    "latexCode": "\\begin{aligned} p_A &= p_A^\\circ \\cdot x_A \\\\ p_B &= p_B^\\circ \\cdot x_B \\\\ p_{total} &= p_A + p_B \\end{aligned}",
+    "explanation": "For an ideal solution of two volatile components, the partial pressure of each component is proportional to its mole fraction. Total pressure = sum of partial pressures.",
+    "containsFormulas": true,
+    "searchTags": [
+      "raoult's law",
+      "volatile",
+      "partial pressure",
+      "ideal solution",
+      "vapour pressure"
+    ]
+  },
+  {
+    "id": "12_chem_2_04",
+    "classLevel": "12",
+    "subject": "Chemistry",
+    "chapter": "Solutions",
+    "title": "Relative Lowering of Vapour Pressure",
+    "latexCode": "\\frac{p^\\circ - p_s}{p^\\circ} = x_B = \\frac{n_B}{n_A + n_B}",
+    "explanation": "The relative lowering of vapour pressure of a solvent equals the mole fraction of the solute. This is a colligative property — depends only on number of solute particles.",
+    "containsFormulas": true,
+    "searchTags": [
+      "vapour pressure",
+      "lowering",
+      "colligative",
+      "raoult",
+      "mole fraction"
+    ]
+  },
+  {
+    "id": "12_chem_2_05",
+    "classLevel": "12",
+    "subject": "Chemistry",
+    "chapter": "Solutions",
+    "title": "Elevation in Boiling Point",
+    "latexCode": "\\Delta T_b = K_b \\cdot m = K_b \\cdot \\frac{w_B \\times 1000}{M_B \\times w_A}",
+    "explanation": "ΔT_b = rise in boiling point, K_b = molal elevation constant (ebullioscopic constant), m = molality, w_B = mass of solute, M_B = molar mass of solute, w_A = mass of solvent (g).",
+    "containsFormulas": true,
+    "searchTags": [
+      "boiling point elevation",
+      "ebullioscopic",
+      "Kb",
+      "molality",
+      "colligative"
+    ]
+  },
+  {
+    "id": "12_chem_2_06",
+    "classLevel": "12",
+    "subject": "Chemistry",
+    "chapter": "Solutions",
+    "title": "Depression in Freezing Point",
+    "latexCode": "\\Delta T_f = K_f \\cdot m = K_f \\cdot \\frac{w_B \\times 1000}{M_B \\times w_A}",
+    "explanation": "ΔT_f = depression in freezing point, K_f = cryoscopic constant (molal depression constant), m = molality. Used to find molar mass of unknown solutes.",
+    "containsFormulas": true,
+    "searchTags": [
+      "freezing point",
+      "depression",
+      "cryoscopic",
+      "Kf",
+      "colligative",
+      "molality"
+    ]
+  },
+  {
+    "id": "12_chem_2_07",
+    "classLevel": "12",
+    "subject": "Chemistry",
+    "chapter": "Solutions",
+    "title": "Osmotic Pressure",
+    "latexCode": "\\pi = CRT = \\frac{n_B}{V}RT = \\frac{w_B RT}{M_B V}",
+    "explanation": "π = osmotic pressure (atm), C = molar concentration, R = 0.0821 L·atm/mol·K, T = temperature (K). Used to determine molar mass of large molecules like polymers.",
+    "containsFormulas": true,
+    "searchTags": [
+      "osmotic pressure",
+      "osmosis",
+      "van't hoff",
+      "molar mass",
+      "colligative"
+    ]
+  },
+  {
+    "id": "12_chem_2_08",
+    "classLevel": "12",
+    "subject": "Chemistry",
+    "chapter": "Solutions",
+    "title": "van't Hoff Factor",
+    "latexCode": "\\begin{aligned} i &= \\frac{\\text{observed colligative property}}{\\text{calculated colligative property}} \\\\ i &= \\frac{\\text{total moles of particles after dissociation}}{\\text{moles of solute dissolved}} \\end{aligned}",
+    "explanation": "i > 1 for electrolytes (dissociation). i < 1 for solutes that associate (e.g., acetic acid in benzene). Modified colligative properties: ΔT_b = i·K_b·m, π = i·CRT.",
+    "containsFormulas": true,
+    "searchTags": [
+      "van't hoff factor",
+      "i factor",
+      "dissociation",
+      "association",
+      "electrolyte",
+      "colligative"
+    ]
+  },
+  {
+    "id": "12_chem_2_09",
+    "classLevel": "12",
+    "subject": "Chemistry",
+    "chapter": "Solutions",
+    "title": "Degree of Dissociation & van't Hoff Factor",
+    "latexCode": "\\begin{aligned} &\\text{For } A_n \\rightarrow nA: \\\\ i &= 1 + (n-1)\\alpha \\\\ \\alpha &= \\frac{i - 1}{n - 1} \\end{aligned}",
+    "explanation": "α = degree of dissociation, n = number of ions/particles produced per formula unit. For NaCl (n=2): i = 1 + α. For CaCl₂ (n=3): i = 1 + 2α.",
+    "containsFormulas": true,
+    "searchTags": [
+      "degree of dissociation",
+      "alpha",
+      "van't hoff",
+      "electrolyte",
+      "n factor"
+    ]
+  },
+  {
+    "id": "12_chem_3_01",
+    "classLevel": "12",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "title": "Cell EMF (Standard)",
+    "latexCode": "E^\\circ_{cell} = E^\\circ_{cathode} - E^\\circ_{anode}",
+    "explanation": "Standard cell EMF = reduction potential of cathode minus reduction potential of anode (both measured as standard reduction potentials). Positive E°cell means spontaneous reaction.",
+    "containsFormulas": true,
+    "searchTags": [
+      "cell emf",
+      "standard potential",
+      "cathode",
+      "anode",
+      "reduction potential"
+    ]
+  },
+  {
+    "id": "12_chem_3_02",
+    "classLevel": "12",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "title": "Nernst Equation",
+    "latexCode": "E_{cell} = E^\\circ_{cell} - \\frac{RT}{nF}\\ln Q = E^\\circ_{cell} - \\frac{0.0592}{n}\\log Q \\quad \\text{(at 298 K)}",
+    "explanation": "Gives the cell EMF under non-standard conditions. Q = reaction quotient, n = moles of electrons transferred, F = Faraday's constant (96500 C/mol).",
+    "containsFormulas": true,
+    "searchTags": [
+      "nernst equation",
+      "cell potential",
+      "non-standard",
+      "concentration",
+      "Q"
+    ]
+  },
+  {
+    "id": "12_chem_3_03",
+    "classLevel": "12",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "title": "Gibbs Energy & Cell EMF",
+    "latexCode": "\\begin{aligned} \\Delta G^\\circ &= -nFE^\\circ_{cell} \\\\ \\Delta G^\\circ &= -RT\\ln K \\end{aligned}",
+    "explanation": "Links thermodynamics and electrochemistry. A positive E°cell means ΔG° is negative (spontaneous). At equilibrium, E_cell = 0 and ΔG = 0.",
+    "containsFormulas": true,
+    "searchTags": [
+      "gibbs energy",
+      "cell emf",
+      "spontaneous",
+      "faraday",
+      "equilibrium constant"
+    ]
+  },
+  {
+    "id": "12_chem_3_04",
+    "classLevel": "12",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "title": "Faraday's First Law of Electrolysis",
+    "latexCode": "m = Z \\cdot Q = Z \\cdot I \\cdot t = \\frac{M}{nF} \\cdot I \\cdot t",
+    "explanation": "m = mass deposited (g), Z = electrochemical equivalent, I = current (A), t = time (s), M = molar mass, n = valency factor, F = 96500 C/mol.",
+    "containsFormulas": true,
+    "searchTags": [
+      "faraday",
+      "electrolysis",
+      "mass deposited",
+      "current",
+      "time"
+    ]
+  },
+  {
+    "id": "12_chem_3_05",
+    "classLevel": "12",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "title": "Faraday's Second Law of Electrolysis",
+    "latexCode": "\\frac{m_1}{m_2} = \\frac{E_1}{E_2} = \\frac{M_1/n_1}{M_2/n_2}",
+    "explanation": "When the same charge is passed through different electrolytes, masses deposited are proportional to their equivalent weights (M/n). E = equivalent weight.",
+    "containsFormulas": true,
+    "searchTags": [
+      "faraday second law",
+      "equivalent weight",
+      "electrolysis",
+      "mass ratio"
+    ]
+  },
+  {
+    "id": "12_chem_3_06",
+    "classLevel": "12",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "title": "Conductance & Conductivity",
+    "latexCode": "\\begin{aligned} G &= \\frac{1}{R} \\quad (\\text{Siemens, S}) \\\\ \\kappa &= G \\times \\frac{l}{A} = G \\times G^* \\end{aligned}",
+    "explanation": "G = conductance (S = Ω⁻¹), R = resistance. Conductivity κ (S/cm) = conductance × cell constant (l/A). Cell constant G* = l/A.",
+    "containsFormulas": true,
+    "searchTags": [
+      "conductance",
+      "conductivity",
+      "resistance",
+      "siemens",
+      "cell constant"
+    ]
+  },
+  {
+    "id": "12_chem_3_07",
+    "classLevel": "12",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "title": "Molar Conductivity",
+    "latexCode": "\\begin{aligned} \\Lambda_m &= \\frac{\\kappa \\times 1000}{M} \\quad \\text{(M in mol/L)} \\\\ \\Lambda_m &= \\frac{\\kappa}{c} \\quad \\text{(c in mol/m}^3\\text{)} \\end{aligned}",
+    "explanation": "Λ_m = molar conductivity (S·cm²/mol). κ = conductivity (S/cm), M = molarity. Molar conductivity increases with dilution as inter-ionic attractions decrease.",
+    "containsFormulas": true,
+    "searchTags": [
+      "molar conductivity",
+      "conductivity",
+      "dilution",
+      "molarity"
+    ]
+  },
+  {
+    "id": "12_chem_3_08",
+    "classLevel": "12",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "title": "Kohlrausch's Law",
+    "latexCode": "\\Lambda_m^\\circ = \\nu_+ \\lambda_+^\\circ + \\nu_- \\lambda_-^\\circ",
+    "explanation": "At infinite dilution, molar conductivity of an electrolyte = sum of contributions of individual ions. ν = stoichiometric numbers, λ° = limiting molar conductivity of each ion.",
+    "containsFormulas": true,
+    "searchTags": [
+      "kohlrausch",
+      "molar conductivity",
+      "infinite dilution",
+      "ions",
+      "lambda"
+    ]
+  },
+  {
+    "id": "12_chem_3_09",
+    "classLevel": "12",
+    "subject": "Chemistry",
+    "chapter": "Electrochemistry",
+    "title": "Degree of Dissociation from Conductivity",
+    "latexCode": "\\alpha = \\frac{\\Lambda_m}{\\Lambda_m^\\circ}",
+    "explanation": "Degree of dissociation α of a weak electrolyte = ratio of molar conductivity at given concentration to molar conductivity at infinite dilution. Used to find Ka of weak acids.",
+    "containsFormulas": true,
+    "searchTags": [
+      "degree of dissociation",
+      "conductivity",
+      "weak electrolyte",
+      "alpha",
+      "Ka"
+    ]
+  },
+  {
+    "id": "12_chem_4_01",
+    "classLevel": "12",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics",
+    "title": "Rate of Reaction",
+    "latexCode": "\\text{Rate} = -\\frac{1}{a}\\frac{d[A]}{dt} = -\\frac{1}{b}\\frac{d[B]}{dt} = +\\frac{1}{c}\\frac{d[C]}{dt}",
+    "explanation": "For aA + bB → cC, rate is defined to be positive and equal regardless of which species is tracked. Negative sign for reactants (decreasing concentration), positive for products.",
+    "containsFormulas": true,
+    "searchTags": [
+      "rate of reaction",
+      "differential",
+      "stoichiometry",
+      "concentration",
+      "kinetics"
+    ]
+  },
+  {
+    "id": "12_chem_4_02",
+    "classLevel": "12",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics",
+    "title": "Rate Law & Order of Reaction",
+    "latexCode": "\\text{Rate} = k[A]^m[B]^n",
+    "explanation": "k = rate constant, m = order w.r.t. A, n = order w.r.t. B, overall order = m+n. Order is determined experimentally, not from stoichiometry (except for elementary reactions).",
+    "containsFormulas": true,
+    "searchTags": [
+      "rate law",
+      "rate constant",
+      "order",
+      "k",
+      "elementary reaction"
+    ]
+  },
+  {
+    "id": "12_chem_4_03",
+    "classLevel": "12",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics",
+    "title": "Zero Order Reaction",
+    "latexCode": "\\begin{aligned} [A]_t &= [A]_0 - kt \\\\ t_{1/2} &= \\frac{[A]_0}{2k} \\end{aligned}",
+    "explanation": "Concentration decreases linearly with time. Rate = k (constant, independent of concentration). Units of k = mol·L⁻¹·s⁻¹.",
+    "containsFormulas": true,
+    "searchTags": [
+      "zero order",
+      "rate constant",
+      "half life",
+      "linear",
+      "kinetics"
+    ]
+  },
+  {
+    "id": "12_chem_4_04",
+    "classLevel": "12",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics",
+    "title": "First Order Reaction",
+    "latexCode": "\\begin{aligned} \\ln[A]_t &= \\ln[A]_0 - kt \\\\ [A]_t &= [A]_0 e^{-kt} \\\\ t_{1/2} &= \\frac{\\ln 2}{k} = \\frac{0.693}{k} \\end{aligned}",
+    "explanation": "Concentration decreases exponentially. Half-life is constant and independent of initial concentration. Units of k = s⁻¹. Most important order in CBSE Class 12.",
+    "containsFormulas": true,
+    "searchTags": [
+      "first order",
+      "half life",
+      "exponential",
+      "0.693",
+      "kinetics"
+    ]
+  },
+  {
+    "id": "12_chem_4_05",
+    "classLevel": "12",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics",
+    "title": "Arrhenius Equation",
+    "latexCode": "\\begin{aligned} k &= A e^{-E_a/RT} \\\\ \\ln k &= \\ln A - \\frac{E_a}{RT} \\\\ \\log\\frac{k_2}{k_1} &= \\frac{E_a}{2.303R}\\left(\\frac{T_2 - T_1}{T_1 T_2}\\right) \\end{aligned}",
+    "explanation": "A = pre-exponential (frequency) factor, E_a = activation energy (J/mol), R = 8.314 J/mol·K. The last form is used to find E_a when k is known at two temperatures.",
+    "containsFormulas": true,
+    "searchTags": [
+      "arrhenius",
+      "activation energy",
+      "Ea",
+      "rate constant",
+      "temperature effect"
+    ]
+  },
+  {
+    "id": "12_chem_4_06",
+    "classLevel": "12",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics",
+    "title": "Rate Constant Units",
+    "latexCode": "k = \\frac{\\text{conc}^{1-n}}{\\text{time}} = (\\text{mol}\\,L^{-1})^{1-n}\\,s^{-1}",
+    "explanation": "For an nth order reaction, units of k = (mol·L⁻¹)^(1-n)·s⁻¹. Zero order: mol·L⁻¹·s⁻¹. First order: s⁻¹. Second order: L·mol⁻¹·s⁻¹.",
+    "containsFormulas": true,
+    "searchTags": [
+      "rate constant",
+      "units",
+      "order",
+      "mol",
+      "litre",
+      "second"
+    ]
+  },
+  {
+    "id": "12_chem_4_07",
+    "classLevel": "12",
+    "subject": "Chemistry",
+    "chapter": "Chemical Kinetics",
+    "title": "Temperature Coefficient",
+    "latexCode": "\\mu = \\frac{k_{T+10}}{k_T} \\approx 2 \\text{ to } 3",
+    "explanation": "Temperature coefficient μ is the ratio of rate constants at (T+10)K and T K. A rise of 10°C typically doubles or triples the reaction rate.",
+    "containsFormulas": true,
+    "searchTags": [
+      "temperature coefficient",
+      "rate",
+      "10 degree",
+      "double",
+      "kinetics"
+    ]
+  },
+  {
+    "id": "12_chem_5_01",
+    "classLevel": "12",
+    "subject": "Chemistry",
+    "chapter": "Surface Chemistry",
+    "title": "Freundlich Adsorption Isotherm",
+    "latexCode": "\\frac{x}{m} = k \\cdot p^{1/n} \\quad \\Rightarrow \\quad \\log\\frac{x}{m} = \\log k + \\frac{1}{n}\\log p",
+    "explanation": "x/m = mass of adsorbate per gram of adsorbent, p = pressure of gas, k and n are empirical constants. The log form gives a straight line for graphical verification.",
+    "containsFormulas": true,
+    "searchTags": [
+      "freundlich",
+      "adsorption",
+      "isotherm",
+      "pressure",
+      "surface chemistry"
+    ]
+  },
+  {
+    "id": "12_chem_5_02",
+    "classLevel": "12",
+    "subject": "Chemistry",
+    "chapter": "Surface Chemistry",
+    "title": "Langmuir Adsorption Isotherm",
+    "latexCode": "\\frac{x}{m} = \\frac{a \\cdot p}{1 + b \\cdot p}",
+    "explanation": "Langmuir model assumes monolayer adsorption on a uniform surface. a and b are Langmuir constants. At high p: x/m → a/b (saturation). At low p: x/m ∝ p (Henry's law).",
+    "containsFormulas": true,
+    "searchTags": [
+      "langmuir",
+      "adsorption",
+      "monolayer",
+      "saturation",
+      "isotherm"
+    ]
+  },
+  {
+    "id": "12_chem_7_01",
+    "classLevel": "12",
+    "subject": "Chemistry",
+    "chapter": "The p-Block Elements",
+    "title": "Oxidation States of Key p-Block Elements",
+    "latexCode": "\\begin{aligned} \\text{N: } &-3, 0, +1, +2, +3, +4, +5 \\\\ \\text{S: } &-2, 0, +2, +4, +6 \\\\ \\text{Cl: } &-1, 0, +1, +3, +5, +7 \\\\ \\text{P: } &-3, 0, +3, +5 \\end{aligned}",
+    "explanation": "p-Block elements show variable oxidation states. The inert pair effect causes lower oxidation states to be more stable for heavier elements (e.g., Pb²⁺ over Pb⁴⁺).",
+    "containsFormulas": true,
+    "searchTags": [
+      "oxidation state",
+      "p block",
+      "nitrogen",
+      "sulphur",
+      "chlorine",
+      "phosphorus"
+    ]
+  },
+  {
+    "id": "12_chem_7_02",
+    "classLevel": "12",
+    "subject": "Chemistry",
+    "chapter": "The p-Block Elements",
+    "title": "Ozone Formation & Decomposition",
+    "latexCode": "\\begin{aligned} 3\\text{O}_2 &\\xrightarrow{\\text{UV / electric discharge}} 2\\text{O}_3 \\\\ 2\\text{O}_3 &\\rightarrow 3\\text{O}_2 \\end{aligned}",
+    "explanation": "Ozone is formed from O₂ under UV radiation or silent electric discharge. It decomposes back to O₂. Ozone acts as a strong oxidising agent (oxidation state of O = −1 in O₃).",
+    "containsFormulas": true,
+    "searchTags": [
+      "ozone",
+      "O3",
+      "formation",
+      "decomposition",
+      "UV",
+      "oxidising agent"
+    ]
+  },
+  {
+    "id": "12_chem_7_03",
+    "classLevel": "12",
+    "subject": "Chemistry",
+    "chapter": "The p-Block Elements",
+    "title": "Contact Process (H₂SO₄ Manufacture)",
+    "latexCode": "\\begin{aligned} \\text{S} + \\text{O}_2 &\\rightarrow \\text{SO}_2 \\\\ 2\\text{SO}_2 + \\text{O}_2 &\\xrightarrow{V_2O_5,\\, 450°C} 2\\text{SO}_3 \\\\ \\text{SO}_3 + \\text{H}_2\\text{SO}_4 &\\rightarrow \\text{H}_2\\text{S}_2\\text{O}_7 \\\\ \\text{H}_2\\text{S}_2\\text{O}_7 + \\text{H}_2\\text{O} &\\rightarrow 2\\text{H}_2\\text{SO}_4 \\end{aligned}",
+    "explanation": "Industrial manufacture of H₂SO₄. SO₃ is absorbed in H₂SO₄ (not water) to form oleum (H₂S₂O₇) which is then diluted to get H₂SO₄.",
+    "containsFormulas": true,
+    "searchTags": [
+      "contact process",
+      "H2SO4",
+      "sulphuric acid",
+      "V2O5",
+      "oleum",
+      "industrial"
+    ]
+  },
+  {
+    "id": "12_chem_7_04",
+    "classLevel": "12",
+    "subject": "Chemistry",
+    "chapter": "The p-Block Elements",
+    "title": "Haber Process (NH₃ Manufacture)",
+    "latexCode": "\\text{N}_2 + 3\\text{H}_2 \\xrightarrow[200 \\text{ atm},\\, \\text{Fe catalyst}]{400\\text{-}500°\\text{C}} 2\\text{NH}_3",
+    "explanation": "Industrial synthesis of ammonia. High pressure and moderate temperature with Fe catalyst gives optimal yield. Le Chatelier's principle: high pressure and low temperature favour NH₃ formation.",
+    "containsFormulas": true,
+    "searchTags": [
+      "haber process",
+      "ammonia",
+      "N2",
+      "H2",
+      "Fe catalyst",
+      "industrial",
+      "Le Chatelier"
+    ]
+  },
+  {
+    "id": "12_chem_7_05",
+    "classLevel": "12",
+    "subject": "Chemistry",
+    "chapter": "The p-Block Elements",
+    "title": "Ostwald Process (HNO₃ Manufacture)",
+    "latexCode": "\\begin{aligned} 4\\text{NH}_3 + 5\\text{O}_2 &\\xrightarrow{\\text{Pt, 500°C}} 4\\text{NO} + 6\\text{H}_2\\text{O} \\\\ 2\\text{NO} + \\text{O}_2 &\\rightarrow 2\\text{NO}_2 \\\\ 3\\text{NO}_2 + \\text{H}_2\\text{O} &\\rightarrow 2\\text{HNO}_3 + \\text{NO} \\end{aligned}",
+    "explanation": "Industrial manufacture of HNO₃ by catalytic oxidation of NH₃ over platinum catalyst. NO produced in the last step is recycled back.",
+    "containsFormulas": true,
+    "searchTags": [
+      "ostwald process",
+      "nitric acid",
+      "HNO3",
+      "ammonia oxidation",
+      "Pt catalyst"
+    ]
+  },
+  {
+    "id": "12_chem_8_01",
+    "classLevel": "12",
+    "subject": "Chemistry",
+    "chapter": "The d and f Block Elements",
+    "title": "General Electronic Configuration",
+    "latexCode": "\\begin{aligned} &\\text{d-block (transition): } (n-1)d^{1-10}\\,ns^{0-2} \\\\ &\\text{4f (lanthanoids): } 4f^{1-14}\\,5d^{0-1}\\,6s^2 \\\\ &\\text{5f (actinoids): } 5f^{1-14}\\,6d^{0-1}\\,7s^2 \\end{aligned}",
+    "explanation": "d-block elements have partially filled d orbitals. Exceptions include Cr (3d⁵4s¹) and Cu (3d¹⁰4s¹) due to extra stability of half-filled and fully-filled d orbitals.",
+    "containsFormulas": true,
+    "searchTags": [
+      "electronic configuration",
+      "d block",
+      "f block",
+      "transition",
+      "lanthanoids",
+      "actinoids"
+    ]
+  },
+  {
+    "id": "12_chem_8_02",
+    "classLevel": "12",
+    "subject": "Chemistry",
+    "chapter": "The d and f Block Elements",
+    "title": "Magnetic Moment",
+    "latexCode": "\\mu = \\sqrt{n(n+2)} \\text{ BM}",
+    "explanation": "μ = magnetic moment in Bohr Magneton (BM), n = number of unpaired electrons. Used to determine the number of unpaired electrons from experimental magnetic moment data.",
+    "containsFormulas": true,
+    "searchTags": [
+      "magnetic moment",
+      "Bohr magneton",
+      "unpaired electrons",
+      "spin only formula",
+      "d block"
+    ]
+  },
+  {
+    "id": "12_chem_9_01",
+    "classLevel": "12",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "title": "CFSE in Octahedral Field",
+    "latexCode": "\\begin{aligned} \\text{CFSE} &= -0.4 \\times n_{t_{2g}} + 0.6 \\times n_{e_g} \\quad (\\text{in } \\Delta_o) \\\\ e_g &\\text{ raised by } +0.6\\Delta_o \\\\ t_{2g} &\\text{ lowered by } -0.4\\Delta_o \\end{aligned}",
+    "explanation": "Crystal Field Stabilisation Energy in an octahedral complex. d orbitals split into lower t₂g (d_xy, d_xz, d_yz) and upper e_g (d_z², d_x²-y²) sets. Determines stability of complexes.",
+    "containsFormulas": true,
+    "searchTags": [
+      "CFSE",
+      "crystal field",
+      "octahedral",
+      "t2g",
+      "eg",
+      "delta o"
+    ]
+  },
+  {
+    "id": "12_chem_9_02",
+    "classLevel": "12",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "title": "CFSE in Tetrahedral Field",
+    "latexCode": "\\begin{aligned} \\Delta_t &= \\frac{4}{9}\\Delta_o \\\\ e \\text{ set lowered: } &-0.6\\Delta_t \\\\ t_2 \\text{ set raised: } &+0.4\\Delta_t \\end{aligned}",
+    "explanation": "Tetrahedral field splitting Δ_t is only 4/9 of octahedral Δ_o. All tetrahedral complexes are high spin because Δ_t is too small to force pairing.",
+    "containsFormulas": true,
+    "searchTags": [
+      "CFSE",
+      "tetrahedral",
+      "crystal field",
+      "delta t",
+      "high spin"
+    ]
+  },
+  {
+    "id": "12_chem_9_03",
+    "classLevel": "12",
+    "subject": "Chemistry",
+    "chapter": "Coordination Compounds",
+    "title": "EAN Rule (18-Electron Rule)",
+    "latexCode": "\\text{EAN} = \\text{(Atomic number of metal)} - \\text{(Oxidation state)} + 2 \\times \\text{(Ligand electrons)}",
+    "explanation": "Effective Atomic Number rule: stable complexes tend to have 18 electrons around the metal (like a noble gas configuration). Used to predict stability of metal carbonyls.",
+    "containsFormulas": true,
+    "searchTags": [
+      "EAN",
+      "18 electron",
+      "coordination",
+      "noble gas",
+      "stability"
+    ]
+  },
+  {
+    "id": "12_chem_10_01",
+    "classLevel": "12",
+    "subject": "Chemistry",
+    "chapter": "Haloalkanes and Haloarenes",
+    "title": "SN1 Rate Law",
+    "latexCode": "\\text{Rate} = k[\\text{R-X}]",
+    "explanation": "SN1 is a unimolecular nucleophilic substitution. Rate depends only on substrate concentration (first order). Proceeds via a carbocation intermediate. Favoured by tertiary halides.",
+    "containsFormulas": true,
+    "searchTags": [
+      "SN1",
+      "substitution",
+      "rate",
+      "first order",
+      "carbocation",
+      "nucleophilic"
+    ]
+  },
+  {
+    "id": "12_chem_10_02",
+    "classLevel": "12",
+    "subject": "Chemistry",
+    "chapter": "Haloalkanes and Haloarenes",
+    "title": "SN2 Rate Law",
+    "latexCode": "\\text{Rate} = k[\\text{R-X}][\\text{Nu}^-]",
+    "explanation": "SN2 is a bimolecular nucleophilic substitution. Rate depends on both substrate and nucleophile (second order). Proceeds with inversion of configuration. Favoured by primary halides.",
+    "containsFormulas": true,
+    "searchTags": [
+      "SN2",
+      "substitution",
+      "rate",
+      "second order",
+      "inversion",
+      "nucleophilic",
+      "Walden"
+    ]
+  },
+  {
+    "id": "12_chem_14_01",
+    "classLevel": "12",
+    "subject": "Chemistry",
+    "chapter": "Biomolecules",
+    "title": "pH & Isoelectric Point of Amino Acids",
+    "latexCode": "\\text{pI} = \\frac{\\text{pK}_{a1} + \\text{pK}_{a2}}{2}",
+    "explanation": "The isoelectric point (pI) is the pH at which an amino acid carries zero net charge (exists as zwitterion). At pH < pI the amino acid is positively charged; at pH > pI it is negatively charged.",
+    "containsFormulas": true,
+    "searchTags": [
+      "isoelectric point",
+      "amino acid",
+      "pH",
+      "zwitterion",
+      "pKa",
+      "biomolecules"
+    ]
+  },
+  {
+    "id": "12_chem_extra_01",
+    "classLevel": "12",
+    "subject": "Chemistry",
+    "chapter": "Reactions",
+    "title": "Sandmeyer Reaction",
+    "latexCode": "\\text{ArN}_2^+\\text{Cl}^- \\xrightarrow{\\text{CuCl/HCl}} \\text{ArCl} \\quad ; \\quad \\text{ArN}_2^+\\text{Cl}^- \\xrightarrow{\\text{CuBr/HBr}} \\text{ArBr}",
+    "explanation": "Diazonium salt reacts with CuCl or CuBr in the presence of the respective HX to replace the diazonium group with Cl or Br. Used to introduce halogens at specific positions on benzene ring.",
+    "containsFormulas": true,
+    "searchTags": [
+      "sandmeyer",
+      "diazonium",
+      "CuCl",
+      "CuBr",
+      "aryl halide",
+      "reaction"
+    ]
+  },
+  {
+    "id": "12_chem_extra_02",
+    "classLevel": "12",
+    "subject": "Chemistry",
+    "chapter": "Reactions",
+    "title": "Balz-Schiemann Reaction",
+    "latexCode": "\\text{ArN}_2^+\\text{BF}_4^- \\xrightarrow{\\Delta} \\text{ArF} + \\text{N}_2 + \\text{BF}_3",
+    "explanation": "Diazonium tetrafluoroborate on heating gives aryl fluoride. This is the best route to introduce fluorine into an aromatic ring since direct halogenation doesn't give ArF easily.",
+    "containsFormulas": true,
+    "searchTags": [
+      "balz schiemann",
+      "diazonium",
+      "aryl fluoride",
+      "fluorine",
+      "reaction"
+    ]
+  },
+  {
+    "id": "12_chem_extra_03",
+    "classLevel": "12",
+    "subject": "Chemistry",
+    "chapter": "Reactions",
+    "title": "Williamson Synthesis",
+    "latexCode": "\\text{R-X} + \\text{R'O}^-\\text{Na}^+ \\xrightarrow{\\text{SN2}} \\text{R-O-R'} + \\text{NaX}",
+    "explanation": "Sodium alkoxide reacts with a primary alkyl halide via SN2 to form an ether. Symmetrical or unsymmetrical ethers can be made. Secondary/tertiary halides undergo elimination instead.",
+    "containsFormulas": true,
+    "searchTags": [
+      "williamson synthesis",
+      "ether",
+      "sodium alkoxide",
+      "SN2",
+      "alkyl halide"
+    ]
+  },
+  {
+    "id": "12_chem_extra_04",
+    "classLevel": "12",
+    "subject": "Chemistry",
+    "chapter": "Reactions",
+    "title": "Aldol Condensation",
+    "latexCode": "2\\text{CH}_3\\text{CHO} \\xrightarrow{\\text{dil. NaOH}} \\text{CH}_3\\text{CH(OH)CH}_2\\text{CHO} \\xrightarrow{\\Delta, -\\text{H}_2\\text{O}} \\text{CH}_3\\text{CH=CHCHO}",
+    "explanation": "Two molecules of aldehyde (or ketone) with α-hydrogen condense under dilute base to form β-hydroxy aldehyde (aldol), which on heating dehydrates to give an α,β-unsaturated carbonyl compound.",
+    "containsFormulas": true,
+    "searchTags": [
+      "aldol condensation",
+      "aldehyde",
+      "NaOH",
+      "beta hydroxy",
+      "alpha beta unsaturated"
+    ]
+  },
+  {
+    "id": "12_chem_extra_05",
+    "classLevel": "12",
+    "subject": "Chemistry",
+    "chapter": "Reactions",
+    "title": "Cannizzaro Reaction",
+    "latexCode": "2\\text{HCHO} \\xrightarrow{\\text{conc. NaOH}} \\text{CH}_3\\text{OH} + \\text{HCOONa}",
+    "explanation": "Aldehydes without α-hydrogen undergo disproportionation with conc. NaOH — one molecule is oxidised (to carboxylate) and another is reduced (to alcohol). Formaldehyde and benzaldehyde are classic examples.",
+    "containsFormulas": true,
+    "searchTags": [
+      "cannizzaro",
+      "disproportionation",
+      "aldehyde",
+      "no alpha hydrogen",
+      "NaOH"
+    ]
+  },
+  {
+    "id": "12_chem_extra_06",
+    "classLevel": "12",
+    "subject": "Chemistry",
+    "chapter": "Reactions",
+    "title": "Clemmensen Reduction",
+    "latexCode": "\\text{R-CO-R'} \\xrightarrow{\\text{Zn-Hg / conc. HCl}} \\text{R-CH}_2\\text{-R'}",
+    "explanation": "Carbonyl group (C=O) of aldehydes and ketones is reduced to CH₂ using zinc amalgam (Zn-Hg) and conc. HCl. Used in acidic conditions. Opposite of Wolff-Kishner (used in basic conditions).",
+    "containsFormulas": true,
+    "searchTags": [
+      "clemmensen reduction",
+      "carbonyl",
+      "Zn-Hg",
+      "HCl",
+      "methylene",
+      "acidic"
+    ]
+  },
+  {
+    "id": "12_chem_extra_07",
+    "classLevel": "12",
+    "subject": "Chemistry",
+    "chapter": "Reactions",
+    "title": "Wolff-Kishner Reduction",
+    "latexCode": "\\text{R-CO-R'} \\xrightarrow{\\text{NH}_2\\text{NH}_2 / \\text{KOH}} \\text{R-CH}_2\\text{-R'} + \\text{N}_2",
+    "explanation": "Carbonyl group reduced to CH₂ using hydrazine (NH₂NH₂) and KOH at high temperature. Proceeds through hydrazone intermediate. Used under basic/neutral conditions (acid-sensitive substrates).",
+    "containsFormulas": true,
+    "searchTags": [
+      "wolff kishner",
+      "carbonyl",
+      "hydrazine",
+      "KOH",
+      "methylene",
+      "basic"
+    ]
+  },
+  {
+    "id": "12_chem_extra_08",
+    "classLevel": "12",
+    "subject": "Chemistry",
+    "chapter": "Reactions",
+    "title": "Kolbe's Reaction (Salicylate Synthesis)",
+    "latexCode": "\\text{C}_6\\text{H}_5\\text{ONa} + \\text{CO}_2 \\xrightarrow{140°\\text{C},\\, 4-7 \\text{ atm}} \\text{HOC}_6\\text{H}_4\\text{COONa} \\xrightarrow{\\text{H}^+} \\text{Salicylic acid}",
+    "explanation": "Sodium phenoxide reacts with CO₂ under high pressure and temperature to give sodium salicylate, which on acidification gives salicylic acid (precursor to aspirin).",
+    "containsFormulas": true,
+    "searchTags": [
+      "kolbe reaction",
+      "salicylic acid",
+      "sodium phenoxide",
+      "CO2",
+      "aspirin",
+      "phenol"
+    ]
+  },
+  {
+    "id": "12_chem_extra_09",
+    "classLevel": "12",
+    "subject": "Chemistry",
+    "chapter": "Reactions",
+    "title": "Reimer-Tiemann Reaction",
+    "latexCode": "\\text{C}_6\\text{H}_5\\text{OH} + \\text{CHCl}_3 \\xrightarrow{\\text{NaOH, } \\Delta} \\text{o-HOC}_6\\text{H}_4\\text{CHO}",
+    "explanation": "Phenol reacts with CHCl₃ in the presence of NaOH to introduce a formyl group (CHO) at the ortho position, giving salicylaldehyde. Dichlorocarbene (:CCl₂) is the reactive intermediate.",
+    "containsFormulas": true,
+    "searchTags": [
+      "reimer tiemann",
+      "phenol",
+      "CHCl3",
+      "NaOH",
+      "salicylaldehyde",
+      "formyl",
+      "dichlorocarbene"
+    ]
+  },
+  {
+    "id": "12_chem_extra_10",
+    "classLevel": "12",
+    "subject": "Chemistry",
+    "chapter": "Reactions",
+    "title": "Carbylamine Reaction (Isocyanide Test)",
+    "latexCode": "\\text{R-NH}_2 + \\text{CHCl}_3 + 3\\text{KOH} \\xrightarrow{\\Delta} \\text{R-N} \\equiv \\text{C:} + 3\\text{KCl} + 3\\text{H}_2\\text{O}",
+    "explanation": "Primary amines (R-NH₂) react with CHCl₃ and alcoholic KOH to give isocyanides (carbylamines) with a very foul smell. This test distinguishes primary amines from secondary and tertiary amines.",
+    "containsFormulas": true,
+    "searchTags": [
+      "carbylamine",
+      "isocyanide",
+      "primary amine",
+      "CHCl3",
+      "KOH",
+      "test",
+      "foul smell"
+    ]
+  },
+  {
+    "id": "12_chem_extra_11",
+    "classLevel": "12",
+    "subject": "Chemistry",
+    "chapter": "Reactions",
+    "title": "Hoffmann Bromamide Degradation",
+    "latexCode": "\\text{R-CO-NH}_2 + \\text{Br}_2 + 4\\text{NaOH} \\rightarrow \\text{R-NH}_2 + \\text{Na}_2\\text{CO}_3 + 2\\text{NaBr} + 2\\text{H}_2\\text{O}",
+    "explanation": "Primary amide treated with Br₂ and NaOH gives primary amine with one carbon less. The carbonyl carbon is lost as CO₃²⁻. Used to decrease carbon chain length by one unit.",
+    "containsFormulas": true,
+    "searchTags": [
+      "hoffmann bromamide",
+      "degradation",
+      "amide",
+      "amine",
+      "Br2",
+      "NaOH",
+      "chain shortening"
+    ]
+  },
+  {
+    "id": "12_chem_extra_12",
+    "classLevel": "12",
+    "subject": "Chemistry",
+    "chapter": "Reactions",
+    "title": "Wurtz Reaction",
+    "latexCode": "2\\text{R-X} + 2\\text{Na} \\xrightarrow{\\text{dry ether}} \\text{R-R} + 2\\text{NaX}",
+    "explanation": "Two molecules of alkyl halide react with sodium metal in dry ether to form a higher alkane. Limited to symmetric ethers or same alkyl groups (mixed gives a mixture of products).",
+    "containsFormulas": true,
+    "searchTags": [
+      "wurtz reaction",
+      "alkyl halide",
+      "sodium",
+      "alkane",
+      "coupling"
+    ]
+  },
+  {
+    "id": "12_chem_extra_13",
+    "classLevel": "12",
+    "subject": "Chemistry",
+    "chapter": "Reactions",
+    "title": "Fittig Reaction & Wurtz-Fittig Reaction",
+    "latexCode": "\\begin{aligned} 2\\text{ArX} + 2\\text{Na} &\\xrightarrow{\\text{dry ether}} \\text{Ar-Ar} + 2\\text{NaX} \\quad \\text{(Fittig)} \\\\ \\text{ArX} + \\text{RX} + 2\\text{Na} &\\xrightarrow{\\text{dry ether}} \\text{Ar-R} + 2\\text{NaX} \\quad \\text{(Wurtz-Fittig)} \\end{aligned}",
+    "explanation": "Fittig: two aryl halides coupled with Na to give biaryl. Wurtz-Fittig: aryl halide + alkyl halide + Na gives alkylarene (e.g., toluene from bromobenzene + CH₃Br).",
+    "containsFormulas": true,
+    "searchTags": [
+      "fittig",
+      "wurtz fittig",
+      "aryl halide",
+      "biaryl",
+      "sodium",
+      "coupling"
+    ]
+  },
+  {
+    "id": "12_chem_extra_14",
+    "classLevel": "12",
+    "subject": "Chemistry",
+    "chapter": "Reactions",
+    "title": "Friedel-Crafts Alkylation & Acylation",
+    "latexCode": "\\begin{aligned} \\text{ArH} + \\text{RCl} &\\xrightarrow{\\text{AlCl}_3} \\text{Ar-R} + \\text{HCl} \\quad \\text{(Alkylation)} \\\\ \\text{ArH} + \\text{RCOCl} &\\xrightarrow{\\text{AlCl}_3} \\text{Ar-CO-R} + \\text{HCl} \\quad \\text{(Acylation)} \\end{aligned}",
+    "explanation": "Lewis acid AlCl₃ generates electrophilic carbocation (R⁺) or acylium ion (RCO⁺) which attacks the benzene ring. Acylation preferred over alkylation (no rearrangement, more controlled).",
+    "containsFormulas": true,
+    "searchTags": [
+      "friedel crafts",
+      "alkylation",
+      "acylation",
+      "AlCl3",
+      "benzene",
+      "electrophilic substitution"
+    ]
+  },
+  {
+    "id": "12_chem_extra_15",
+    "classLevel": "12",
+    "subject": "Chemistry",
+    "chapter": "Reactions",
+    "title": "Lucas Test (Alcohols)",
+    "latexCode": "\\begin{aligned} \\text{3° alcohol} &\\xrightarrow{\\text{Lucas reagent}} \\text{turbidity immediately} \\\\ \\text{2° alcohol} &\\rightarrow \\text{turbidity in 5 min} \\\\ \\text{1° alcohol} &\\rightarrow \\text{no turbidity (room temp)} \\end{aligned}",
+    "explanation": "Lucas reagent = anhydrous ZnCl₂ + conc. HCl. Tertiary alcohols react immediately (SN1 via stable 3° carbocation). Secondary alcohols react slowly. Primary alcohols don't react at room temperature.",
+    "containsFormulas": true,
+    "searchTags": [
+      "lucas test",
+      "alcohol",
+      "ZnCl2",
+      "HCl",
+      "turbidity",
+      "primary secondary tertiary"
+    ]
+  },
+  {
+    "id": "12_chem_extra_16",
+    "classLevel": "12",
+    "subject": "Chemistry",
+    "chapter": "Reactions",
+    "title": "Victor Meyer Test (Alcohols)",
+    "latexCode": "\\begin{aligned} \\text{1° R-OH} &\\rightarrow \\text{red colour (nitrolic acid)} \\\\ \\text{2° R-OH} &\\rightarrow \\text{blue/violet colour} \\\\ \\text{3° R-OH} &\\rightarrow \\text{no colour} \\end{aligned}",
+    "explanation": "Distinguishes 1°, 2°, and 3° alcohols. Alcohol → alkyl iodide → silver salt → nitrous acid reaction. Colours are due to different nitroso/nitrolic products formed.",
+    "containsFormulas": true,
+    "searchTags": [
+      "victor meyer",
+      "test",
+      "alcohol",
+      "primary",
+      "secondary",
+      "tertiary",
+      "colour"
+    ]
+  },
+  {
+    "id": "12_chem_extra_17",
+    "classLevel": "12",
+    "subject": "Chemistry",
+    "chapter": "Reactions",
+    "title": "Fehling's & Tollens' Test (Aldehydes)",
+    "latexCode": "\\begin{aligned} \\text{RCHO} + 2[\\text{Ag(NH}_3)_2]^+ &\\rightarrow \\text{RCOO}^- + 2\\text{Ag}\\downarrow + \\text{(Tollens')} \\\\ \\text{RCHO} + \\text{Fehling's soln} &\\rightarrow \\text{RCOO}^- + \\text{Cu}_2\\text{O}\\downarrow (\\text{red ppt}) \\end{aligned}",
+    "explanation": "Both tests distinguish aldehydes from ketones. Tollens' test: silver mirror (Ag) deposited on inner surface of tube. Fehling's test: brick-red precipitate of Cu₂O. Ketones give negative results.",
+    "containsFormulas": true,
+    "searchTags": [
+      "tollens test",
+      "fehling test",
+      "aldehyde",
+      "silver mirror",
+      "Cu2O",
+      "reducing sugar"
+    ]
+  },
+  {
+    "id": "12_chem_extra_18",
+    "classLevel": "12",
+    "subject": "Chemistry",
+    "chapter": "Reactions",
+    "title": "Hell-Volhard-Zelinsky (HVZ) Reaction",
+    "latexCode": "\\text{R-CH}_2\\text{-COOH} + \\text{Br}_2 \\xrightarrow{\\text{red P}} \\text{R-CHBr-COOH} + \\text{HBr}",
+    "explanation": "Carboxylic acids with α-hydrogen are brominated at the α-carbon using Br₂ and red phosphorus. Phosphorus converts acid to acyl bromide (more reactive) as intermediate.",
+    "containsFormulas": true,
+    "searchTags": [
+      "HVZ reaction",
+      "alpha bromination",
+      "carboxylic acid",
+      "Br2",
+      "red phosphorus",
+      "hell volhard"
+    ]
+  },
+  {
+    "id": "12_chem_extra_19",
+    "classLevel": "12",
+    "subject": "Chemistry",
+    "chapter": "Reactions",
+    "title": "Hinsberg Test (Amines)",
+    "latexCode": "\\begin{aligned} \\text{1° R-NH}_2 + \\text{C}_6\\text{H}_5\\text{SO}_2\\text{Cl} &\\rightarrow \\text{sulphonamide (soluble in NaOH)} \\\\ \\text{2° R}_2\\text{NH} + \\text{C}_6\\text{H}_5\\text{SO}_2\\text{Cl} &\\rightarrow \\text{sulphonamide (insoluble in NaOH)} \\\\ \\text{3° R}_3\\text{N} &\\rightarrow \\text{no reaction} \\end{aligned}",
+    "explanation": "Hinsberg reagent = benzenesulphonyl chloride. Distinguishes 1°, 2°, and 3° amines. 1° amine gives NaOH-soluble product; 2° gives insoluble product; 3° doesn't react.",
+    "containsFormulas": true,
+    "searchTags": [
+      "hinsberg test",
+      "amine",
+      "sulphonyl chloride",
+      "primary",
+      "secondary",
+      "tertiary"
+    ]
+  },
+  {
+    "id": "12_chem_extra_20",
+    "classLevel": "12",
+    "subject": "Chemistry",
+    "chapter": "Reactions",
+    "title": "Diazotisation & Coupling Reaction",
+    "latexCode": "\\begin{aligned} \\text{ArNH}_2 + \\text{NaNO}_2 + 2\\text{HCl} &\\xrightarrow{0\\text{-}5°\\text{C}} \\text{ArN}_2^+\\text{Cl}^- + \\text{NaCl} + 2\\text{H}_2\\text{O} \\\\ \\text{ArN}_2^+ + \\text{Ar'OH} &\\rightarrow \\text{Ar-N=N-Ar'OH} \\text{ (azo dye)} \\end{aligned}",
+    "explanation": "Diazotisation converts primary arylamine to diazonium salt at 0–5°C. The diazonium ion then couples with activated aromatic compounds (phenols, amines) to form azo dyes (used in textile industry).",
+    "containsFormulas": true,
+    "searchTags": [
+      "diazotisation",
+      "diazonium salt",
+      "coupling",
+      "azo dye",
+      "NaNO2",
+      "HCl",
+      "0-5 degree"
+    ]
+  },
+  {
+    "id": "12_chem_extra_21",
+    "classLevel": "12",
+    "subject": "Chemistry",
+    "chapter": "Reactions",
+    "title": "Dehydration of Alcohols (Saytzeff's Rule)",
+    "latexCode": "\\text{R-CH}_2\\text{-CHOH-CH}_3 \\xrightarrow{\\text{conc. H}_2\\text{SO}_4,\\, 170°\\text{C}} \\text{R-CH=CH-CH}_3 \\text{ (major)} + \\text{R-CH}_2\\text{-CH=CH}_2 \\text{ (minor)}",
+    "explanation": "Saytzeff's rule: the major alkene formed on dehydration is the more substituted one (more stable). Conc. H₂SO₄ at 170°C gives alkene; at 140°C gives ether (intermolecular dehydration).",
+    "containsFormulas": true,
+    "searchTags": [
+      "dehydration",
+      "alcohol",
+      "saytzeff",
+      "alkene",
+      "more substituted",
+      "H2SO4"
+    ]
+  },
+  {
+    "id": "12_chem_extra_22",
+    "classLevel": "12",
+    "subject": "Chemistry",
+    "chapter": "Reactions",
+    "title": "Esterification & Hydrolysis",
+    "latexCode": "\\text{R-COOH} + \\text{HO-R'} \\underset{\\Delta,\\, -\\text{H}_2\\text{O}}{\\xrightarrow{\\text{conc. H}_2\\text{SO}_4}} \\text{R-COO-R'} + \\text{H}_2\\text{O}",
+    "explanation": "Acid-catalysed reversible reaction between carboxylic acid and alcohol to form ester and water. Excess alcohol or removal of water shifts equilibrium toward ester (Le Chatelier's principle).",
+    "containsFormulas": true,
+    "searchTags": [
+      "esterification",
+      "ester",
+      "carboxylic acid",
+      "alcohol",
+      "H2SO4",
+      "reversible"
+    ]
+  },
+  {
+    "id": "12_chem_extra_23",
+    "classLevel": "12",
+    "subject": "Chemistry",
+    "chapter": "Reactions",
+    "title": "Rosenmund Reduction",
+    "latexCode": "\\text{R-COCl} + \\text{H}_2 \\xrightarrow{\\text{Pd-BaSO}_4} \\text{R-CHO} + \\text{HCl}",
+    "explanation": "Acid chloride is selectively reduced to aldehyde using H₂ over Pd-BaSO₄ catalyst (Pd is partially poisoned by BaSO₄ to prevent over-reduction to alcohol).",
+    "containsFormulas": true,
+    "searchTags": [
+      "rosenmund reduction",
+      "acid chloride",
+      "aldehyde",
+      "Pd",
+      "BaSO4",
+      "H2"
+    ]
+  },
+  {
+    "id": "12_chem_extra_24",
+    "classLevel": "12",
+    "subject": "Chemistry",
+    "chapter": "Reactions",
+    "title": "Stephen Reaction",
+    "latexCode": "\\text{R-C} \\equiv \\text{N} \\xrightarrow{\\text{SnCl}_2/\\text{HCl}} [\\text{R-CH=NH}] \\xrightarrow{\\text{H}_2\\text{O}} \\text{R-CHO}",
+    "explanation": "Nitrile is reduced to aldimine (Schiff's base) using SnCl₂/HCl, which on hydrolysis gives aldehyde. This method converts nitrile → aldehyde directly.",
+    "containsFormulas": true,
+    "searchTags": [
+      "stephen reaction",
+      "nitrile",
+      "aldehyde",
+      "SnCl2",
+      "HCl",
+      "reduction"
+    ]
+  },
+  {
+    "id": "12_chem_extra_25",
+    "classLevel": "12",
+    "subject": "Chemistry",
+    "chapter": "Reactions",
+    "title": "Decarboxylation",
+    "latexCode": "\\text{R-COONa} + \\text{NaOH} \\xrightarrow{\\text{CaO}, \\Delta} \\text{R-H} + \\text{Na}_2\\text{CO}_3",
+    "explanation": "Sodium salt of carboxylic acid is heated with NaOH (in CaO) to lose CO₂ and form an alkane with one less carbon. CaO is used to prevent reaction vessel corrosion and to absorb moisture.",
+    "containsFormulas": true,
+    "searchTags": [
+      "decarboxylation",
+      "sodium salt",
+      "NaOH",
+      "CaO",
+      "alkane",
+      "CO2 removal"
+    ]
+  },
+  {
+    "id": "12_chem_extra_26",
+    "classLevel": "12",
+    "subject": "Chemistry",
+    "chapter": "Reactions",
+    "title": "Haloform Reaction",
+    "latexCode": "\\text{CH}_3\\text{CO-R} + 3\\text{X}_2 + 3\\text{NaOH} \\rightarrow \\text{RCOONa} + \\text{CHX}_3 + 3\\text{NaX} + 3\\text{H}_2\\text{O}",
+    "explanation": "Methyl ketones (and acetaldehyde, and secondary alcohols that oxidise to methyl ketones) react with X₂/NaOH to give haloform (CHX₃). Iodoform (CHI₃, yellow ppt) is used as a positive test (iodoform test).",
+    "containsFormulas": true,
+    "searchTags": [
+      "haloform reaction",
+      "iodoform test",
+      "CHI3",
+      "methyl ketone",
+      "X2",
+      "NaOH",
+      "CHCl3"
+    ]
+  },
+  {
+    "id": "12_chem_extra_27",
+    "classLevel": "12",
+    "subject": "Chemistry",
+    "chapter": "Reactions",
+    "title": "Benedict's & Barfoed's Test",
+    "latexCode": "\\begin{aligned} \\text{Reducing sugar} + \\text{Benedict's} &\\rightarrow \\text{brick-red Cu}_2\\text{O} \\downarrow \\\\ \\text{Monosaccharide} + \\text{Barfoed's} &\\rightarrow \\text{Cu}_2\\text{O} \\downarrow \\text{ (faster)} \\end{aligned}",
+    "explanation": "Benedict's test (Cu²⁺/sodium citrate) detects all reducing sugars (mono + disaccharides). Barfoed's (Cu²⁺/acetic acid, acidic) distinguishes monosaccharides (react fast) from disaccharides (react slowly).",
+    "containsFormulas": true,
+    "searchTags": [
+      "benedict test",
+      "barfoed",
+      "reducing sugar",
+      "Cu2O",
+      "monosaccharide",
+      "biomolecules"
+    ]
+  },
+  {
+    "id": "12_chem_extra_28",
+    "classLevel": "12",
+    "subject": "Chemistry",
+    "chapter": "Reactions",
+    "title": "Biuret Test (Proteins)",
+    "latexCode": "\\text{Peptide bonds} + \\text{CuSO}_4 + \\text{NaOH} \\rightarrow \\text{violet/purple colour}",
+    "explanation": "Biuret test detects peptide bonds (–CO–NH–). Two or more peptide bonds react with Cu²⁺ in alkaline solution to form a violet-purple complex. Amino acids (no peptide bond) give negative result.",
+    "containsFormulas": true,
+    "searchTags": [
+      "biuret test",
+      "protein",
+      "peptide bond",
+      "CuSO4",
+      "NaOH",
+      "violet",
+      "biomolecules"
+    ]
+  },
+  {
+    "id": "12_chem_extra_29",
+    "classLevel": "12",
+    "subject": "Chemistry",
+    "chapter": "Reactions",
+    "title": "Ninhydrin Test (Amino Acids)",
+    "latexCode": "\\alpha\\text{-amino acid} + \\text{ninhydrin} \\rightarrow \\text{purple colour (Ruhemann's purple)}",
+    "explanation": "All α-amino acids give a purple colour with ninhydrin reagent due to reaction with the free α-amino group. Proline (secondary amine) gives a yellow colour. Used in paper chromatography of amino acids.",
+    "containsFormulas": true,
+    "searchTags": [
+      "ninhydrin test",
+      "amino acid",
+      "purple",
+      "chromatography",
+      "alpha amino"
+    ]
+  },
+  {
+    "id": "12_chem_extra_30",
+    "classLevel": "12",
+    "subject": "Chemistry",
+    "chapter": "Reactions",
+    "title": "Ozonolysis",
+    "latexCode": "\\text{R-CH=CH-R'} \\xrightarrow{\\text{O}_3} \\xrightarrow{\\text{Zn/H}_2\\text{O}} \\text{R-CHO} + \\text{R'-CHO}",
+    "explanation": "Ozone cleaves the C=C double bond to give carbonyl compounds (aldehydes from =CH₂ or =CHR, ketones from =CR₂). Reductive workup (Zn/H₂O) prevents over-oxidation of aldehydes to acids.",
+    "containsFormulas": true,
+    "searchTags": [
+      "ozonolysis",
+      "alkene",
+      "C=C cleavage",
+      "ozone",
+      "aldehyde",
+      "ketone",
+      "Zn"
+    ]
+  },
+
+
+  {
+    "id": "12_math_1_01",
+    "classLevel": "12",
+    "subject": "Mathematics",
+    "chapter": "Relations and Functions",
+    "title": "Types of Relations",
+    "latexCode": "\\begin{aligned} \\text{Reflexive: } & (a,a) \\in R \\; \\forall\\, a \\in A \\\\ \\text{Symmetric: } & (a,b) \\in R \\Rightarrow (b,a) \\in R \\\\ \\text{Transitive: } & (a,b),(b,c) \\in R \\Rightarrow (a,c) \\in R \\\\ \\text{Equivalence: } & \\text{Reflexive + Symmetric + Transitive} \\end{aligned}",
+    "explanation": "A relation R on set A is an equivalence relation if it satisfies all three properties simultaneously. Equivalence relations partition a set into disjoint equivalence classes.",
+    "containsFormulas": true,
+    "searchTags": [
+      "reflexive",
+      "symmetric",
+      "transitive",
+      "equivalence",
+      "relation"
+    ]
+  },
+  {
+    "id": "12_math_1_02",
+    "classLevel": "12",
+    "subject": "Mathematics",
+    "chapter": "Relations and Functions",
+    "title": "Types of Functions",
+    "latexCode": "\\begin{aligned} \\text{One-one (Injective): } & f(a)=f(b) \\Rightarrow a=b \\\\ \\text{Onto (Surjective): } & \\forall\\, b \\in B,\\; \\exists\\, a \\in A \\text{ s.t. } f(a)=b \\\\ \\text{Bijective: } & \\text{one-one + onto} \\end{aligned}",
+    "explanation": "A function is bijective if and only if it has an inverse. Number of one-one functions from A→B (|A|=m, |B|=n, m≤n): P(n,m) = n!/(n-m)!",
+    "containsFormulas": true,
+    "searchTags": [
+      "injective",
+      "surjective",
+      "bijective",
+      "one-one",
+      "onto",
+      "function"
+    ]
+  },
+  {
+    "id": "12_math_1_03",
+    "classLevel": "12",
+    "subject": "Mathematics",
+    "chapter": "Relations and Functions",
+    "title": "Composition of Functions",
+    "latexCode": "(g \\circ f)(x) = g(f(x))",
+    "explanation": "Composition is applied right to left: first apply f, then g. Note: g∘f ≠ f∘g in general (not commutative). Composition is associative: h∘(g∘f) = (h∘g)∘f.",
+    "containsFormulas": true,
+    "searchTags": [
+      "composition",
+      "function",
+      "gof",
+      "fog",
+      "associative"
+    ]
+  },
+  {
+    "id": "12_math_1_04",
+    "classLevel": "12",
+    "subject": "Mathematics",
+    "chapter": "Relations and Functions",
+    "title": "Inverse Function",
+    "latexCode": "f \\circ f^{-1} = I_B \\quad \\text{and} \\quad f^{-1} \\circ f = I_A",
+    "explanation": "A function f: A→B has an inverse if and only if f is bijective. I_A and I_B are identity functions on A and B respectively. The inverse of a bijection is unique.",
+    "containsFormulas": true,
+    "searchTags": [
+      "inverse function",
+      "bijective",
+      "identity",
+      "f inverse"
+    ]
+  },
+  {
+    "id": "12_math_2_01",
+    "classLevel": "12",
+    "subject": "Mathematics",
+    "chapter": "Inverse Trigonometric Functions",
+    "title": "Domain and Range of Inverse Trig Functions",
+    "latexCode": "\\begin{aligned} \\sin^{-1}x &: [-1,1] \\to \\left[-\\frac{\\pi}{2},\\frac{\\pi}{2}\\right] \\\\ \\cos^{-1}x &: [-1,1] \\to [0,\\pi] \\\\ \\tan^{-1}x &: \\mathbb{R} \\to \\left(-\\frac{\\pi}{2},\\frac{\\pi}{2}\\right) \\\\ \\cot^{-1}x &: \\mathbb{R} \\to (0,\\pi) \\\\ \\sec^{-1}x &: |x|\\geq 1 \\to [0,\\pi] - \\{\\pi/2\\} \\\\ \\text{cosec}^{-1}x &: |x|\\geq 1 \\to [-\\pi/2,\\pi/2] - \\{0\\} \\end{aligned}",
+    "explanation": "The principal value branch is chosen to make the inverse function single-valued. These restricted domains and ranges must be memorised for CBSE.",
+    "containsFormulas": true,
+    "searchTags": [
+      "inverse trig",
+      "domain",
+      "range",
+      "principal value",
+      "sin inverse",
+      "cos inverse"
+    ]
+  },
+  {
+    "id": "12_math_2_02",
+    "classLevel": "12",
+    "subject": "Mathematics",
+    "chapter": "Inverse Trigonometric Functions",
+    "title": "Complementary Angle Identities",
+    "latexCode": "\\begin{aligned} \\sin^{-1}x + \\cos^{-1}x &= \\frac{\\pi}{2} \\\\ \\tan^{-1}x + \\cot^{-1}x &= \\frac{\\pi}{2} \\\\ \\sec^{-1}x + \\text{cosec}^{-1}x &= \\frac{\\pi}{2} \\end{aligned}",
+    "explanation": "Each pair of co-function inverses sums to π/2. These are used frequently to simplify expressions and prove identities in Class 12.",
+    "containsFormulas": true,
+    "searchTags": [
+      "complementary",
+      "inverse trig",
+      "pi/2",
+      "sin cos inverse",
+      "tan cot inverse"
+    ]
+  },
+  {
+    "id": "12_math_2_03",
+    "classLevel": "12",
+    "subject": "Mathematics",
+    "chapter": "Inverse Trigonometric Functions",
+    "title": "Negative Argument Identities",
+    "latexCode": "\\begin{aligned} \\sin^{-1}(-x) &= -\\sin^{-1}x \\\\ \\cos^{-1}(-x) &= \\pi - \\cos^{-1}x \\\\ \\tan^{-1}(-x) &= -\\tan^{-1}x \\\\ \\cot^{-1}(-x) &= \\pi - \\cot^{-1}x \\end{aligned}",
+    "explanation": "sin⁻¹, tan⁻¹ are odd functions (negative argument flips sign). cos⁻¹ and cot⁻¹ are NOT odd — their negative argument identity uses π minus the function.",
+    "containsFormulas": true,
+    "searchTags": [
+      "negative argument",
+      "inverse trig",
+      "odd function",
+      "cos inverse negative"
+    ]
+  },
+  {
+    "id": "12_math_2_04",
+    "classLevel": "12",
+    "subject": "Mathematics",
+    "chapter": "Inverse Trigonometric Functions",
+    "title": "Addition Formulas for tan⁻¹",
+    "latexCode": "\\begin{aligned} \\tan^{-1}x + \\tan^{-1}y &= \\tan^{-1}\\frac{x+y}{1-xy}, \\quad xy < 1 \\\\ &= \\pi + \\tan^{-1}\\frac{x+y}{1-xy}, \\quad xy > 1,\\; x>0 \\\\ 2\\tan^{-1}x &= \\tan^{-1}\\frac{2x}{1-x^2} = \\sin^{-1}\\frac{2x}{1+x^2} = \\cos^{-1}\\frac{1-x^2}{1+x^2} \\end{aligned}",
+    "explanation": "Addition and double-angle formulas for inverse tangent. The condition xy < 1 determines which form to use. 2tan⁻¹x has three equivalent forms — all commonly asked.",
+    "containsFormulas": true,
+    "searchTags": [
+      "tan inverse addition",
+      "double angle",
+      "inverse trig",
+      "2tan inverse"
+    ]
+  },
+  {
+    "id": "12_math_2_05",
+    "classLevel": "12",
+    "subject": "Mathematics",
+    "chapter": "Inverse Trigonometric Functions",
+    "title": "Conversion Identities",
+    "latexCode": "\\begin{aligned} \\sin^{-1}x &= \\cos^{-1}\\sqrt{1-x^2} = \\tan^{-1}\\frac{x}{\\sqrt{1-x^2}} \\\\ \\cos^{-1}x &= \\sin^{-1}\\sqrt{1-x^2} = \\tan^{-1}\\frac{\\sqrt{1-x^2}}{x} \\end{aligned}",
+    "explanation": "Used to convert between different inverse trig functions. Derived from right triangle relationships. Useful for simplifying and differentiating composite inverse trig expressions.",
+    "containsFormulas": true,
+    "searchTags": [
+      "inverse trig conversion",
+      "sin inverse cos inverse",
+      "tan inverse",
+      "right triangle"
+    ]
+  },
+  {
+    "id": "12_math_3_01",
+    "classLevel": "12",
+    "subject": "Mathematics",
+    "chapter": "Matrices",
+    "title": "Matrix Addition & Scalar Multiplication",
+    "latexCode": "\\begin{aligned} (A + B)_{ij} &= a_{ij} + b_{ij} \\\\ (kA)_{ij} &= k \\cdot a_{ij} \\\\ A + B &= B + A \\quad (\\text{commutative}) \\end{aligned}",
+    "explanation": "Matrix addition is defined only for matrices of the same order. Addition is commutative and associative. Scalar multiplication multiplies every element by the scalar.",
+    "containsFormulas": true,
+    "searchTags": [
+      "matrix addition",
+      "scalar multiplication",
+      "commutative",
+      "same order"
+    ]
+  },
+  {
+    "id": "12_math_3_02",
+    "classLevel": "12",
+    "subject": "Mathematics",
+    "chapter": "Matrices",
+    "title": "Matrix Multiplication",
+    "latexCode": "(AB)_{ij} = \\sum_{k=1}^{n} a_{ik} b_{kj}",
+    "explanation": "For AB to be defined, the number of columns of A must equal the number of rows of B. If A is m×n and B is n×p, then AB is m×p. Matrix multiplication is NOT commutative: AB ≠ BA in general.",
+    "containsFormulas": true,
+    "searchTags": [
+      "matrix multiplication",
+      "product",
+      "not commutative",
+      "order",
+      "rows columns"
+    ]
+  },
+  {
+    "id": "12_math_3_03",
+    "classLevel": "12",
+    "subject": "Mathematics",
+    "chapter": "Matrices",
+    "title": "Transpose Properties",
+    "latexCode": "\\begin{aligned} (A^T)^T &= A \\\\ (A+B)^T &= A^T + B^T \\\\ (kA)^T &= kA^T \\\\ (AB)^T &= B^T A^T \\end{aligned}",
+    "explanation": "The last identity (AB)ᵀ = BᵀAᵀ is the reversal property — order is reversed on transposing a product. This extends to multiple matrices: (ABC)ᵀ = CᵀBᵀAᵀ.",
+    "containsFormulas": true,
+    "searchTags": [
+      "transpose",
+      "matrix",
+      "reversal",
+      "properties"
+    ]
+  },
+  {
+    "id": "12_math_3_04",
+    "classLevel": "12",
+    "subject": "Mathematics",
+    "chapter": "Matrices",
+    "title": "Symmetric & Skew-Symmetric Matrices",
+    "latexCode": "\\begin{aligned} \\text{Symmetric: } A^T &= A \\\\ \\text{Skew-symmetric: } A^T &= -A \\\\ \\text{Any square: } A &= \\underbrace{\\frac{A+A^T}{2}}_{\\text{symmetric}} + \\underbrace{\\frac{A-A^T}{2}}_{\\text{skew-symmetric}} \\end{aligned}",
+    "explanation": "Every square matrix can be uniquely expressed as the sum of a symmetric and a skew-symmetric matrix. The diagonal elements of a skew-symmetric matrix are always zero.",
+    "containsFormulas": true,
+    "searchTags": [
+      "symmetric",
+      "skew symmetric",
+      "matrix",
+      "transpose",
+      "decomposition"
+    ]
+  },
+  {
+    "id": "12_math_3_05",
+    "classLevel": "12",
+    "subject": "Mathematics",
+    "chapter": "Matrices",
+    "title": "Invertible Matrix",
+    "latexCode": "AB = BA = I \\Rightarrow B = A^{-1}",
+    "explanation": "A square matrix A is invertible if and only if det(A) ≠ 0 (non-singular). The inverse is unique. For a 2×2 matrix: A⁻¹ = (1/det A)·adj(A).",
+    "containsFormulas": true,
+    "searchTags": [
+      "inverse matrix",
+      "invertible",
+      "non-singular",
+      "identity"
+    ]
+  },
+  {
+    "id": "12_math_4_01",
+    "classLevel": "12",
+    "subject": "Mathematics",
+    "chapter": "Determinants",
+    "title": "Determinant of 2×2 and 3×3 Matrix",
+    "latexCode": "\\begin{aligned} \\begin{vmatrix} a & b \\\\ c & d \\end{vmatrix} &= ad - bc \\\\ \\begin{vmatrix} a_1 & b_1 & c_1 \\\\ a_2 & b_2 & c_2 \\\\ a_3 & b_3 & c_3 \\end{vmatrix} &= a_1(b_2c_3-b_3c_2) - b_1(a_2c_3-a_3c_2) + c_1(a_2b_3-a_3b_2) \\end{aligned}",
+    "explanation": "Determinant of 3×3 matrix expanded along first row using cofactors. The signs follow the pattern +, −, + for the first row expansion.",
+    "containsFormulas": true,
+    "searchTags": [
+      "determinant",
+      "2x2",
+      "3x3",
+      "cofactor",
+      "expansion"
+    ]
+  },
+  {
+    "id": "12_math_4_02",
+    "classLevel": "12",
+    "subject": "Mathematics",
+    "chapter": "Determinants",
+    "title": "Key Properties of Determinants",
+    "latexCode": "\\begin{aligned} |A^T| &= |A| \\\\ |AB| &= |A||B| \\\\ |kA| &= k^n |A| \\quad (n \\times n \\text{ matrix}) \\\\ |A^{-1}| &= \\frac{1}{|A|} \\end{aligned}",
+    "explanation": "If any two rows/columns are identical or proportional, |A| = 0. Swapping two rows/columns changes the sign of the determinant. Adding a multiple of one row to another doesn't change the determinant.",
+    "containsFormulas": true,
+    "searchTags": [
+      "determinant properties",
+      "transpose",
+      "product",
+      "scalar",
+      "inverse"
+    ]
+  },
+  {
+    "id": "12_math_4_03",
+    "classLevel": "12",
+    "subject": "Mathematics",
+    "chapter": "Determinants",
+    "title": "Cofactor, Adjoint & Inverse",
+    "latexCode": "\\begin{aligned} C_{ij} &= (-1)^{i+j} M_{ij} \\quad (\\text{cofactor}) \\\\ \\text{adj}(A) &= [C_{ij}]^T \\\\ A^{-1} &= \\frac{1}{|A|}\\,\\text{adj}(A) \\end{aligned}",
+    "explanation": "M_ij = minor (determinant of submatrix deleting row i and column j). C_ij = cofactor. adj(A) = transpose of cofactor matrix. A·adj(A) = |A|·I is an important result.",
+    "containsFormulas": true,
+    "searchTags": [
+      "cofactor",
+      "adjoint",
+      "inverse",
+      "minor",
+      "matrix"
+    ]
+  },
+  {
+    "id": "12_math_4_04",
+    "classLevel": "12",
+    "subject": "Mathematics",
+    "chapter": "Determinants",
+    "title": "Area of Triangle Using Determinant",
+    "latexCode": "\\Delta = \\frac{1}{2} \\begin{vmatrix} x_1 & y_1 & 1 \\\\ x_2 & y_2 & 1 \\\\ x_3 & y_3 & 1 \\end{vmatrix}",
+    "explanation": "Area is always taken as positive (absolute value). If the determinant = 0, the three points are collinear. Used to test collinearity of three points.",
+    "containsFormulas": true,
+    "searchTags": [
+      "area of triangle",
+      "determinant",
+      "collinear",
+      "coordinates",
+      "vertices"
+    ]
+  },
+  {
+    "id": "12_math_4_05",
+    "classLevel": "12",
+    "subject": "Mathematics",
+    "chapter": "Determinants",
+    "title": "Cramer's Rule",
+    "latexCode": "\\begin{aligned} &\\text{For } AX = B: \\\\ x &= \\frac{D_1}{D},\\quad y = \\frac{D_2}{D},\\quad z = \\frac{D_3}{D} \\end{aligned}",
+    "explanation": "D = |A|. D₁ = |A| with column 1 replaced by B, D₂ = |A| with column 2 replaced by B, etc. Unique solution exists if D ≠ 0. If D = 0, the system is either inconsistent or has infinitely many solutions.",
+    "containsFormulas": true,
+    "searchTags": [
+      "cramer's rule",
+      "linear equations",
+      "system",
+      "determinant",
+      "unique solution"
+    ]
+  },
+  {
+    "id": "12_math_5_01",
+    "classLevel": "12",
+    "subject": "Mathematics",
+    "chapter": "Continuity and Differentiability",
+    "title": "Continuity at a Point",
+    "latexCode": "f \\text{ is continuous at } x=a \\iff \\lim_{x \\to a} f(x) = f(a)",
+    "explanation": "Three conditions must hold: f(a) exists, the limit exists, and they are equal. Equivalently: LHL = RHL = f(a). Every differentiable function is continuous but not vice versa.",
+    "containsFormulas": true,
+    "searchTags": [
+      "continuity",
+      "limit",
+      "LHL",
+      "RHL",
+      "differentiable"
+    ]
+  },
+  {
+    "id": "12_math_5_02",
+    "classLevel": "12",
+    "subject": "Mathematics",
+    "chapter": "Continuity and Differentiability",
+    "title": "Standard Derivatives",
+    "latexCode": "\\begin{aligned} \\frac{d}{dx}(x^n) &= nx^{n-1} \\\\ \\frac{d}{dx}(e^x) &= e^x \\\\ \\frac{d}{dx}(\\ln x) &= \\frac{1}{x} \\\\ \\frac{d}{dx}(a^x) &= a^x \\ln a \\\\ \\frac{d}{dx}(\\sin x) &= \\cos x \\\\ \\frac{d}{dx}(\\cos x) &= -\\sin x \\\\ \\frac{d}{dx}(\\tan x) &= \\sec^2 x \\\\ \\frac{d}{dx}(\\cot x) &= -\\text{cosec}^2 x \\end{aligned}",
+    "explanation": "Standard results to be memorised. The derivative of ln x = 1/x is valid only for x > 0. For the general power rule, n can be any real number.",
+    "containsFormulas": true,
+    "searchTags": [
+      "standard derivatives",
+      "power rule",
+      "exponential",
+      "logarithm",
+      "trig derivatives"
+    ]
+  },
+  {
+    "id": "12_math_5_03",
+    "classLevel": "12",
+    "subject": "Mathematics",
+    "chapter": "Continuity and Differentiability",
+    "title": "Derivatives of Inverse Trig Functions",
+    "latexCode": "\\begin{aligned} \\frac{d}{dx}(\\sin^{-1}x) &= \\frac{1}{\\sqrt{1-x^2}} \\\\ \\frac{d}{dx}(\\cos^{-1}x) &= -\\frac{1}{\\sqrt{1-x^2}} \\\\ \\frac{d}{dx}(\\tan^{-1}x) &= \\frac{1}{1+x^2} \\\\ \\frac{d}{dx}(\\cot^{-1}x) &= -\\frac{1}{1+x^2} \\\\ \\frac{d}{dx}(\\sec^{-1}x) &= \\frac{1}{|x|\\sqrt{x^2-1}} \\\\ \\frac{d}{dx}(\\text{cosec}^{-1}x) &= -\\frac{1}{|x|\\sqrt{x^2-1}} \\end{aligned}",
+    "explanation": "Note that co-function derivatives are negatives of each other: d/dx(sin⁻¹x) = −d/dx(cos⁻¹x). This is consistent with sin⁻¹x + cos⁻¹x = π/2 (constant sum → derivatives sum to 0).",
+    "containsFormulas": true,
+    "searchTags": [
+      "inverse trig derivatives",
+      "sin inverse",
+      "cos inverse",
+      "tan inverse",
+      "differentiation"
+    ]
+  },
+  {
+    "id": "12_math_5_04",
+    "classLevel": "12",
+    "subject": "Mathematics",
+    "chapter": "Continuity and Differentiability",
+    "title": "Chain, Product & Quotient Rule",
+    "latexCode": "\\begin{aligned} \\text{Chain: } & \\frac{d}{dx}[f(g(x))] = f'(g(x)) \\cdot g'(x) \\\\ \\text{Product: } & \\frac{d}{dx}(uv) = u'v + uv' \\\\ \\text{Quotient: } & \\frac{d}{dx}\\left(\\frac{u}{v}\\right) = \\frac{u'v - uv'}{v^2} \\end{aligned}",
+    "explanation": "Chain rule is used for composite functions. Product rule (Leibnitz rule) extends to any number of functions. Quotient rule is a special case of the product rule applied to u·v⁻¹.",
+    "containsFormulas": true,
+    "searchTags": [
+      "chain rule",
+      "product rule",
+      "quotient rule",
+      "composite",
+      "differentiation"
+    ]
+  },
+  {
+    "id": "12_math_5_05",
+    "classLevel": "12",
+    "subject": "Mathematics",
+    "chapter": "Continuity and Differentiability",
+    "title": "Logarithmic Differentiation",
+    "latexCode": "y = f(x)^{g(x)} \\Rightarrow \\ln y = g(x)\\ln f(x) \\Rightarrow \\frac{1}{y}\\frac{dy}{dx} = g'(x)\\ln f(x) + g(x)\\cdot\\frac{f'(x)}{f(x)}",
+    "explanation": "Used when the variable appears in both base and exponent (e.g., xˣ, (sin x)^x). Take ln of both sides, differentiate implicitly, then multiply both sides by y.",
+    "containsFormulas": true,
+    "searchTags": [
+      "logarithmic differentiation",
+      "variable exponent",
+      "x to the x",
+      "implicit"
+    ]
+  },
+  {
+    "id": "12_math_5_06",
+    "classLevel": "12",
+    "subject": "Mathematics",
+    "chapter": "Continuity and Differentiability",
+    "title": "Parametric Differentiation",
+    "latexCode": "\\frac{dy}{dx} = \\frac{dy/dt}{dx/dt} \\quad \\text{and} \\quad \\frac{d^2y}{dx^2} = \\frac{\\frac{d}{dt}\\left(\\frac{dy}{dx}\\right)}{dx/dt}",
+    "explanation": "When x = f(t) and y = g(t), differentiate numerator and denominator separately w.r.t. t and divide. For second derivative, differentiate dy/dx w.r.t. t then divide by dx/dt again.",
+    "containsFormulas": true,
+    "searchTags": [
+      "parametric differentiation",
+      "dy/dx",
+      "d2y/dx2",
+      "second derivative",
+      "parameter"
+    ]
+  },
+  {
+    "id": "12_math_5_07",
+    "classLevel": "12",
+    "subject": "Mathematics",
+    "chapter": "Continuity and Differentiability",
+    "title": "Rolle's and Mean Value Theorem",
+    "latexCode": "\\begin{aligned} &\\textbf{Rolle's: } f(a)=f(b) \\Rightarrow \\exists\\, c \\in (a,b): f'(c)=0 \\\\ &\\textbf{LMVT: } \\exists\\, c \\in (a,b): f'(c) = \\frac{f(b)-f(a)}{b-a} \\end{aligned}",
+    "explanation": "Both theorems require f to be continuous on [a,b] and differentiable on (a,b). Rolle's theorem is a special case of LMVT where f(a) = f(b). LMVT says the instantaneous rate equals the average rate at some point.",
+    "containsFormulas": true,
+    "searchTags": [
+      "rolle's theorem",
+      "mean value theorem",
+      "LMVT",
+      "c value",
+      "continuous differentiable"
+    ]
+  },
+  {
+    "id": "12_math_6_01",
+    "classLevel": "12",
+    "subject": "Mathematics",
+    "chapter": "Application of Derivatives",
+    "title": "Rate of Change",
+    "latexCode": "\\frac{dy}{dx} = \\frac{dy/dt}{dx/dt}",
+    "explanation": "dy/dx gives the instantaneous rate of change of y with respect to x. If dy/dt is rate of change w.r.t. time, use the chain rule to find related rates. Positive = increasing, negative = decreasing.",
+    "containsFormulas": true,
+    "searchTags": [
+      "rate of change",
+      "related rates",
+      "derivative",
+      "time",
+      "application"
+    ]
+  },
+  {
+    "id": "12_math_6_02",
+    "classLevel": "12",
+    "subject": "Mathematics",
+    "chapter": "Application of Derivatives",
+    "title": "Increasing & Decreasing Functions",
+    "latexCode": "\\begin{aligned} f'(x) > 0 \\;\\forall\\, x \\in (a,b) &\\Rightarrow f \\text{ is increasing on } (a,b) \\\\ f'(x) < 0 \\;\\forall\\, x \\in (a,b) &\\Rightarrow f \\text{ is decreasing on } (a,b) \\end{aligned}",
+    "explanation": "The first derivative test for monotonicity. Critical points (where f'(x) = 0 or undefined) are candidates for local extrema and boundaries between increasing/decreasing intervals.",
+    "containsFormulas": true,
+    "searchTags": [
+      "increasing",
+      "decreasing",
+      "monotonic",
+      "first derivative",
+      "critical point"
+    ]
+  },
+  {
+    "id": "12_math_6_03",
+    "classLevel": "12",
+    "subject": "Mathematics",
+    "chapter": "Application of Derivatives",
+    "title": "Maxima & Minima — First Derivative Test",
+    "latexCode": "\\begin{aligned} f'(c) &= 0 \\text{ (critical point)} \\\\ f' \\text{ changes } + \\to - &\\Rightarrow \\text{local maximum at } c \\\\ f' \\text{ changes } - \\to + &\\Rightarrow \\text{local minimum at } c \\\\ f' \\text{ no sign change} &\\Rightarrow \\text{neither (inflection)} \\end{aligned}",
+    "explanation": "Sign change of f'(x) around the critical point determines the nature. The absolute maximum/minimum over a closed interval must also check boundary values.",
+    "containsFormulas": true,
+    "searchTags": [
+      "maxima",
+      "minima",
+      "first derivative test",
+      "critical point",
+      "local extrema"
+    ]
+  },
+  {
+    "id": "12_math_6_04",
+    "classLevel": "12",
+    "subject": "Mathematics",
+    "chapter": "Application of Derivatives",
+    "title": "Maxima & Minima — Second Derivative Test",
+    "latexCode": "\\begin{aligned} f'(c) = 0 \\text{ and } f''(c) < 0 &\\Rightarrow \\text{local maximum} \\\\ f'(c) = 0 \\text{ and } f''(c) > 0 &\\Rightarrow \\text{local minimum} \\\\ f'(c) = 0 \\text{ and } f''(c) = 0 &\\Rightarrow \\text{test fails, use 1st test} \\end{aligned}",
+    "explanation": "A quicker alternative to the first derivative test. If the second derivative test fails (f''(c) = 0), revert to the first derivative test by checking sign changes of f'(x).",
+    "containsFormulas": true,
+    "searchTags": [
+      "second derivative test",
+      "maxima",
+      "minima",
+      "concave",
+      "inflection"
+    ]
+  },
+  {
+    "id": "12_math_6_05",
+    "classLevel": "12",
+    "subject": "Mathematics",
+    "chapter": "Application of Derivatives",
+    "title": "Tangent & Normal to a Curve",
+    "latexCode": "\\begin{aligned} \\text{Slope of tangent: } m &= \\left.\\frac{dy}{dx}\\right|_{(x_1,y_1)} \\\\ \\text{Tangent: } y - y_1 &= m(x - x_1) \\\\ \\text{Normal: } y - y_1 &= -\\frac{1}{m}(x - x_1) \\end{aligned}",
+    "explanation": "The normal is perpendicular to the tangent. If m = 0 (horizontal tangent), the normal is vertical (x = x₁). If m is undefined (vertical tangent), the tangent is x = x₁ and normal is y = y₁.",
+    "containsFormulas": true,
+    "searchTags": [
+      "tangent",
+      "normal",
+      "curve",
+      "slope",
+      "point of contact",
+      "perpendicular"
+    ]
+  },
+  {
+    "id": "12_math_6_06",
+    "classLevel": "12",
+    "subject": "Mathematics",
+    "chapter": "Application of Derivatives",
+    "title": "Approximations Using Differentials",
+    "latexCode": "\\Delta y \\approx dy = f'(x)\\,dx",
+    "explanation": "For small changes, the increment Δy ≈ dy = f'(x)·Δx. Used to find approximate values (e.g., √25.1 ≈ √25 + (1/2√25)·0.1). Error and percentage error calculations use this formula.",
+    "containsFormulas": true,
+    "searchTags": [
+      "approximation",
+      "differential",
+      "small change",
+      "error",
+      "dy dx"
+    ]
+  },
+  {
+    "id": "12_math_7_01",
+    "classLevel": "12",
+    "subject": "Mathematics",
+    "chapter": "Integrals",
+    "title": "Standard Integrals — Part 1",
+    "latexCode": "\\begin{aligned} \\int x^n\\,dx &= \\frac{x^{n+1}}{n+1} + C \\quad (n \\neq -1) \\\\ \\int \\frac{1}{x}\\,dx &= \\ln|x| + C \\\\ \\int e^x\\,dx &= e^x + C \\\\ \\int a^x\\,dx &= \\frac{a^x}{\\ln a} + C \\end{aligned}",
+    "explanation": "Fundamental integration formulas. The +C (constant of integration) is mandatory for indefinite integrals. For n = −1, the result is ln|x|, not x⁰/0.",
+    "containsFormulas": true,
+    "searchTags": [
+      "standard integrals",
+      "power rule",
+      "exponential",
+      "logarithm",
+      "indefinite"
+    ]
+  },
+  {
+    "id": "12_math_7_02",
+    "classLevel": "12",
+    "subject": "Mathematics",
+    "chapter": "Integrals",
+    "title": "Standard Integrals — Trigonometric",
+    "latexCode": "\\begin{aligned} \\int \\sin x\\,dx &= -\\cos x + C \\\\ \\int \\cos x\\,dx &= \\sin x + C \\\\ \\int \\sec^2 x\\,dx &= \\tan x + C \\\\ \\int \\text{cosec}^2 x\\,dx &= -\\cot x + C \\\\ \\int \\sec x \\tan x\\,dx &= \\sec x + C \\\\ \\int \\text{cosec}\\,x\\cot x\\,dx &= -\\text{cosec}\\ x + C \\end{aligned}",
+    "explanation": "These six trigonometric integrals are the direct reverse of standard trig derivatives. Note the negative signs for cos x, cot x, and cosec x.",
+    "containsFormulas": true,
+    "searchTags": [
+      "trig integrals",
+      "sin cos",
+      "sec",
+      "cosec",
+      "standard"
+    ]
+  },
+  {
+    "id": "12_math_7_03",
+    "classLevel": "12",
+    "subject": "Mathematics",
+    "chapter": "Integrals",
+    "title": "Standard Integrals — Inverse Trig Forms",
+    "latexCode": "\\begin{aligned} \\int \\frac{dx}{\\sqrt{1-x^2}} &= \\sin^{-1}x + C \\\\ \\int \\frac{dx}{1+x^2} &= \\tan^{-1}x + C \\\\ \\int \\frac{dx}{x\\sqrt{x^2-1}} &= \\sec^{-1}x + C \\\\ \\int \\frac{dx}{\\sqrt{a^2-x^2}} &= \\sin^{-1}\\frac{x}{a} + C \\\\ \\int \\frac{dx}{a^2+x^2} &= \\frac{1}{a}\\tan^{-1}\\frac{x}{a} + C \\\\ \\int \\frac{dx}{x^2-a^2} &= \\frac{1}{2a}\\ln\\left|\\frac{x-a}{x+a}\\right| + C \\end{aligned}",
+    "explanation": "Key inverse trig and logarithmic integral forms. Memorise all six — they appear constantly in substitution and partial fractions problems.",
+    "containsFormulas": true,
+    "searchTags": [
+      "inverse trig integrals",
+      "1 over 1+x2",
+      "1 over sqrt",
+      "standard forms",
+      "tan inverse"
+    ]
+  },
+  {
+    "id": "12_math_7_04",
+    "classLevel": "12",
+    "subject": "Mathematics",
+    "chapter": "Integrals",
+    "title": "Integration by Substitution",
+    "latexCode": "\\int f(g(x))\\,g'(x)\\,dx = \\int f(t)\\,dt \\quad (t = g(x))",
+    "explanation": "Substitute t = g(x) so that dt = g'(x)dx. The key is identifying the inner function and recognising that its derivative is also present (possibly with a constant factor).",
+    "containsFormulas": true,
+    "searchTags": [
+      "substitution",
+      "integration",
+      "t substitution",
+      "composite",
+      "chain rule reverse"
+    ]
+  },
+  {
+    "id": "12_math_7_05",
+    "classLevel": "12",
+    "subject": "Mathematics",
+    "chapter": "Integrals",
+    "title": "Integration by Parts",
+    "latexCode": "\\int u\\,v\\,dx = u\\int v\\,dx - \\int\\left(u' \\int v\\,dx\\right)dx",
+    "explanation": "ILATE rule to choose u: Inverse trig > Logarithmic > Algebraic > Trigonometric > Exponential. Choose u as the function higher on this priority list.",
+    "containsFormulas": true,
+    "searchTags": [
+      "integration by parts",
+      "ILATE",
+      "product",
+      "u v rule",
+      "by parts"
+    ]
+  },
+  {
+    "id": "12_math_7_06",
+    "classLevel": "12",
+    "subject": "Mathematics",
+    "chapter": "Integrals",
+    "title": "Special Integral — e^x Form",
+    "latexCode": "\\int e^x [f(x) + f'(x)]\\,dx = e^x f(x) + C",
+    "explanation": "When the integrand is of the form eˣ[f(x) + f'(x)], the answer is directly eˣf(x). Used when you can spot a function and its derivative inside the square bracket.",
+    "containsFormulas": true,
+    "searchTags": [
+      "e^x f(x) f'(x)",
+      "special integral",
+      "exponential",
+      "shortcut"
+    ]
+  },
+  {
+    "id": "12_math_7_07",
+    "classLevel": "12",
+    "subject": "Mathematics",
+    "chapter": "Integrals",
+    "title": "Definite Integral Properties",
+    "latexCode": "\\begin{aligned} \\int_a^b f(x)\\,dx &= -\\int_b^a f(x)\\,dx \\\\ \\int_a^b f(x)\\,dx &= \\int_a^c f(x)\\,dx + \\int_c^b f(x)\\,dx \\\\ \\int_a^b f(x)\\,dx &= \\int_a^b f(a+b-x)\\,dx \\\\ \\int_0^a f(x)\\,dx &= \\int_0^a f(a-x)\\,dx \\end{aligned}",
+    "explanation": "The last two (King's rule properties) are the most powerful — they allow simplification by substitution x → a+b−x or x → a−x, turning difficult integrands into simpler ones.",
+    "containsFormulas": true,
+    "searchTags": [
+      "definite integral",
+      "properties",
+      "king's rule",
+      "limits",
+      "symmetry"
+    ]
+  },
+  {
+    "id": "12_math_7_08",
+    "classLevel": "12",
+    "subject": "Mathematics",
+    "chapter": "Integrals",
+    "title": "Definite Integral — Even/Odd & Periodic",
+    "latexCode": "\\begin{aligned} \\int_{-a}^{a} f(x)\\,dx &= \\begin{cases} 2\\int_0^a f(x)\\,dx & f \\text{ even} \\\\ 0 & f \\text{ odd} \\end{cases} \\\\ \\int_0^{2a} f(x)\\,dx &= \\begin{cases} 2\\int_0^a f(x)\\,dx & f(2a-x)=f(x) \\\\ 0 & f(2a-x)=-f(x) \\end{cases} \\end{aligned}",
+    "explanation": "Symmetry properties simplify integration over symmetric limits. An even function (f(-x) = f(x)) has a symmetric graph; an odd function (f(-x) = -f(x)) has point symmetry about origin.",
+    "containsFormulas": true,
+    "searchTags": [
+      "even function",
+      "odd function",
+      "definite integral",
+      "symmetric limits",
+      "periodic"
+    ]
+  },
+  {
+    "id": "12_math_7_09",
+    "classLevel": "12",
+    "subject": "Mathematics",
+    "chapter": "Integrals",
+    "title": "Integration of Partial Fractions",
+    "latexCode": "\\begin{aligned} \\frac{px+q}{(x-a)(x-b)} &= \\frac{A}{x-a} + \\frac{B}{x-b} \\\\ \\frac{px+q}{(x-a)^2} &= \\frac{A}{x-a} + \\frac{B}{(x-a)^2} \\\\ \\frac{px^2+qx+r}{(x-a)(x^2+bx+c)} &= \\frac{A}{x-a} + \\frac{Bx+C}{x^2+bx+c} \\end{aligned}",
+    "explanation": "Used when rational function has factored denominator. For each linear factor → A/(x-a). For repeated factor → A/(x-a) + B/(x-a)². For irreducible quadratic → (Bx+C)/(quadratic).",
+    "containsFormulas": true,
+    "searchTags": [
+      "partial fractions",
+      "rational function",
+      "integration",
+      "decomposition"
+    ]
+  },
+  {
+    "id": "12_math_8_01",
+    "classLevel": "12",
+    "subject": "Mathematics",
+    "chapter": "Application of Integrals",
+    "title": "Area Under a Curve",
+    "latexCode": "A = \\int_a^b |f(x)|\\,dx = \\int_a^b f(x)\\,dx \\quad \\text{(if } f(x) \\geq 0\\text{)}",
+    "explanation": "Area between the curve y = f(x) and the x-axis from x = a to x = b. Take absolute value (or split at x-intercepts) if the curve dips below the x-axis to get the correct area.",
+    "containsFormulas": true,
+    "searchTags": [
+      "area under curve",
+      "definite integral",
+      "x-axis",
+      "region",
+      "application"
+    ]
+  },
+  {
+    "id": "12_math_8_02",
+    "classLevel": "12",
+    "subject": "Mathematics",
+    "chapter": "Application of Integrals",
+    "title": "Area Between Two Curves",
+    "latexCode": "A = \\int_a^b [f(x) - g(x)]\\,dx \\quad \\text{where } f(x) \\geq g(x) \\text{ on } [a,b]",
+    "explanation": "The area enclosed between two curves is found by integrating the top curve minus the bottom curve. Intersection points (a and b) are found by solving f(x) = g(x).",
+    "containsFormulas": true,
+    "searchTags": [
+      "area between curves",
+      "two functions",
+      "top minus bottom",
+      "intersection",
+      "bounded region"
+    ]
+  },
+  {
+    "id": "12_math_8_03",
+    "classLevel": "12",
+    "subject": "Mathematics",
+    "chapter": "Application of Integrals",
+    "title": "Area Using Horizontal Strips",
+    "latexCode": "A = \\int_c^d [g(y) - h(y)]\\,dy \\quad \\text{where } g(y) \\geq h(y)",
+    "explanation": "When curves are expressed as x = f(y), integrate w.r.t. y (horizontal strips). Useful when the area is symmetric or easier to compute by treating y as the independent variable.",
+    "containsFormulas": true,
+    "searchTags": [
+      "horizontal strip",
+      "area",
+      "x as function of y",
+      "integration dy"
+    ]
+  },
+  {
+    "id": "12_math_9_01",
+    "classLevel": "12",
+    "subject": "Mathematics",
+    "chapter": "Differential Equations",
+    "title": "Order and Degree of DE",
+    "latexCode": "\\begin{aligned} &\\text{Order: highest order derivative present} \\\\ &\\text{Degree: power of highest order derivative} \\\\ &\\text{(only when DE is polynomial in derivatives)} \\end{aligned}",
+    "explanation": "Order and degree are always positive integers. Degree is undefined if the DE is not polynomial in its derivatives (e.g., if sin(y'') appears). The degree is the power of the highest-order derivative after clearing fractions/radicals.",
+    "containsFormulas": true,
+    "searchTags": [
+      "order",
+      "degree",
+      "differential equation",
+      "highest derivative"
+    ]
+  },
+  {
+    "id": "12_math_9_02",
+    "classLevel": "12",
+    "subject": "Mathematics",
+    "chapter": "Differential Equations",
+    "title": "Variable Separable Method",
+    "latexCode": "\\frac{dy}{dx} = f(x)\\,g(y) \\Rightarrow \\int \\frac{dy}{g(y)} = \\int f(x)\\,dx + C",
+    "explanation": "Applicable when the DE can be written as a product of a function of x and a function of y. Separate variables to opposite sides and integrate both sides.",
+    "containsFormulas": true,
+    "searchTags": [
+      "variable separable",
+      "differential equation",
+      "separate",
+      "integrate",
+      "method"
+    ]
+  },
+  {
+    "id": "12_math_9_03",
+    "classLevel": "12",
+    "subject": "Mathematics",
+    "chapter": "Differential Equations",
+    "title": "Homogeneous Differential Equations",
+    "latexCode": "\\frac{dy}{dx} = F\\left(\\frac{y}{x}\\right) \\xrightarrow{y = vx} \\frac{dv}{v - F(v)} = -\\frac{dx}{x}",
+    "explanation": "A DE is homogeneous if f(x,y) has the same degree in all terms. Substitute y = vx (so dy/dx = v + x·dv/dx) to convert it to a variable separable equation in v and x.",
+    "containsFormulas": true,
+    "searchTags": [
+      "homogeneous DE",
+      "y=vx",
+      "substitution",
+      "differential equation"
+    ]
+  },
+  {
+    "id": "12_math_9_04",
+    "classLevel": "12",
+    "subject": "Mathematics",
+    "chapter": "Differential Equations",
+    "title": "Linear Differential Equation",
+    "latexCode": "\\begin{aligned} &\\frac{dy}{dx} + P(x)\\,y = Q(x) \\\\ &\\text{IF} = e^{\\int P\\,dx} \\\\ &\\text{Solution: } y \\cdot \\text{IF} = \\int Q \\cdot \\text{IF}\\,dx + C \\end{aligned}",
+    "explanation": "Integrating Factor (IF) = e^∫P dx. Multiplying through by IF converts the left side to d/dx[y·IF]. The solution is obtained by integrating the right side.",
+    "containsFormulas": true,
+    "searchTags": [
+      "linear DE",
+      "integrating factor",
+      "P Q form",
+      "first order",
+      "solution"
+    ]
+  },
+  {
+    "id": "12_math_10_01",
+    "classLevel": "12",
+    "subject": "Mathematics",
+    "chapter": "Vector Algebra",
+    "title": "Magnitude and Unit Vector",
+    "latexCode": "\\begin{aligned} |\\vec{a}| &= \\sqrt{a_1^2 + a_2^2 + a_3^2} \\\\ \\hat{a} &= \\frac{\\vec{a}}{|\\vec{a}|} \\end{aligned}",
+    "explanation": "The magnitude (modulus) of vector a = a₁î + a₂ĵ + a₃k̂ is its length. A unit vector has magnitude 1. Direction cosines: l = a₁/|a|, m = a₂/|a|, n = a₃/|a| with l²+m²+n² = 1.",
+    "containsFormulas": true,
+    "searchTags": [
+      "magnitude",
+      "unit vector",
+      "modulus",
+      "direction cosines",
+      "vector"
+    ]
+  },
+  {
+    "id": "12_math_10_02",
+    "classLevel": "12",
+    "subject": "Mathematics",
+    "chapter": "Vector Algebra",
+    "title": "Dot Product (Scalar Product)",
+    "latexCode": "\\begin{aligned} \\vec{a} \\cdot \\vec{b} &= |\\vec{a}||\\vec{b}|\\cos\\theta \\\\ \\vec{a} \\cdot \\vec{b} &= a_1b_1 + a_2b_2 + a_3b_3 \\\\ \\cos\\theta &= \\frac{\\vec{a}\\cdot\\vec{b}}{|\\vec{a}||\\vec{b}|} \\end{aligned}",
+    "explanation": "Dot product is commutative: a·b = b·a. Perpendicular vectors have a·b = 0. Parallel vectors: a·b = ±|a||b|. The angle between vectors is found using the third formula.",
+    "containsFormulas": true,
+    "searchTags": [
+      "dot product",
+      "scalar product",
+      "angle",
+      "perpendicular",
+      "cosine"
+    ]
+  },
+  {
+    "id": "12_math_10_03",
+    "classLevel": "12",
+    "subject": "Mathematics",
+    "chapter": "Vector Algebra",
+    "title": "Cross Product (Vector Product)",
+    "latexCode": "\\begin{aligned} \\vec{a} \\times \\vec{b} &= |\\vec{a}||\\vec{b}|\\sin\\theta\\,\\hat{n} \\\\ \\vec{a} \\times \\vec{b} &= \\begin{vmatrix} \\hat{i} & \\hat{j} & \\hat{k} \\\\ a_1 & a_2 & a_3 \\\\ b_1 & b_2 & b_3 \\end{vmatrix} \\end{aligned}",
+    "explanation": "Cross product is anti-commutative: a×b = −b×a. The result is a vector perpendicular to both a and b. |a×b| = area of parallelogram formed by a and b. Parallel vectors: a×b = 0.",
+    "containsFormulas": true,
+    "searchTags": [
+      "cross product",
+      "vector product",
+      "determinant",
+      "area parallelogram",
+      "perpendicular"
+    ]
+  },
+  {
+    "id": "12_math_10_04",
+    "classLevel": "12",
+    "subject": "Mathematics",
+    "chapter": "Vector Algebra",
+    "title": "Scalar Triple Product",
+    "latexCode": "\\begin{aligned} [\\vec{a}\\;\\vec{b}\\;\\vec{c}] &= \\vec{a}\\cdot(\\vec{b}\\times\\vec{c}) = \\begin{vmatrix} a_1 & a_2 & a_3 \\\\ b_1 & b_2 & b_3 \\\\ c_1 & c_2 & c_3 \\end{vmatrix} \\\\ \\text{Volume of parallelepiped} &= |[\\vec{a}\\;\\vec{b}\\;\\vec{c}]| \\end{aligned}",
+    "explanation": "The scalar triple product gives the volume of the parallelepiped formed by a, b, c. If [a b c] = 0, the vectors are coplanar. Cyclic change of vectors doesn't change the value: [a b c] = [b c a] = [c a b].",
+    "containsFormulas": true,
+    "searchTags": [
+      "scalar triple product",
+      "volume",
+      "parallelepiped",
+      "coplanar",
+      "box product"
+    ]
+  },
+  {
+    "id": "12_math_10_05",
+    "classLevel": "12",
+    "subject": "Mathematics",
+    "chapter": "Vector Algebra",
+    "title": "Section Formula",
+    "latexCode": "\\begin{aligned} \\text{Internal: } \\vec{r} &= \\frac{m\\vec{b}+n\\vec{a}}{m+n} \\\\ \\text{External: } \\vec{r} &= \\frac{m\\vec{b}-n\\vec{a}}{m-n} \\\\ \\text{Midpoint: } \\vec{r} &= \\frac{\\vec{a}+\\vec{b}}{2} \\end{aligned}",
+    "explanation": "The position vector of a point dividing segment AB in ratio m:n. Internal division: point lies between A and B. External division: point lies outside on the segment extended.",
+    "containsFormulas": true,
+    "searchTags": [
+      "section formula",
+      "position vector",
+      "midpoint",
+      "division",
+      "ratio"
+    ]
+  },
+  {
+    "id": "12_math_11_01",
+    "classLevel": "12",
+    "subject": "Mathematics",
+    "chapter": "Three Dimensional Geometry",
+    "title": "Direction Cosines & Direction Ratios",
+    "latexCode": "\\begin{aligned} l &= \\cos\\alpha,\\; m = \\cos\\beta,\\; n = \\cos\\gamma \\\\ l^2 + m^2 + n^2 &= 1 \\\\ \\frac{l}{a} &= \\frac{m}{b} = \\frac{n}{c} = \\frac{1}{\\sqrt{a^2+b^2+c^2}} \\end{aligned}",
+    "explanation": "α, β, γ are angles a line makes with the x, y, z axes respectively. a, b, c are direction ratios (proportional to l, m, n). The last equation converts DRs to DCs.",
+    "containsFormulas": true,
+    "searchTags": [
+      "direction cosines",
+      "direction ratios",
+      "3D geometry",
+      "angles",
+      "l m n"
+    ]
+  },
+  {
+    "id": "12_math_11_02",
+    "classLevel": "12",
+    "subject": "Mathematics",
+    "chapter": "Three Dimensional Geometry",
+    "title": "Equation of a Line in 3D",
+    "latexCode": "\\begin{aligned} \\text{Cartesian: }& \\frac{x-x_1}{a} = \\frac{y-y_1}{b} = \\frac{z-z_1}{c} \\\\ \\text{Vector: }& \\vec{r} = \\vec{a} + \\lambda\\vec{b} \\end{aligned}",
+    "explanation": "Passes through point (x₁,y₁,z₁) with direction ratios a, b, c. In vector form, a = position vector of point on line, b = direction vector, λ is parameter.",
+    "containsFormulas": true,
+    "searchTags": [
+      "equation of line",
+      "3D geometry",
+      "direction ratios",
+      "vector form",
+      "cartesian form"
+    ]
+  },
+  {
+    "id": "12_math_11_03",
+    "classLevel": "12",
+    "subject": "Mathematics",
+    "chapter": "Three Dimensional Geometry",
+    "title": "Angle Between Two Lines",
+    "latexCode": "\\cos\\theta = \\frac{|\\vec{b_1}\\cdot\\vec{b_2}|}{|\\vec{b_1}||\\vec{b_2}|} = \\frac{|a_1a_2+b_1b_2+c_1c_2|}{\\sqrt{a_1^2+b_1^2+c_1^2}\\cdot\\sqrt{a_2^2+b_2^2+c_2^2}}",
+    "explanation": "θ is the acute angle between two lines. Lines are parallel if b₁ × b₂ = 0 (direction vectors parallel). Lines are perpendicular if b₁·b₂ = 0, i.e., a₁a₂+b₁b₂+c₁c₂ = 0.",
+    "containsFormulas": true,
+    "searchTags": [
+      "angle between lines",
+      "3D",
+      "dot product",
+      "parallel",
+      "perpendicular lines"
+    ]
+  },
+  {
+    "id": "12_math_11_04",
+    "classLevel": "12",
+    "subject": "Mathematics",
+    "chapter": "Three Dimensional Geometry",
+    "title": "Shortest Distance Between Two Lines",
+    "latexCode": "\\begin{aligned} d &= \\frac{|(\\vec{a_2}-\\vec{a_1})\\cdot(\\vec{b_1}\\times\\vec{b_2})|}{|\\vec{b_1}\\times\\vec{b_2}|} \\quad \\text{(skew lines)} \\\\ d &= \\frac{|(\\vec{a_2}-\\vec{a_1})\\times\\vec{b}|}{|\\vec{b}|} \\quad \\text{(parallel lines)} \\end{aligned}",
+    "explanation": "For intersecting lines, d = 0. For skew lines (neither parallel nor intersecting), use the first formula. For parallel lines, use the second formula with the common direction vector b.",
+    "containsFormulas": true,
+    "searchTags": [
+      "shortest distance",
+      "skew lines",
+      "parallel lines",
+      "3D geometry",
+      "vector"
+    ]
+  },
+  {
+    "id": "12_math_11_05",
+    "classLevel": "12",
+    "subject": "Mathematics",
+    "chapter": "Three Dimensional Geometry",
+    "title": "Equation of a Plane",
+    "latexCode": "\\begin{aligned} \\text{General: }& ax + by + cz + d = 0 \\\\ \\text{Normal form: }& \\vec{r}\\cdot\\hat{n} = p \\\\ \\text{Point-normal: }& a(x-x_1)+b(y-y_1)+c(z-z_1) = 0 \\\\ \\text{Intercept: }& \\frac{x}{a}+\\frac{y}{b}+\\frac{z}{c} = 1 \\end{aligned}",
+    "explanation": "The coefficients a, b, c in the general form are the direction ratios of the normal to the plane. The intercept form is used when x, y, z intercepts are given directly.",
+    "containsFormulas": true,
+    "searchTags": [
+      "equation of plane",
+      "normal",
+      "intercept form",
+      "3D geometry",
+      "vector form"
+    ]
+  },
+  {
+    "id": "12_math_11_06",
+    "classLevel": "12",
+    "subject": "Mathematics",
+    "chapter": "Three Dimensional Geometry",
+    "title": "Distance of a Point from a Plane",
+    "latexCode": "d = \\frac{|ax_1 + by_1 + cz_1 + d|}{\\sqrt{a^2+b^2+c^2}}",
+    "explanation": "Perpendicular distance from point (x₁,y₁,z₁) to the plane ax+by+cz+d = 0. If the point is on the plane, d = 0. The denominator is the magnitude of the normal vector.",
+    "containsFormulas": true,
+    "searchTags": [
+      "distance",
+      "point from plane",
+      "perpendicular",
+      "formula",
+      "3D geometry"
+    ]
+  },
+  {
+    "id": "12_math_11_07",
+    "classLevel": "12",
+    "subject": "Mathematics",
+    "chapter": "Three Dimensional Geometry",
+    "title": "Angle Between Line and Plane",
+    "latexCode": "\\sin\\phi = \\frac{|\\vec{b}\\cdot\\vec{n}|}{|\\vec{b}||\\vec{n}|}",
+    "explanation": "φ is the angle between line (direction b) and plane (normal n). Note: we use sin φ (not cos θ) because the line makes angle φ with the plane, which is 90° − θ (complement of angle with normal).",
+    "containsFormulas": true,
+    "searchTags": [
+      "angle",
+      "line and plane",
+      "normal",
+      "sine",
+      "3D geometry"
+    ]
+  },
+  {
+    "id": "12_math_11_08",
+    "classLevel": "12",
+    "subject": "Mathematics",
+    "chapter": "Three Dimensional Geometry",
+    "title": "Angle Between Two Planes",
+    "latexCode": "\\cos\\theta = \\frac{|\\vec{n_1}\\cdot\\vec{n_2}|}{|\\vec{n_1}||\\vec{n_2}|} = \\frac{|a_1a_2+b_1b_2+c_1c_2|}{\\sqrt{a_1^2+b_1^2+c_1^2}\\cdot\\sqrt{a_2^2+b_2^2+c_2^2}}",
+    "explanation": "The angle between two planes = angle between their normals. Planes are parallel if n₁ ∥ n₂ (ratios equal). Planes are perpendicular if n₁·n₂ = 0, i.e., a₁a₂+b₁b₂+c₁c₂ = 0.",
+    "containsFormulas": true,
+    "searchTags": [
+      "angle between planes",
+      "normals",
+      "parallel planes",
+      "perpendicular planes",
+      "3D"
+    ]
+  },
+  {
+    "id": "12_math_12_01",
+    "classLevel": "12",
+    "subject": "Mathematics",
+    "chapter": "Linear Programming",
+    "title": "Linear Programming Problem (LPP) — Structure",
+    "latexCode": "\\begin{aligned} &\\text{Maximise/Minimise: } Z = ax + by \\\\ &\\text{Subject to: } a_1x+b_1y \\leq c_1 \\\\ &\\phantom{Subject to:} a_2x+b_2y \\leq c_2 \\\\ &\\phantom{Subject to:} x \\geq 0,\\; y \\geq 0 \\end{aligned}",
+    "explanation": "The objective function Z = ax+by is to be optimised. Constraints define the feasible region (convex polygon). The optimal value always occurs at a corner point (vertex) of the feasible region.",
+    "containsFormulas": true,
+    "searchTags": [
+      "linear programming",
+      "LPP",
+      "objective function",
+      "constraint",
+      "feasible region"
+    ]
+  },
+  {
+    "id": "12_math_12_02",
+    "classLevel": "12",
+    "subject": "Mathematics",
+    "chapter": "Linear Programming",
+    "title": "Corner Point Theorem",
+    "latexCode": "\\begin{aligned} &\\text{If the feasible region is bounded:} \\\\ &Z_{max} = \\max\\{Z(A), Z(B), Z(C), \\ldots\\} \\\\ &\\text{where A, B, C are corner points.} \\\\ &\\text{Unbounded region: verify using open half-plane test.} \\end{aligned}",
+    "explanation": "The maximum and minimum values of the objective function occur at corner points of the feasible region. For unbounded regions, check if the optimum is actually achieved using the open half-plane method.",
+    "containsFormulas": true,
+    "searchTags": [
+      "corner point",
+      "theorem",
+      "vertex",
+      "maximum",
+      "minimum",
+      "LPP"
+    ]
+  },
+  {
+    "id": "12_math_13_01",
+    "classLevel": "12",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "title": "Conditional Probability",
+    "latexCode": "P(A|B) = \\frac{P(A \\cap B)}{P(B)}, \\quad P(B) \\neq 0",
+    "explanation": "P(A|B) = probability of A given B has occurred. The sample space is reduced to B. From this: P(A∩B) = P(B)·P(A|B) = P(A)·P(B|A). This is the multiplication theorem.",
+    "containsFormulas": true,
+    "searchTags": [
+      "conditional probability",
+      "given",
+      "multiplication theorem",
+      "sample space reduction"
+    ]
+  },
+  {
+    "id": "12_math_13_02",
+    "classLevel": "12",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "title": "Independent Events",
+    "latexCode": "A, B \\text{ independent} \\iff P(A \\cap B) = P(A) \\cdot P(B)",
+    "explanation": "For independent events, knowledge of one doesn't affect the other: P(A|B) = P(A). Note: mutually exclusive ≠ independent (mutually exclusive events with non-zero probability are always dependent).",
+    "containsFormulas": true,
+    "searchTags": [
+      "independent events",
+      "probability",
+      "multiplication rule",
+      "product"
+    ]
+  },
+  {
+    "id": "12_math_13_03",
+    "classLevel": "12",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "title": "Total Probability Theorem",
+    "latexCode": "P(A) = \\sum_{i=1}^{n} P(E_i) \\cdot P(A|E_i)",
+    "explanation": "If E₁, E₂,...,Eₙ are mutually exclusive and exhaustive events (partition of sample space), then the probability of A is the weighted average of P(A|Eᵢ). Used when A can occur via multiple paths.",
+    "containsFormulas": true,
+    "searchTags": [
+      "total probability",
+      "partition",
+      "exhaustive",
+      "mutually exclusive",
+      "law of total probability"
+    ]
+  },
+  {
+    "id": "12_math_13_04",
+    "classLevel": "12",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "title": "Bayes' Theorem",
+    "latexCode": "P(E_i|A) = \\frac{P(E_i) \\cdot P(A|E_i)}{\\sum_{j=1}^{n} P(E_j) \\cdot P(A|E_j)}",
+    "explanation": "Used to find the probability of a cause given an effect. P(Eᵢ) = prior probability, P(A|Eᵢ) = likelihood, P(Eᵢ|A) = posterior probability. One of the most important theorems in Class 12 probability.",
+    "containsFormulas": true,
+    "searchTags": [
+      "bayes theorem",
+      "posterior",
+      "prior",
+      "conditional",
+      "cause and effect"
+    ]
+  },
+  {
+    "id": "12_math_13_05",
+    "classLevel": "12",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "title": "Binomial Distribution",
+    "latexCode": "\\begin{aligned} P(X = r) &= \\binom{n}{r} p^r q^{n-r} \\\\ \\text{Mean: } \\mu &= np \\\\ \\text{Variance: } \\sigma^2 &= npq \\\\ \\text{SD: } \\sigma &= \\sqrt{npq} \\end{aligned}",
+    "explanation": "Applies to n independent Bernoulli trials with success probability p (q = 1-p). r = number of successes. Mean = np, Variance = npq = np(1-p). Always: Variance < Mean for binomial.",
+    "containsFormulas": true,
+    "searchTags": [
+      "binomial distribution",
+      "Bernoulli",
+      "mean",
+      "variance",
+      "standard deviation",
+      "nCr p q"
+    ]
+  },
+  {
+    "id": "12_math_13_06",
+    "classLevel": "12",
+    "subject": "Mathematics",
+    "chapter": "Probability",
+    "title": "Mean and Variance of a Random Variable",
+    "latexCode": "\\begin{aligned} E(X) = \\mu &= \\sum x_i P(x_i) \\\\ \\text{Var}(X) = \\sigma^2 &= \\sum x_i^2 P(x_i) - \\mu^2 \\\\ &= E(X^2) - [E(X)]^2 \\end{aligned}",
+    "explanation": "E(X) is the expected value (mean) — the weighted average of all possible values. Variance measures spread. The formula Var(X) = E(X²) - [E(X)]² is often the quickest to compute.",
+    "containsFormulas": true,
+    "searchTags": [
+      "expected value",
+      "mean",
+      "variance",
+      "random variable",
+      "probability distribution"
+    ]
+  },
+  {
+    "id": "12_math_extra_01",
+    "classLevel": "12",
+    "subject": "Mathematics",
+    "chapter": "Key Results",
+    "title": "L'Hôpital's Rule",
+    "latexCode": "\\lim_{x \\to a}\\frac{f(x)}{g(x)} = \\lim_{x \\to a}\\frac{f'(x)}{g'(x)} \\quad \\text{if form is } \\frac{0}{0} \\text{ or } \\frac{\\infty}{\\infty}",
+    "explanation": "When direct substitution gives 0/0 or ∞/∞ (indeterminate form), differentiate numerator and denominator separately and then take the limit. Can be applied repeatedly if still indeterminate.",
+    "containsFormulas": true,
+    "searchTags": [
+      "L'Hopital",
+      "limit",
+      "indeterminate",
+      "0/0",
+      "differentiation"
+    ]
+  },
+  {
+    "id": "12_math_extra_02",
+    "classLevel": "12",
+    "subject": "Mathematics",
+    "chapter": "Key Results",
+    "title": "Standard Limits",
+    "latexCode": "\\begin{aligned} \\lim_{x \\to 0}\\frac{\\sin x}{x} &= 1 \\\\ \\lim_{x \\to 0}\\frac{\\tan x}{x} &= 1 \\\\ \\lim_{x \\to 0}(1+x)^{1/x} &= e \\\\ \\lim_{x \\to 0}\\frac{e^x-1}{x} &= 1 \\\\ \\lim_{x \\to 0}\\frac{\\ln(1+x)}{x} &= 1 \\end{aligned}",
+    "explanation": "These five limits must be memorised. They appear constantly in evaluating limits by substitution or factorisation. The third is the definition of e.",
+    "containsFormulas": true,
+    "searchTags": [
+      "standard limits",
+      "sinx/x",
+      "e",
+      "ln",
+      "tan x/x",
+      "fundamental"
+    ]
+  },
+  {
+    "id": "12_math_extra_03",
+    "classLevel": "12",
+    "subject": "Mathematics",
+    "chapter": "Key Results",
+    "title": "Integration by Partial Fractions — Special Cases",
+    "latexCode": "\\begin{aligned} \\int \\frac{dx}{a^2-x^2} &= \\frac{1}{2a}\\ln\\left|\\frac{a+x}{a-x}\\right| + C \\\\ \\int \\sqrt{a^2-x^2}\\,dx &= \\frac{x}{2}\\sqrt{a^2-x^2} + \\frac{a^2}{2}\\sin^{-1}\\frac{x}{a} + C \\\\ \\int \\sqrt{x^2+a^2}\\,dx &= \\frac{x}{2}\\sqrt{x^2+a^2} + \\frac{a^2}{2}\\ln\\left|x+\\sqrt{x^2+a^2}\\right| + C \\end{aligned}",
+    "explanation": "Three important integration results involving square roots and quadratics. These cannot be derived quickly during exams and must be memorised. Used in geometry and physics applications.",
+    "containsFormulas": true,
+    "searchTags": [
+      "special integrals",
+      "sqrt a2-x2",
+      "sqrt x2+a2",
+      "partial fraction",
+      "memorise"
+    ]
+  },
+  {
+    "id": "12_math_extra_04",
+    "classLevel": "12",
+    "subject": "Mathematics",
+    "chapter": "Key Results",
+    "title": "Definite Integral — Leibnitz Rule",
+    "latexCode": "\\frac{d}{dx}\\left[\\int_{g(x)}^{h(x)} f(t)\\,dt\\right] = f(h(x))\\cdot h'(x) - f(g(x))\\cdot g'(x)",
+    "explanation": "Used to differentiate a definite integral with variable limits. If both limits are functions of x, apply the chain rule to each limit separately. Fundamental Theorem of Calculus is the special case where g(x) = a (constant).",
+    "containsFormulas": true,
+    "searchTags": [
+      "Leibnitz rule",
+      "differentiation",
+      "integral",
+      "variable limits",
+      "FTC"
+    ]
+  },
+  {
+    "id": "12_math_extra_05",
+    "classLevel": "12",
+    "subject": "Mathematics",
+    "chapter": "Key Results",
+    "title": "Properties of Continuous Functions on Closed Interval",
+    "latexCode": "\\begin{aligned} &\\text{Intermediate Value Theorem (IVT):} \\\\ &f \\text{ continuous on }[a,b],\\; f(a) \\neq f(b) \\\\ &\\Rightarrow f \\text{ attains every value between } f(a) \\text{ and } f(b) \\\\ &\\text{Extreme Value Theorem:} \\\\ &f \\text{ continuous on }[a,b] \\Rightarrow f \\text{ attains max and min} \\end{aligned}",
+    "explanation": "IVT is used to prove existence of roots: if f(a) and f(b) have opposite signs, f has a root in (a,b). EVT guarantees absolute maximum and minimum exist on a closed interval.",
+    "containsFormulas": true,
+    "searchTags": [
+      "IVT",
+      "intermediate value",
+      "EVT",
+      "continuous",
+      "closed interval",
+      "root existence"
+    ]
+  },
+  {
+    "id": "12_math_extra_06",
+    "classLevel": "12",
+    "subject": "Mathematics",
+    "chapter": "Key Results",
+    "title": "Sum Formulas for Series (Used in Integration as Limit of Sum)",
+    "latexCode": "\\begin{aligned} \\sum_{r=1}^{n} r &= \\frac{n(n+1)}{2} \\\\ \\sum_{r=1}^{n} r^2 &= \\frac{n(n+1)(2n+1)}{6} \\\\ \\sum_{r=1}^{n} r^3 &= \\left[\\frac{n(n+1)}{2}\\right]^2 \\end{aligned}",
+    "explanation": "These summation results are used when evaluating definite integrals as limit of a sum (first principles). The limit as n→∞ of h·Σf(a+rh) with h = (b-a)/n gives ∫f(x)dx.",
+    "containsFormulas": true,
+    "searchTags": [
+      "sum of squares",
+      "sum of cubes",
+      "series",
+      "limit of sum",
+      "first principles",
+      "sigma"
+    ]
+  },
+  {
+    "id": "12_math_extra_07",
+    "classLevel": "12",
+    "subject": "Mathematics",
+    "chapter": "Key Results",
+    "title": "Definite Integral as Limit of Sum",
+    "latexCode": "\\int_a^b f(x)\\,dx = \\lim_{n \\to \\infty} h \\sum_{r=0}^{n-1} f(a + rh), \\quad h = \\frac{b-a}{n}",
+    "explanation": "The Riemann sum definition of the definite integral. The interval [a,b] is divided into n equal subintervals of width h = (b-a)/n. As n→∞, the sum approaches the exact area.",
+    "containsFormulas": true,
+    "searchTags": [
+      "limit of sum",
+      "Riemann sum",
+      "definite integral",
+      "first principles",
+      "h n"
+    ]
+  },
+  {
+    "id": "12_math_extra_08",
+    "classLevel": "12",
+    "subject": "Mathematics",
+    "chapter": "Key Results",
+    "title": "Vector Triple Product",
+    "latexCode": "\\vec{a} \\times (\\vec{b} \\times \\vec{c}) = (\\vec{a}\\cdot\\vec{c})\\vec{b} - (\\vec{a}\\cdot\\vec{b})\\vec{c}",
+    "explanation": "The BAC-CAB rule for expanding the vector triple product. The result is a linear combination of the two 'inner' vectors. Note: a×(b×c) ≠ (a×b)×c (not associative).",
+    "containsFormulas": true,
+    "searchTags": [
+      "vector triple product",
+      "BAC CAB rule",
+      "cross product",
+      "expansion"
+    ]
+  },
+  {
+    "id": "12_math_extra_09",
+    "classLevel": "12",
+    "subject": "Mathematics",
+    "chapter": "Key Results",
+    "title": "Area of Triangle & Parallelogram Using Vectors",
+    "latexCode": "\\begin{aligned} \\text{Area of parallelogram} &= |\\vec{a} \\times \\vec{b}| \\\\ \\text{Area of triangle} &= \\frac{1}{2}|\\vec{a} \\times \\vec{b}| \\\\ &= \\frac{1}{2}|\\overrightarrow{AB} \\times \\overrightarrow{AC}| \\end{aligned}",
+    "explanation": "The magnitude of the cross product of two adjacent sides gives the area of the parallelogram they span. Half of this gives the triangle area. Used heavily in 3D geometry problems.",
+    "containsFormulas": true,
+    "searchTags": [
+      "area",
+      "triangle",
+      "parallelogram",
+      "cross product",
+      "vectors"
+    ]
+  },
+  {
+    "id": "12_math_extra_10",
+    "classLevel": "12",
+    "subject": "Mathematics",
+    "chapter": "Key Results",
+    "title": "Family of Planes Through Intersection of Two Planes",
+    "latexCode": "(a_1x+b_1y+c_1z+d_1) + \\lambda(a_2x+b_2y+c_2z+d_2) = 0",
+    "explanation": "Any plane passing through the line of intersection of planes P₁ = 0 and P₂ = 0 can be written as P₁ + λP₂ = 0. λ is determined using an additional condition (e.g., passes through a given point).",
+    "containsFormulas": true,
+    "searchTags": [
+      "family of planes",
+      "intersection",
+      "lambda",
+      "3D geometry",
+      "two planes"
+    ]
+  },
+  {
+    "id": "12_math_extra_11",
+    "classLevel": "12",
+    "subject": "Mathematics",
+    "chapter": "Key Results",
+    "title": "Newton-Leibnitz Formula (FTC)",
+    "latexCode": "\\int_a^b f(x)\\,dx = F(b) - F(a) \\quad \\text{where } F'(x) = f(x)",
+    "explanation": "Fundamental Theorem of Calculus: the definite integral of f is the difference of the antiderivative F evaluated at the limits. This connects differentiation and integration as inverse operations.",
+    "containsFormulas": true,
+    "searchTags": [
+      "fundamental theorem of calculus",
+      "FTC",
+      "Newton Leibnitz",
+      "antiderivative",
+      "F(b)-F(a)"
+    ]
+  },
+  {
+    "id": "12_math_extra_12",
+    "classLevel": "12",
+    "subject": "Mathematics",
+    "chapter": "Key Results",
+    "title": "General Solution of Differential Equations",
+    "latexCode": "\\begin{aligned} \\frac{dy}{dx} &= ky \\Rightarrow y = Ce^{kx} \\\\ \\frac{dy}{dx} &= -ky \\Rightarrow y = Ce^{-kx} \\quad \\text{(exponential decay)} \\end{aligned}",
+    "explanation": "Growth model: y = Ce^{kx}. Decay model: y = Ce^{-kx}. Used in population growth, radioactive decay, and cooling problems. C is determined from initial conditions.",
+    "containsFormulas": true,
+    "searchTags": [
+      "exponential growth",
+      "exponential decay",
+      "differential equation",
+      "general solution",
+      "C constant"
+    ]
+  }
+]

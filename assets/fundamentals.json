@@ -1,0 +1,1521 @@
+[
+  {
+    "id": "fun_alg_01",
+    "classLevel": "Fundamentals",
+    "subject": "Mathematics",
+    "chapter": "Algebraic Identities",
+    "title": "Square of Sum",
+    "latexCode": "(a + b)^2 = a^2 + 2ab + b^2",
+    "explanation": "The square of the sum of two terms. Expand by multiplying (a+b) by itself. The middle term is twice the product of the two terms.",
+    "containsFormulas": true,
+    "searchTags": ["square", "sum", "expansion", "binomial", "basic"]
+  },
+  {
+    "id": "fun_alg_02",
+    "classLevel": "Fundamentals",
+    "subject": "Mathematics",
+    "chapter": "Algebraic Identities",
+    "title": "Square of Difference",
+    "latexCode": "(a - b)^2 = a^2 - 2ab + b^2",
+    "explanation": "The square of the difference of two terms. The middle term is negative. Note: (a-b)² is always non-negative.",
+    "containsFormulas": true,
+    "searchTags": ["square", "difference", "expansion", "binomial", "basic"]
+  },
+  {
+    "id": "fun_alg_03",
+    "classLevel": "Fundamentals",
+    "subject": "Mathematics",
+    "chapter": "Algebraic Identities",
+    "title": "Difference of Squares",
+    "latexCode": "a^2 - b^2 = (a + b)(a - b)",
+    "explanation": "Any difference of two perfect squares factors into the product of their sum and difference. Extremely useful for quick factorisation and simplification.",
+    "containsFormulas": true,
+    "searchTags": ["difference", "squares", "factorisation", "product", "basic"]
+  },
+  {
+    "id": "fun_alg_04",
+    "classLevel": "Fundamentals",
+    "subject": "Mathematics",
+    "chapter": "Algebraic Identities",
+    "title": "Square of a Trinomial",
+    "latexCode": "(a + b + c)^2 = a^2 + b^2 + c^2 + 2ab + 2bc + 2ca",
+    "explanation": "Expansion of the square of a three-term expression. Contains the sum of squares of all terms plus twice the product of every distinct pair.",
+    "containsFormulas": true,
+    "searchTags": ["trinomial", "square", "expansion", "three terms"]
+  },
+  {
+    "id": "fun_alg_05",
+    "classLevel": "Fundamentals",
+    "subject": "Mathematics",
+    "chapter": "Algebraic Identities",
+    "title": "Cube of Sum",
+    "latexCode": "(a + b)^3 = a^3 + 3a^2b + 3ab^2 + b^3",
+    "explanation": "Cube of sum of two terms. Can also be written as a³ + b³ + 3ab(a + b). Useful in simplifying cubic expressions.",
+    "containsFormulas": true,
+    "searchTags": ["cube", "sum", "expansion", "binomial", "cubic"]
+  },
+  {
+    "id": "fun_alg_06",
+    "classLevel": "Fundamentals",
+    "subject": "Mathematics",
+    "chapter": "Algebraic Identities",
+    "title": "Cube of Difference",
+    "latexCode": "(a - b)^3 = a^3 - 3a^2b + 3ab^2 - b^3",
+    "explanation": "Cube of difference of two terms. Can also be written as a³ - b³ - 3ab(a - b). Signs alternate starting with positive.",
+    "containsFormulas": true,
+    "searchTags": ["cube", "difference", "expansion", "binomial", "cubic"]
+  },
+  {
+    "id": "fun_alg_07",
+    "classLevel": "Fundamentals",
+    "subject": "Mathematics",
+    "chapter": "Algebraic Identities",
+    "title": "Sum of Cubes",
+    "latexCode": "a^3 + b^3 = (a + b)(a^2 - ab + b^2)",
+    "explanation": "Factorisation of sum of two cubes. The second factor a² - ab + b² cannot be factorised further over real numbers.",
+    "containsFormulas": true,
+    "searchTags": ["sum", "cubes", "factorisation", "cubic"]
+  },
+  {
+    "id": "fun_alg_08",
+    "classLevel": "Fundamentals",
+    "subject": "Mathematics",
+    "chapter": "Algebraic Identities",
+    "title": "Difference of Cubes",
+    "latexCode": "a^3 - b^3 = (a - b)(a^2 + ab + b^2)",
+    "explanation": "Factorisation of difference of two cubes. The second factor a² + ab + b² has no real roots and cannot be factorised further.",
+    "containsFormulas": true,
+    "searchTags": ["difference", "cubes", "factorisation", "cubic"]
+  },
+  {
+    "id": "fun_alg_09",
+    "classLevel": "Fundamentals",
+    "subject": "Mathematics",
+    "chapter": "Algebraic Identities",
+    "title": "Conditional Cube Identity",
+    "latexCode": "\\text{If } a + b + c = 0, \\text{ then } a^3 + b^3 + c^3 = 3abc",
+    "explanation": "A direct consequence of the three-variable cube expansion. Used as a powerful shortcut when the sum of three quantities is zero.",
+    "containsFormulas": true,
+    "searchTags": ["conditional", "cube", "zero sum", "shortcut", "abc"]
+  },
+  {
+    "id": "fun_alg_10",
+    "classLevel": "Fundamentals",
+    "subject": "Mathematics",
+    "chapter": "Algebraic Identities",
+    "title": "Sum of Three Cubes (General)",
+    "latexCode": "a^3 + b^3 + c^3 - 3abc = (a + b + c)(a^2 + b^2 + c^2 - ab - bc - ca)",
+    "explanation": "General identity for three cubes. When a + b + c = 0, the right side becomes zero, reducing to the conditional identity a³+b³+c³ = 3abc.",
+    "containsFormulas": true,
+    "searchTags": ["three cubes", "three variables", "factorisation", "abc", "euler"]
+  },
+  {
+    "id": "fun_alg_11",
+    "classLevel": "Fundamentals",
+    "subject": "Mathematics",
+    "chapter": "Algebraic Identities",
+    "title": "Sum of Squares — Derived Form",
+    "latexCode": "a^2 + b^2 = (a + b)^2 - 2ab = (a - b)^2 + 2ab",
+    "explanation": "Express sum of squares in terms of sum/difference and product. Used when a+b and ab are known but a and b individually are not.",
+    "containsFormulas": true,
+    "searchTags": ["sum of squares", "derived", "shortcut", "symmetric"]
+  },
+  {
+    "id": "fun_alg_12",
+    "classLevel": "Fundamentals",
+    "subject": "Mathematics",
+    "chapter": "Algebraic Identities",
+    "title": "Product via Sum and Difference",
+    "latexCode": "(a + b)^2 - (a - b)^2 = 4ab",
+    "explanation": "The difference between square of sum and square of difference always equals four times the product ab. Useful for finding ab when (a+b) and (a-b) are known.",
+    "containsFormulas": true,
+    "searchTags": ["product", "difference", "derived", "shortcut"]
+  },
+  {
+    "id": "fun_alg_13",
+    "classLevel": "Fundamentals",
+    "subject": "Mathematics",
+    "chapter": "Algebraic Identities",
+    "title": "Reciprocal Identity — Square",
+    "latexCode": "\\begin{aligned} \\left(x + \\frac{1}{x}\\right)^2 &= x^2 + 2 + \\frac{1}{x^2} \\\\ \\left(x - \\frac{1}{x}\\right)^2 &= x^2 - 2 + \\frac{1}{x^2} \\end{aligned}",
+    "explanation": "Identities involving a variable and its reciprocal. If x + 1/x = k, then x² + 1/x² = k² − 2. Very frequently asked in Class 9 and 10.",
+    "containsFormulas": true,
+    "searchTags": ["reciprocal", "x plus 1/x", "square", "shortcut"]
+  },
+  {
+    "id": "fun_alg_14",
+    "classLevel": "Fundamentals",
+    "subject": "Mathematics",
+    "chapter": "Algebraic Identities",
+    "title": "Reciprocal Identity — Cube",
+    "latexCode": "\\begin{aligned} \\left(x + \\frac{1}{x}\\right)^3 &= x^3 + \\frac{1}{x^3} + 3\\left(x + \\frac{1}{x}\\right) \\\\ \\left(x - \\frac{1}{x}\\right)^3 &= x^3 - \\frac{1}{x^3} - 3\\left(x - \\frac{1}{x}\\right) \\end{aligned}",
+    "explanation": "Cube form of reciprocal identities. If x + 1/x = k, then x³ + 1/x³ = k³ − 3k. Frequently asked in Class 9–10 exams.",
+    "containsFormulas": true,
+    "searchTags": ["reciprocal", "x plus 1/x", "cube", "shortcut"]
+  },
+  {
+    "id": "fun_alg_15",
+    "classLevel": "Fundamentals",
+    "subject": "Mathematics",
+    "chapter": "Algebraic Identities",
+    "title": "Perfect Square Trinomial Recognition",
+    "latexCode": "\\begin{aligned} a^2 + 2ab + b^2 &= (a+b)^2 \\\\ a^2 - 2ab + b^2 &= (a-b)^2 \\end{aligned}",
+    "explanation": "A trinomial is a perfect square if the middle term equals twice the product of the square roots of the first and last terms.",
+    "containsFormulas": true,
+    "searchTags": ["perfect square", "trinomial", "factorisation", "recognition"]
+  },
+  {
+    "id": "fun_alg_16",
+    "classLevel": "Fundamentals",
+    "subject": "Mathematics",
+    "chapter": "Algebraic Identities",
+    "title": "Difference of Fourth Powers",
+    "latexCode": "a^4 - b^4 = (a^2 + b^2)(a + b)(a - b)",
+    "explanation": "Obtained by applying the difference of squares identity twice: a⁴ - b⁴ = (a²+b²)(a²-b²) = (a²+b²)(a+b)(a-b).",
+    "containsFormulas": true,
+    "searchTags": ["fourth power", "difference", "factorisation", "higher degree"]
+  },
+  {
+    "id": "fun_alg_17",
+    "classLevel": "Fundamentals",
+    "subject": "Mathematics",
+    "chapter": "Algebraic Identities",
+    "title": "Sophie Germain Identity",
+    "latexCode": "a^4 + 4b^4 = (a^2 + 2b^2 + 2ab)(a^2 + 2b^2 - 2ab)",
+    "explanation": "A classic factorisation of a⁴ + 4b⁴, which appears to be a sum but can still be factored. Frequently appears in olympiad and JEE Advanced problems.",
+    "containsFormulas": true,
+    "searchTags": ["sophie germain", "fourth power", "factorisation", "advanced", "olympiad"]
+  },
+  {
+    "id": "fun_alg_18",
+    "classLevel": "Fundamentals",
+    "subject": "Mathematics",
+    "chapter": "Algebraic Identities",
+    "title": "Difference of nth Powers",
+    "latexCode": "a^n - b^n = (a - b)(a^{n-1} + a^{n-2}b + \\cdots + ab^{n-2} + b^{n-1})",
+    "explanation": "(a - b) is always a factor of aⁿ - bⁿ for any positive integer n. When n is even, (a + b) is also a factor. Used in number theory and series.",
+    "containsFormulas": true,
+    "searchTags": ["nth power", "difference", "factorisation", "general", "series"]
+  },
+  {
+    "id": "fun_alg_19",
+    "classLevel": "Fundamentals",
+    "subject": "Mathematics",
+    "chapter": "Algebraic Identities",
+    "title": "Sum of nth Powers (Odd n only)",
+    "latexCode": "a^n + b^n = (a + b)(a^{n-1} - a^{n-2}b + \\cdots + b^{n-1}) \\quad (n \\text{ odd})",
+    "explanation": "(a + b) is a factor of aⁿ + bⁿ only when n is odd. The signs in the second factor alternate. For even n, aⁿ + bⁿ cannot be factored over reals.",
+    "containsFormulas": true,
+    "searchTags": ["nth power", "sum", "odd", "factorisation", "general"]
+  },
+  {
+    "id": "fun_alg_20",
+    "classLevel": "Fundamentals",
+    "subject": "Mathematics",
+    "chapter": "Algebraic Identities",
+    "title": "AM-GM Inequality",
+    "latexCode": "\\frac{a + b}{2} \\geq \\sqrt{ab} \\quad \\text{for } a, b \\geq 0",
+    "explanation": "Arithmetic Mean is always ≥ Geometric Mean for non-negative numbers. Equality holds only when a = b. Used in finding minimum values of expressions.",
+    "containsFormulas": true,
+    "searchTags": ["am gm", "inequality", "arithmetic mean", "geometric mean", "minimum"]
+  },
+  {
+    "id": "fun_alg_21",
+    "classLevel": "Fundamentals",
+    "subject": "Mathematics",
+    "chapter": "Algebraic Identities",
+    "title": "Cauchy-Schwarz Inequality",
+    "latexCode": "(a^2 + b^2)(c^2 + d^2) \\geq (ac + bd)^2",
+    "explanation": "The product of sums of squares is always ≥ the square of the sum of cross products. Used in Class 11–12 and JEE to find minimum/maximum values.",
+    "containsFormulas": true,
+    "searchTags": ["cauchy schwarz", "inequality", "advanced", "minimum", "maximum"]
+  },
+  {
+    "id": "fun_alg_22",
+    "classLevel": "Fundamentals",
+    "subject": "Mathematics",
+    "chapter": "Algebraic Identities",
+    "title": "Completing the Square",
+    "latexCode": "ax^2 + bx + c = a\\left(x + \\frac{b}{2a}\\right)^2 - \\frac{b^2 - 4ac}{4a}",
+    "explanation": "Rewriting a quadratic in vertex form. Used to find the minimum/maximum value of a quadratic expression and to derive the quadratic formula.",
+    "containsFormulas": true,
+    "searchTags": ["completing the square", "vertex form", "quadratic", "minimum", "maximum"]
+  },
+  {
+    "id": "fun_alg_23",
+    "classLevel": "Fundamentals",
+    "subject": "Mathematics",
+    "chapter": "Algebraic Identities",
+    "title": "Discriminant & Quadratic Formula",
+    "latexCode": "\\begin{aligned} x &= \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a} \\\\ D &= b^2 - 4ac \\end{aligned}",
+    "explanation": "D > 0: two distinct real roots. D = 0: two equal real roots. D < 0: no real roots (complex). One of the most important results in all of algebra.",
+    "containsFormulas": true,
+    "searchTags": ["quadratic formula", "discriminant", "roots", "real", "complex", "D"]
+  },
+  {
+    "id": "fun_alg_24",
+    "classLevel": "Fundamentals",
+    "subject": "Mathematics",
+    "chapter": "Algebraic Identities",
+    "title": "Vieta's Formulas — Quadratic",
+    "latexCode": "\\begin{aligned} &ax^2 + bx + c = 0 \\text{ has roots } \\alpha, \\beta \\\\ \\alpha + \\beta &= -\\frac{b}{a}, \\quad \\alpha\\beta = \\frac{c}{a} \\end{aligned}",
+    "explanation": "Relates roots to coefficients without solving the equation. Used to find α²+β², α³+β³, αβ²+α²β and similar symmetric expressions instantly.",
+    "containsFormulas": true,
+    "searchTags": ["vieta", "roots", "quadratic", "sum of roots", "product of roots", "alpha beta"]
+  },
+  {
+    "id": "fun_alg_25",
+    "classLevel": "Fundamentals",
+    "subject": "Mathematics",
+    "chapter": "Algebraic Identities",
+    "title": "Vieta's Formulas — Cubic",
+    "latexCode": "\\begin{aligned} &ax^3 + bx^2 + cx + d = 0 \\text{ has roots } \\alpha, \\beta, \\gamma \\\\ \\alpha+\\beta+\\gamma &= -\\frac{b}{a} \\\\ \\alpha\\beta+\\beta\\gamma+\\gamma\\alpha &= \\frac{c}{a} \\\\ \\alpha\\beta\\gamma &= -\\frac{d}{a} \\end{aligned}",
+    "explanation": "Relations between roots and coefficients for a cubic. Used to find symmetric expressions of roots in Class 11–12 problems.",
+    "containsFormulas": true,
+    "searchTags": ["vieta", "cubic", "three roots", "alpha beta gamma", "symmetric"]
+  },
+  {
+    "id": "fun_alg_26",
+    "classLevel": "Fundamentals",
+    "subject": "Mathematics",
+    "chapter": "Algebraic Identities",
+    "title": "Power Sum of Roots — p₂ and p₃",
+    "latexCode": "\\begin{aligned} \\alpha^2 + \\beta^2 &= (\\alpha+\\beta)^2 - 2\\alpha\\beta \\\\ \\alpha^3 + \\beta^3 &= (\\alpha+\\beta)^3 - 3\\alpha\\beta(\\alpha+\\beta) \\end{aligned}",
+    "explanation": "Express power sums of roots using sum (S₁ = α+β) and product (S₂ = αβ). Avoids solving for individual roots. Very common in board exams.",
+    "containsFormulas": true,
+    "searchTags": ["power sum", "roots", "alpha beta", "newton", "symmetric"]
+  },
+  {
+    "id": "fun_alg_27",
+    "classLevel": "Fundamentals",
+    "subject": "Mathematics",
+    "chapter": "Algebraic Identities",
+    "title": "Binomial Theorem — General Expansion",
+    "latexCode": "(x + y)^n = \\sum_{k=0}^{n} \\binom{n}{k} x^{n-k} y^k",
+    "explanation": "General formula to expand any positive integer power of a binomial. The binomial coefficient C(n,k) = n! / (k!(n-k)!). Core topic of Class 11 Mathematics.",
+    "containsFormulas": true,
+    "searchTags": ["binomial theorem", "expansion", "series", "nCr", "class 11"]
+  },
+  {
+    "id": "fun_alg_28",
+    "classLevel": "Fundamentals",
+    "subject": "Mathematics",
+    "chapter": "Algebraic Identities",
+    "title": "Binomial Theorem — General Term",
+    "latexCode": "T_{r+1} = \\binom{n}{r} x^{n-r} y^r",
+    "explanation": "The (r+1)th term in the expansion of (x+y)ⁿ. Used to find any specific term without expanding the full binomial. Essential for Class 11 problems.",
+    "containsFormulas": true,
+    "searchTags": ["binomial", "general term", "Tr+1", "rth term", "expansion"]
+  },
+  {
+    "id": "fun_alg_29",
+    "classLevel": "Fundamentals",
+    "subject": "Mathematics",
+    "chapter": "Algebraic Identities",
+    "title": "Binomial Coefficient Sum Identities",
+    "latexCode": "\\begin{aligned} \\binom{n}{0} + \\binom{n}{1} + \\cdots + \\binom{n}{n} &= 2^n \\\\ \\binom{n}{0} - \\binom{n}{1} + \\cdots + (-1)^n\\binom{n}{n} &= 0 \\end{aligned}",
+    "explanation": "Sum of all binomial coefficients = 2ⁿ (substitute x=y=1). Alternating sum = 0 (substitute x=1, y=−1). Both are standard Class 11 results.",
+    "containsFormulas": true,
+    "searchTags": ["binomial coefficient", "sum", "2 to the n", "alternating", "class 11"]
+  },
+  {
+    "id": "fun_alg_30",
+    "classLevel": "Fundamentals",
+    "subject": "Mathematics",
+    "chapter": "Algebraic Identities",
+    "title": "Middle Term in Binomial Expansion",
+    "latexCode": "\\begin{aligned} &n \\text{ even} \\Rightarrow \\text{middle term} = T_{\\frac{n}{2}+1} \\\\ &n \\text{ odd} \\Rightarrow \\text{two middle terms: } T_{\\frac{n+1}{2}} \\text{ and } T_{\\frac{n+3}{2}} \\end{aligned}",
+    "explanation": "One middle term when n is even, two middle terms when n is odd. A standard rule asked directly in Class 11 board and competitive exams.",
+    "containsFormulas": true,
+    "searchTags": ["middle term", "binomial", "even", "odd", "expansion"]
+  },
+  {
+    "id": "fun_alg_31",
+    "classLevel": "Fundamentals",
+    "subject": "Mathematics",
+    "chapter": "Algebraic Identities",
+    "title": "Pascal's Triangle Recurrence",
+    "latexCode": "\\binom{n}{r} + \\binom{n}{r+1} = \\binom{n+1}{r+1}",
+    "explanation": "Each entry in Pascal's triangle equals the sum of the two entries directly above it. The foundation of binomial coefficient calculations in Class 11.",
+    "containsFormulas": true,
+    "searchTags": ["pascal", "binomial coefficient", "nCr", "recurrence", "combinatorics"]
+  },
+  {
+    "id": "fun_alg_32",
+    "classLevel": "Fundamentals",
+    "subject": "Mathematics",
+    "chapter": "Algebraic Identities",
+    "title": "Symmetric Function — Sum of Squares (3 vars)",
+    "latexCode": "a^2 + b^2 + c^2 = (a+b+c)^2 - 2(ab+bc+ca)",
+    "explanation": "Rearrangement of the trinomial square. Used in Class 9–11 to find a²+b²+c² when the sum and pairwise products are known.",
+    "containsFormulas": true,
+    "searchTags": ["symmetric", "three variables", "sum of squares", "derived", "shortcut"]
+  },
+  {
+    "id": "fun_alg_33",
+    "classLevel": "Fundamentals",
+    "subject": "Mathematics",
+    "chapter": "Algebraic Identities",
+    "title": "Lagrange Identity",
+    "latexCode": "(a_1^2 + a_2^2)(b_1^2 + b_2^2) = (a_1 b_1 + a_2 b_2)^2 + (a_1 b_2 - a_2 b_1)^2",
+    "explanation": "Extends the Cauchy–Schwarz identity. The extra term (a₁b₂ - a₂b₁)² is zero only when the two pairs are proportional. Used in advanced algebra and vectors.",
+    "containsFormulas": true,
+    "searchTags": ["lagrange", "cauchy schwarz", "advanced", "vectors", "identity"]
+  },
+  {
+    "id": "fun_alg_34",
+    "classLevel": "Fundamentals",
+    "subject": "Mathematics",
+    "chapter": "Algebraic Identities",
+    "title": "Cube of a Trinomial — Compact Form",
+    "latexCode": "(a+b+c)^3 = a^3+b^3+c^3 + 3(a+b)(b+c)(c+a)",
+    "explanation": "Elegant compact form of the cube of a trinomial. Directly gives a³+b³+c³ = (a+b+c)³ − 3(a+b)(b+c)(c+a). Useful in olympiad problems.",
+    "containsFormulas": true,
+    "searchTags": ["cube", "trinomial", "three variables", "advanced", "olympiad"]
+  },
+  {
+    "id": "fun_alg_35",
+    "classLevel": "Fundamentals",
+    "subject": "Mathematics",
+    "chapter": "Algebraic Identities",
+    "title": "Factorisation — Sum of Three Squares Condition",
+    "latexCode": "a^2 + b^2 + c^2 - ab - bc - ca = \\frac{1}{2}\\left[(a-b)^2 + (b-c)^2 + (c-a)^2\\right]",
+    "explanation": "This expression is always non-negative since it is half the sum of squares of differences. It equals zero only when a = b = c. Used in inequality proofs.",
+    "containsFormulas": true,
+    "searchTags": ["non negative", "inequality", "three variables", "symmetric", "zero condition"]
+  },
+
+
+  {
+    "id": "fun_trig_1_01",
+    "classLevel": "Fundamentals",
+    "subject": "Mathematics",
+    "chapter": "Trigonometry Basics",
+    "title": "Basic Definitions — Right Triangle",
+    "latexCode": "\\begin{aligned} \\sin\\theta &= \\frac{\\text{Opposite}}{\\text{Hypotenuse}} \\\\ \\cos\\theta &= \\frac{\\text{Adjacent}}{\\text{Hypotenuse}} \\\\ \\tan\\theta &= \\frac{\\text{Opposite}}{\\text{Adjacent}} \\end{aligned}",
+    "explanation": "The three primary trigonometric ratios defined for an acute angle θ in a right triangle. Remember using SOH-CAH-TOA: Sin = Opposite/Hypotenuse, Cos = Adjacent/Hypotenuse, Tan = Opposite/Adjacent.",
+    "containsFormulas": true,
+    "searchTags": [
+      "sin",
+      "cos",
+      "tan",
+      "right triangle",
+      "basic definition",
+      "SOH CAH TOA"
+    ]
+  },
+  {
+    "id": "fun_trig_1_02",
+    "classLevel": "Fundamentals",
+    "subject": "Mathematics",
+    "chapter": "Trigonometry Basics",
+    "title": "Basic Definitions — Remaining Three Functions",
+    "latexCode": "\\begin{aligned} \\cot\\theta &= \\frac{\\text{Adjacent}}{\\text{Opposite}} \\\\ \\sec\\theta &= \\frac{\\text{Hypotenuse}}{\\text{Adjacent}} \\\\ \\text{cosec}\\,\\theta &= \\frac{\\text{Hypotenuse}}{\\text{Opposite}} \\end{aligned}",
+    "explanation": "The three secondary trigonometric ratios. Cot, Sec, and Cosec are reciprocals of Tan, Cos, and Sin respectively. All six ratios are defined from the same right triangle.",
+    "containsFormulas": true,
+    "searchTags": [
+      "cot",
+      "sec",
+      "cosec",
+      "right triangle",
+      "basic definition",
+      "six ratios"
+    ]
+  },
+  {
+    "id": "fun_trig_1_03",
+    "classLevel": "Fundamentals",
+    "subject": "Mathematics",
+    "chapter": "Trigonometry Basics",
+    "title": "Standard Angle Values",
+    "latexCode": "\\begin{array}{c|cccccc} \\theta & 0° & 30° & 45° & 60° & 90° \\\\ \\hline \\sin & 0 & \\tfrac{1}{2} & \\tfrac{1}{\\sqrt{2}} & \\tfrac{\\sqrt{3}}{2} & 1 \\\\ \\cos & 1 & \\tfrac{\\sqrt{3}}{2} & \\tfrac{1}{\\sqrt{2}} & \\tfrac{1}{2} & 0 \\\\ \\tan & 0 & \\tfrac{1}{\\sqrt{3}} & 1 & \\sqrt{3} & \\text{undef} \\end{array}",
+    "explanation": "Standard values for sin, cos, tan at 0°, 30°, 45°, 60°, 90°. Trick: sin values are √0/2, √1/2, √2/2, √3/2, √4/2 = 0, 1/2, 1/√2, √3/2, 1. Cos values are exactly reverse.",
+    "containsFormulas": true,
+    "searchTags": [
+      "standard angles",
+      "30 45 60 90",
+      "sin cos tan values",
+      "table",
+      "exact values"
+    ]
+  },
+  {
+    "id": "fun_trig_1_04",
+    "classLevel": "Fundamentals",
+    "subject": "Mathematics",
+    "chapter": "Trigonometry Basics",
+    "title": "Signs in Four Quadrants (ASTC Rule)",
+    "latexCode": "\\begin{aligned} &\\text{Quadrant I (0° to 90°): All positive} \\\\ &\\text{Quadrant II (90° to 180°): Sin positive} \\\\ &\\text{Quadrant III (180° to 270°): Tan positive} \\\\ &\\text{Quadrant IV (270° to 360°): Cos positive} \\end{aligned}",
+    "explanation": "ASTC rule: All Students Take Calculus — All, Sin, Tan, Cos are positive in Q1, Q2, Q3, Q4 respectively. Their reciprocals have the same sign as the parent function in each quadrant.",
+    "containsFormulas": true,
+    "searchTags": [
+      "ASTC",
+      "quadrant",
+      "signs",
+      "positive negative",
+      "all sin tan cos"
+    ]
+  },
+  {
+    "id": "fun_trig_2_01",
+    "classLevel": "Fundamentals",
+    "subject": "Mathematics",
+    "chapter": "Trigonometry Basics",
+    "title": "Reciprocal Identities — All Six",
+    "latexCode": "\\begin{aligned} \\sin\\theta &= \\frac{1}{\\text{cosec}\\,\\theta} & \\text{cosec}\\,\\theta &= \\frac{1}{\\sin\\theta} \\\\ \\cos\\theta &= \\frac{1}{\\sec\\theta} & \\sec\\theta &= \\frac{1}{\\cos\\theta} \\\\ \\tan\\theta &= \\frac{1}{\\cot\\theta} & \\cot\\theta &= \\frac{1}{\\tan\\theta} \\end{aligned}",
+    "explanation": "Each trigonometric function is the reciprocal of exactly one other. Note: sin and cos are NOT reciprocals of each other. These identities hold for all values where the functions are defined.",
+    "containsFormulas": true,
+    "searchTags": [
+      "reciprocal",
+      "sin cosec",
+      "cos sec",
+      "tan cot",
+      "identities"
+    ]
+  },
+  {
+    "id": "fun_trig_3_01",
+    "classLevel": "Fundamentals",
+    "subject": "Mathematics",
+    "chapter": "Trigonometry Basics",
+    "title": "Pythagorean Identity — sin and cos",
+    "latexCode": "\\sin^2\\theta + \\cos^2\\theta = 1",
+    "explanation": "The fundamental Pythagorean identity. Follows directly from the Pythagorean theorem applied to a unit circle: if a point on the unit circle has coordinates (cos θ, sin θ), then x² + y² = 1.",
+    "containsFormulas": true,
+    "searchTags": [
+      "pythagorean identity",
+      "sin squared cos squared",
+      "unit circle",
+      "fundamental"
+    ]
+  },
+  {
+    "id": "fun_trig_3_02",
+    "classLevel": "Fundamentals",
+    "subject": "Mathematics",
+    "chapter": "Trigonometry Basics",
+    "title": "Pythagorean Identity — tan and sec",
+    "latexCode": "1 + \\tan^2\\theta = \\sec^2\\theta \\quad \\Rightarrow \\quad \\sec^2\\theta - \\tan^2\\theta = 1",
+    "explanation": "Obtained by dividing sin²θ + cos²θ = 1 by cos²θ. Valid for all θ where cos θ ≠ 0. The factored form sec²θ − tan²θ = (sec θ + tan θ)(sec θ − tan θ) = 1 is useful in integration.",
+    "containsFormulas": true,
+    "searchTags": [
+      "pythagorean",
+      "tan sec",
+      "1 plus tan squared",
+      "sec squared",
+      "identity"
+    ]
+  },
+  {
+    "id": "fun_trig_3_03",
+    "classLevel": "Fundamentals",
+    "subject": "Mathematics",
+    "chapter": "Trigonometry Basics",
+    "title": "Pythagorean Identity — cot and cosec",
+    "latexCode": "1 + \\cot^2\\theta = \\text{cosec}^2\\theta \\quad \\Rightarrow \\quad \\text{cosec}^2\\theta - \\cot^2\\theta = 1",
+    "explanation": "Obtained by dividing sin²θ + cos²θ = 1 by sin²θ. Valid for all θ where sin θ ≠ 0. All three Pythagorean identities can be rearranged to express any one function in terms of another.",
+    "containsFormulas": true,
+    "searchTags": [
+      "pythagorean",
+      "cot cosec",
+      "1 plus cot squared",
+      "cosec squared",
+      "identity"
+    ]
+  },
+  {
+    "id": "fun_trig_4_01",
+    "classLevel": "Fundamentals",
+    "subject": "Mathematics",
+    "chapter": "Trigonometry Basics",
+    "title": "Quotient Identities",
+    "latexCode": "\\begin{aligned} \\tan\\theta &= \\frac{\\sin\\theta}{\\cos\\theta} \\\\ \\cot\\theta &= \\frac{\\cos\\theta}{\\sin\\theta} \\end{aligned}",
+    "explanation": "Tan and cot are expressed as ratios of sin and cos. These are derived from the right-triangle definitions. They are used constantly to simplify trigonometric expressions and prove identities.",
+    "containsFormulas": true,
+    "searchTags": [
+      "quotient identity",
+      "tan sin cos",
+      "cot cos sin",
+      "ratio"
+    ]
+  },
+  {
+    "id": "fun_trig_5_01",
+    "classLevel": "Fundamentals",
+    "subject": "Mathematics",
+    "chapter": "Trigonometry Basics",
+    "title": "Complementary Angle Identities (90° − θ)",
+    "latexCode": "\\begin{aligned} \\sin(90°-\\theta) &= \\cos\\theta \\\\ \\cos(90°-\\theta) &= \\sin\\theta \\\\ \\tan(90°-\\theta) &= \\cot\\theta \\\\ \\cot(90°-\\theta) &= \\tan\\theta \\\\ \\sec(90°-\\theta) &= \\text{cosec}\\,\\theta \\\\ \\text{cosec}(90°-\\theta) &= \\sec\\theta \\end{aligned}",
+    "explanation": "Co-function identities: the trig function of an angle equals the co-function of its complement (90° − θ). Sin↔Cos, Tan↔Cot, Sec↔Cosec are the complementary pairs.",
+    "containsFormulas": true,
+    "searchTags": [
+      "complementary",
+      "co-function",
+      "90 minus theta",
+      "sin cos",
+      "tan cot",
+      "sec cosec"
+    ]
+  },
+  {
+    "id": "fun_trig_5_02",
+    "classLevel": "Fundamentals",
+    "subject": "Mathematics",
+    "chapter": "Trigonometry Basics",
+    "title": "Supplementary Angle Identities (180° − θ)",
+    "latexCode": "\\begin{aligned} \\sin(180°-\\theta) &= \\sin\\theta \\\\ \\cos(180°-\\theta) &= -\\cos\\theta \\\\ \\tan(180°-\\theta) &= -\\tan\\theta \\\\ \\cot(180°-\\theta) &= -\\cot\\theta \\\\ \\sec(180°-\\theta) &= -\\sec\\theta \\\\ \\text{cosec}(180°-\\theta) &= \\text{cosec}\\,\\theta \\end{aligned}",
+    "explanation": "For (180° − θ): only sin and cosec remain positive (second quadrant). All others become negative. The function name does NOT change (sin stays sin, cos stays cos, etc.).",
+    "containsFormulas": true,
+    "searchTags": [
+      "supplementary",
+      "180 minus theta",
+      "second quadrant",
+      "sin positive",
+      "identities"
+    ]
+  },
+  {
+    "id": "fun_trig_5_03",
+    "classLevel": "Fundamentals",
+    "subject": "Mathematics",
+    "chapter": "Trigonometry Basics",
+    "title": "Identities for (180° + θ) and (270° − θ)",
+    "latexCode": "\\begin{aligned} \\sin(180°+\\theta) &= -\\sin\\theta, & \\cos(180°+\\theta) &= -\\cos\\theta \\\\ \\tan(180°+\\theta) &= \\tan\\theta, & \\cot(180°+\\theta) &= \\cot\\theta \\\\ \\sin(270°-\\theta) &= -\\cos\\theta, & \\cos(270°-\\theta) &= -\\sin\\theta \\\\ \\tan(270°-\\theta) &= \\cot\\theta, & \\cot(270°-\\theta) &= \\tan\\theta \\end{aligned}",
+    "explanation": "For (180°+θ): only tan and cot positive (third quadrant). Function name unchanged. For (270°−θ): third quadrant, function name changes (sin↔cos, tan↔cot).",
+    "containsFormulas": true,
+    "searchTags": [
+      "180 plus theta",
+      "270 minus theta",
+      "third quadrant",
+      "function changes",
+      "allied angles"
+    ]
+  },
+  {
+    "id": "fun_trig_5_04",
+    "classLevel": "Fundamentals",
+    "subject": "Mathematics",
+    "chapter": "Trigonometry Basics",
+    "title": "Identities for (270° + θ) and (360° − θ)",
+    "latexCode": "\\begin{aligned} \\sin(270°+\\theta) &= -\\cos\\theta, & \\cos(270°+\\theta) &= \\sin\\theta \\\\ \\tan(270°+\\theta) &= -\\cot\\theta, & \\cot(270°+\\theta) &= -\\tan\\theta \\\\ \\sin(360°-\\theta) &= -\\sin\\theta, & \\cos(360°-\\theta) &= \\cos\\theta \\\\ \\tan(360°-\\theta) &= -\\tan\\theta, & \\cot(360°-\\theta) &= -\\cot\\theta \\end{aligned}",
+    "explanation": "For (270°+θ): fourth quadrant, function name changes. For (360°−θ): fourth quadrant, function name unchanged (only cos and sec positive). 360°−θ behaves like −θ.",
+    "containsFormulas": true,
+    "searchTags": [
+      "270 plus theta",
+      "360 minus theta",
+      "fourth quadrant",
+      "allied angles",
+      "period"
+    ]
+  },
+  {
+    "id": "fun_trig_6_01",
+    "classLevel": "Fundamentals",
+    "subject": "Mathematics",
+    "chapter": "Trigonometry Basics",
+    "title": "Negative Angle Identities — Odd and Even Functions",
+    "latexCode": "\\begin{aligned} \\sin(-\\theta) &= -\\sin\\theta \\\\ \\cos(-\\theta) &= \\cos\\theta \\\\ \\tan(-\\theta) &= -\\tan\\theta \\\\ \\cot(-\\theta) &= -\\cot\\theta \\\\ \\sec(-\\theta) &= \\sec\\theta \\\\ \\text{cosec}(-\\theta) &= -\\text{cosec}\\,\\theta \\end{aligned}",
+    "explanation": "Cos and sec are even functions (symmetric about y-axis). Sin, tan, cot, cosec are odd functions (point symmetry about origin). Even: f(−x) = f(x). Odd: f(−x) = −f(x).",
+    "containsFormulas": true,
+    "searchTags": [
+      "negative angle",
+      "odd function",
+      "even function",
+      "sin negative",
+      "cos positive",
+      "minus theta"
+    ]
+  },
+  {
+    "id": "fun_trig_7_01",
+    "classLevel": "Fundamentals",
+    "subject": "Mathematics",
+    "chapter": "Trigonometry Basics",
+    "title": "Sum and Difference — sin",
+    "latexCode": "\\begin{aligned} \\sin(A+B) &= \\sin A\\cos B + \\cos A\\sin B \\\\ \\sin(A-B) &= \\sin A\\cos B - \\cos A\\sin B \\end{aligned}",
+    "explanation": "Sine of sum/difference formulas. Both involve products of sines and cosines with mixed angles. The sign in the formula matches the sign of the angle operation (+ stays +, − changes to −).",
+    "containsFormulas": true,
+    "searchTags": [
+      "sin A+B",
+      "sin A-B",
+      "sum formula",
+      "difference formula",
+      "addition"
+    ]
+  },
+  {
+    "id": "fun_trig_7_02",
+    "classLevel": "Fundamentals",
+    "subject": "Mathematics",
+    "chapter": "Trigonometry Basics",
+    "title": "Sum and Difference — cos",
+    "latexCode": "\\begin{aligned} \\cos(A+B) &= \\cos A\\cos B - \\sin A\\sin B \\\\ \\cos(A-B) &= \\cos A\\cos B + \\sin A\\sin B \\end{aligned}",
+    "explanation": "Cosine of sum/difference formulas. Unlike sin formulas, here the sign is OPPOSITE to the angle operation: cos(A+B) has a minus sign and cos(A−B) has a plus sign.",
+    "containsFormulas": true,
+    "searchTags": [
+      "cos A+B",
+      "cos A-B",
+      "sum formula",
+      "difference formula",
+      "addition"
+    ]
+  },
+  {
+    "id": "fun_trig_7_03",
+    "classLevel": "Fundamentals",
+    "subject": "Mathematics",
+    "chapter": "Trigonometry Basics",
+    "title": "Sum and Difference — tan",
+    "latexCode": "\\begin{aligned} \\tan(A+B) &= \\frac{\\tan A + \\tan B}{1 - \\tan A\\tan B} \\\\ \\tan(A-B) &= \\frac{\\tan A - \\tan B}{1 + \\tan A\\tan B} \\end{aligned}",
+    "explanation": "Tangent addition and subtraction formulas. The denominator uses the opposite sign: (A+B) has 1 minus product in denominator, (A−B) has 1 plus product. Undefined when denominator = 0.",
+    "containsFormulas": true,
+    "searchTags": [
+      "tan A+B",
+      "tan A-B",
+      "sum formula",
+      "difference formula",
+      "addition"
+    ]
+  },
+  {
+    "id": "fun_trig_7_04",
+    "classLevel": "Fundamentals",
+    "subject": "Mathematics",
+    "chapter": "Trigonometry Basics",
+    "title": "Sum and Difference — cot",
+    "latexCode": "\\begin{aligned} \\cot(A+B) &= \\frac{\\cot A\\cot B - 1}{\\cot A + \\cot B} \\\\ \\cot(A-B) &= \\frac{\\cot A\\cot B + 1}{\\cot B - \\cot A} \\end{aligned}",
+    "explanation": "Cotangent addition and subtraction formulas. The numerator uses the opposite sign convention to tan formulas. Less commonly tested but useful for problems involving cot directly.",
+    "containsFormulas": true,
+    "searchTags": [
+      "cot A+B",
+      "cot A-B",
+      "sum formula",
+      "cotangent",
+      "addition formula"
+    ]
+  },
+  {
+    "id": "fun_trig_8_01",
+    "classLevel": "Fundamentals",
+    "subject": "Mathematics",
+    "chapter": "Trigonometry Basics",
+    "title": "Double Angle — sin",
+    "latexCode": "\\sin 2A = 2\\sin A\\cos A = \\frac{2\\tan A}{1+\\tan^2 A}",
+    "explanation": "Derived from sin(A+A). The second form in terms of tan A is obtained using sin A = tan A/sec A = tan A/√(1+tan²A) and cos A = 1/√(1+tan²A). Both forms are used in integration and equation solving.",
+    "containsFormulas": true,
+    "searchTags": [
+      "double angle",
+      "sin 2A",
+      "2sinAcosA",
+      "tan form",
+      "formula"
+    ]
+  },
+  {
+    "id": "fun_trig_8_02",
+    "classLevel": "Fundamentals",
+    "subject": "Mathematics",
+    "chapter": "Trigonometry Basics",
+    "title": "Double Angle — cos (Three Forms)",
+    "latexCode": "\\begin{aligned} \\cos 2A &= \\cos^2 A - \\sin^2 A \\\\ &= 2\\cos^2 A - 1 \\\\ &= 1 - 2\\sin^2 A \\\\ &= \\frac{1 - \\tan^2 A}{1 + \\tan^2 A} \\end{aligned}",
+    "explanation": "cos 2A has four equivalent forms — all important. The 2nd and 3rd forms are used to derive the power-reduction identities (cos²A and sin²A in terms of cos 2A). Most versatile formula in trig.",
+    "containsFormulas": true,
+    "searchTags": [
+      "double angle",
+      "cos 2A",
+      "cos squared",
+      "sin squared",
+      "four forms",
+      "power reduction"
+    ]
+  },
+  {
+    "id": "fun_trig_8_03",
+    "classLevel": "Fundamentals",
+    "subject": "Mathematics",
+    "chapter": "Trigonometry Basics",
+    "title": "Double Angle — tan",
+    "latexCode": "\\tan 2A = \\frac{2\\tan A}{1 - \\tan^2 A}",
+    "explanation": "Derived from tan(A+A) using the addition formula. Undefined when tan²A = 1, i.e., A = 45°, 135°, etc. The denominator mirrors the cos 2A form in tan: cos 2A = (1−tan²A)/(1+tan²A).",
+    "containsFormulas": true,
+    "searchTags": [
+      "double angle",
+      "tan 2A",
+      "2tanA",
+      "formula"
+    ]
+  },
+  {
+    "id": "fun_trig_8_04",
+    "classLevel": "Fundamentals",
+    "subject": "Mathematics",
+    "chapter": "Trigonometry Basics",
+    "title": "Power Reduction Identities",
+    "latexCode": "\\begin{aligned} \\sin^2 A &= \\frac{1 - \\cos 2A}{2} \\\\ \\cos^2 A &= \\frac{1 + \\cos 2A}{2} \\\\ \\tan^2 A &= \\frac{1 - \\cos 2A}{1 + \\cos 2A} \\end{aligned}",
+    "explanation": "Derived from the double angle formulas for cos 2A. Used extensively in integration to reduce powers: ∫sin²x dx and ∫cos²x dx are solved using these identities.",
+    "containsFormulas": true,
+    "searchTags": [
+      "power reduction",
+      "sin squared",
+      "cos squared",
+      "cos 2A",
+      "integration trick"
+    ]
+  },
+  {
+    "id": "fun_trig_8_05",
+    "classLevel": "Fundamentals",
+    "subject": "Mathematics",
+    "chapter": "Trigonometry Basics",
+    "title": "Triple Angle Formulas",
+    "latexCode": "\\begin{aligned} \\sin 3A &= 3\\sin A - 4\\sin^3 A \\\\ \\cos 3A &= 4\\cos^3 A - 3\\cos A \\\\ \\tan 3A &= \\frac{3\\tan A - \\tan^3 A}{1 - 3\\tan^2 A} \\end{aligned}",
+    "explanation": "Triple angle formulas are derived by writing 3A = 2A + A and applying sum and double angle formulas. Used in cubic equation solving and Class 11–12 problems. Note sin3A starts with +3sinA but cos3A starts with +4cos³A.",
+    "containsFormulas": true,
+    "searchTags": [
+      "triple angle",
+      "sin 3A",
+      "cos 3A",
+      "tan 3A",
+      "3 theta"
+    ]
+  },
+  {
+    "id": "fun_trig_9_01",
+    "classLevel": "Fundamentals",
+    "subject": "Mathematics",
+    "chapter": "Trigonometry Basics",
+    "title": "Half Angle — sin",
+    "latexCode": "\\sin\\frac{A}{2} = \\pm\\sqrt{\\frac{1 - \\cos A}{2}}",
+    "explanation": "Derived from cos A = 1 − 2sin²(A/2). The ± sign depends on the quadrant in which A/2 lies. For 0 < A < 180°, A/2 lies in Q1 so sin(A/2) is positive.",
+    "containsFormulas": true,
+    "searchTags": [
+      "half angle",
+      "sin A/2",
+      "half theta",
+      "square root",
+      "formula"
+    ]
+  },
+  {
+    "id": "fun_trig_9_02",
+    "classLevel": "Fundamentals",
+    "subject": "Mathematics",
+    "chapter": "Trigonometry Basics",
+    "title": "Half Angle — cos",
+    "latexCode": "\\cos\\frac{A}{2} = \\pm\\sqrt{\\frac{1 + \\cos A}{2}}",
+    "explanation": "Derived from cos A = 2cos²(A/2) − 1. The ± sign depends on the quadrant of A/2. These formulas are used to find exact values like cos 22.5° = cos(45°/2) = √((1+cos45°)/2).",
+    "containsFormulas": true,
+    "searchTags": [
+      "half angle",
+      "cos A/2",
+      "half theta",
+      "square root",
+      "formula"
+    ]
+  },
+  {
+    "id": "fun_trig_9_03",
+    "classLevel": "Fundamentals",
+    "subject": "Mathematics",
+    "chapter": "Trigonometry Basics",
+    "title": "Half Angle — tan (Three Forms)",
+    "latexCode": "\\begin{aligned} \\tan\\frac{A}{2} &= \\pm\\sqrt{\\frac{1 - \\cos A}{1 + \\cos A}} \\\\ &= \\frac{\\sin A}{1 + \\cos A} \\\\ &= \\frac{1 - \\cos A}{\\sin A} \\end{aligned}",
+    "explanation": "The last two forms for tan(A/2) are sign-free (no ± needed) and are therefore more useful in equation solving and identity proving. Both are derived from sin and cos half-angle formulas.",
+    "containsFormulas": true,
+    "searchTags": [
+      "half angle",
+      "tan A/2",
+      "three forms",
+      "sin over 1+cos",
+      "1-cos over sin"
+    ]
+  },
+  {
+    "id": "fun_trig_9_04",
+    "classLevel": "Fundamentals",
+    "subject": "Mathematics",
+    "chapter": "Trigonometry Basics",
+    "title": "Weierstrass Substitution (t = tan A/2)",
+    "latexCode": "\\begin{aligned} \\text{Let } t &= \\tan\\frac{A}{2} \\\\ \\sin A &= \\frac{2t}{1+t^2} \\\\ \\cos A &= \\frac{1-t^2}{1+t^2} \\\\ \\tan A &= \\frac{2t}{1-t^2} \\end{aligned}",
+    "explanation": "Expressing sin, cos, tan in terms of t = tan(A/2) is called Weierstrass (or t-) substitution. Used to convert trig integrals and equations into rational expressions in t. Critical for Class 12 integration.",
+    "containsFormulas": true,
+    "searchTags": [
+      "weierstrass",
+      "t substitution",
+      "tan half angle",
+      "2t/1+t2",
+      "rational",
+      "integration"
+    ]
+  },
+  {
+    "id": "fun_trig_10_01",
+    "classLevel": "Fundamentals",
+    "subject": "Mathematics",
+    "chapter": "Trigonometry Basics",
+    "title": "Product to Sum — sin·cos",
+    "latexCode": "\\begin{aligned} 2\\sin A\\cos B &= \\sin(A+B) + \\sin(A-B) \\\\ 2\\cos A\\sin B &= \\sin(A+B) - \\sin(A-B) \\end{aligned}",
+    "explanation": "Derived by adding/subtracting the sin addition formulas. Converts a product of sin and cos into a sum. Used in Fourier analysis and integrating products of trig functions.",
+    "containsFormulas": true,
+    "searchTags": [
+      "product to sum",
+      "sinA cosB",
+      "2sinAcosB",
+      "sin sum",
+      "sin difference"
+    ]
+  },
+  {
+    "id": "fun_trig_10_02",
+    "classLevel": "Fundamentals",
+    "subject": "Mathematics",
+    "chapter": "Trigonometry Basics",
+    "title": "Product to Sum — cos·cos and sin·sin",
+    "latexCode": "\\begin{aligned} 2\\cos A\\cos B &= \\cos(A-B) + \\cos(A+B) \\\\ 2\\sin A\\sin B &= \\cos(A-B) - \\cos(A+B) \\end{aligned}",
+    "explanation": "Derived by adding/subtracting the cos addition formulas. 2cosAcosB gives a sum of cosines. 2sinAsinB gives a difference of cosines (note the order: A−B first). Used extensively in integration.",
+    "containsFormulas": true,
+    "searchTags": [
+      "product to sum",
+      "cosA cosB",
+      "sinA sinB",
+      "2cosAcosB",
+      "2sinAsinB"
+    ]
+  },
+  {
+    "id": "fun_trig_11_01",
+    "classLevel": "Fundamentals",
+    "subject": "Mathematics",
+    "chapter": "Trigonometry Basics",
+    "title": "Sum to Product — sin + sin and sin − sin",
+    "latexCode": "\\begin{aligned} \\sin C + \\sin D &= 2\\sin\\frac{C+D}{2}\\cos\\frac{C-D}{2} \\\\ \\sin C - \\sin D &= 2\\cos\\frac{C+D}{2}\\sin\\frac{C-D}{2} \\end{aligned}",
+    "explanation": "Obtained by substituting A = (C+D)/2, B = (C−D)/2 in the product-to-sum formulas. Sum of sines = 2sin(avg)cos(diff/2). Difference of sines = 2cos(avg)sin(diff/2).",
+    "containsFormulas": true,
+    "searchTags": [
+      "sum to product",
+      "sinC + sinD",
+      "sinC - sinD",
+      "C D formula",
+      "transformation"
+    ]
+  },
+  {
+    "id": "fun_trig_11_02",
+    "classLevel": "Fundamentals",
+    "subject": "Mathematics",
+    "chapter": "Trigonometry Basics",
+    "title": "Sum to Product — cos + cos and cos − cos",
+    "latexCode": "\\begin{aligned} \\cos C + \\cos D &= 2\\cos\\frac{C+D}{2}\\cos\\frac{C-D}{2} \\\\ \\cos C - \\cos D &= -2\\sin\\frac{C+D}{2}\\sin\\frac{C-D}{2} \\end{aligned}",
+    "explanation": "Sum of cosines = 2cos(avg)cos(diff/2). Difference of cosines has a negative sign and involves sin: −2sin(avg)sin(diff/2). Note the minus sign in cos C − cos D — easily forgotten.",
+    "containsFormulas": true,
+    "searchTags": [
+      "sum to product",
+      "cosC + cosD",
+      "cosC - cosD",
+      "C D formula",
+      "transformation"
+    ]
+  },
+  {
+    "id": "fun_trig_11_03",
+    "classLevel": "Fundamentals",
+    "subject": "Mathematics",
+    "chapter": "Trigonometry Basics",
+    "title": "Sum to Product — All Four Together",
+    "latexCode": "\\begin{aligned} \\sin C + \\sin D &= 2\\sin\\frac{C+D}{2}\\cos\\frac{C-D}{2} \\\\ \\sin C - \\sin D &= 2\\cos\\frac{C+D}{2}\\sin\\frac{C-D}{2} \\\\ \\cos C + \\cos D &= 2\\cos\\frac{C+D}{2}\\cos\\frac{C-D}{2} \\\\ \\cos C - \\cos D &= -2\\sin\\frac{C+D}{2}\\sin\\frac{C-D}{2} \\end{aligned}",
+    "explanation": "All four sum-to-product formulas in one place for quick reference. Memory tip: sin sum → sin·cos. sin diff → cos·sin. cos sum → cos·cos. cos diff → −sin·sin. The average angle always appears first.",
+    "containsFormulas": true,
+    "searchTags": [
+      "sum to product",
+      "all four",
+      "C D formulas",
+      "quick reference",
+      "transformation"
+    ]
+  },
+  {
+    "id": "fun_trig_bonus_01",
+    "classLevel": "Fundamentals",
+    "subject": "Mathematics",
+    "chapter": "Trigonometry Basics",
+    "title": "General Solutions of Trig Equations",
+    "latexCode": "\\begin{aligned} \\sin\\theta = \\sin\\alpha &\\Rightarrow \\theta = n\\pi + (-1)^n \\alpha \\\\ \\cos\\theta = \\cos\\alpha &\\Rightarrow \\theta = 2n\\pi \\pm \\alpha \\\\ \\tan\\theta = \\tan\\alpha &\\Rightarrow \\theta = n\\pi + \\alpha \\end{aligned}",
+    "explanation": "General solutions for basic trig equations where n is any integer. These are essential for solving trig equations in Class 11. The sin formula uses alternating signs via (−1)ⁿ; cos and tan are simpler.",
+    "containsFormulas": true,
+    "searchTags": [
+      "general solution",
+      "n pi",
+      "trig equations",
+      "sin alpha",
+      "cos alpha",
+      "tan alpha"
+    ]
+  },
+  {
+    "id": "fun_trig_bonus_02",
+    "classLevel": "Fundamentals",
+    "subject": "Mathematics",
+    "chapter": "Trigonometry Basics",
+    "title": "Sine Rule",
+    "latexCode": "\\frac{a}{\\sin A} = \\frac{b}{\\sin B} = \\frac{c}{\\sin C} = 2R",
+    "explanation": "In triangle ABC, the ratio of each side to the sine of its opposite angle is constant and equals 2R (where R is the circumradius). Used to find unknown sides and angles in non-right triangles.",
+    "containsFormulas": true,
+    "searchTags": [
+      "sine rule",
+      "triangle",
+      "circumradius",
+      "2R",
+      "non-right triangle",
+      "law of sines"
+    ]
+  },
+  {
+    "id": "fun_trig_bonus_03",
+    "classLevel": "Fundamentals",
+    "subject": "Mathematics",
+    "chapter": "Trigonometry Basics",
+    "title": "Cosine Rule",
+    "latexCode": "\\begin{aligned} a^2 &= b^2 + c^2 - 2bc\\cos A \\\\ \\cos A &= \\frac{b^2 + c^2 - a^2}{2bc} \\end{aligned}",
+    "explanation": "Generalises the Pythagorean theorem. When A = 90°, cos A = 0 and the formula reduces to a² = b² + c². Used when two sides and included angle (SAS) or all three sides (SSS) are known.",
+    "containsFormulas": true,
+    "searchTags": [
+      "cosine rule",
+      "law of cosines",
+      "triangle",
+      "SAS",
+      "SSS",
+      "generalised pythagoras"
+    ]
+  },
+  {
+    "id": "fun_trig_bonus_04",
+    "classLevel": "Fundamentals",
+    "subject": "Mathematics",
+    "chapter": "Trigonometry Basics",
+    "title": "Area of Triangle Using Trig",
+    "latexCode": "\\begin{aligned} \\text{Area} &= \\frac{1}{2}ab\\sin C \\\\ &= \\frac{1}{2}bc\\sin A \\\\ &= \\frac{1}{2}ac\\sin B \\end{aligned}",
+    "explanation": "Area of a triangle = half × product of two sides × sine of the included angle. This formula works for any triangle (not just right-angled). It reduces to ½ base × height when the angle is 90°.",
+    "containsFormulas": true,
+    "searchTags": [
+      "area triangle",
+      "half ab sin C",
+      "sine rule",
+      "two sides angle",
+      "formula"
+    ]
+  },
+  {
+    "id": "fun_trig_bonus_05",
+    "classLevel": "Fundamentals",
+    "subject": "Mathematics",
+    "chapter": "Trigonometry Basics",
+    "title": "Transforming a·sinθ + b·cosθ",
+    "latexCode": "\\begin{aligned} a\\sin\\theta + b\\cos\\theta &= R\\sin(\\theta + \\phi) \\\\ \\text{where } R &= \\sqrt{a^2 + b^2}, \\quad \\tan\\phi = \\frac{b}{a} \\end{aligned}",
+    "explanation": "Any expression of the form a·sinθ + b·cosθ can be written as a single sinusoidal function with amplitude R = √(a²+b²). Maximum value = R, minimum value = −R. Used in finding range and extrema.",
+    "containsFormulas": true,
+    "searchTags": [
+      "a sin theta b cos theta",
+      "R sin",
+      "amplitude",
+      "maximum minimum",
+      "transform"
+    ]
+  },
+
+
+  {
+    "id": "fun_log_1_01",
+    "classLevel": "Fundamentals",
+    "subject": "Mathematics",
+    "chapter": "Logarithm Rules",
+    "title": "Definition of Logarithm",
+    "latexCode": "\\log_b a = x \\iff b^x = a \\quad (b > 0,\\; b \\neq 1,\\; a > 0)",
+    "explanation": "The logarithm is the inverse of exponentiation. log_b(a) = x means 'b raised to the power x gives a'. The base b must be positive and not equal to 1. The argument a must be strictly positive.",
+    "containsFormulas": true,
+    "searchTags": [
+      "definition",
+      "logarithm",
+      "log base",
+      "inverse",
+      "exponent"
+    ]
+  },
+  {
+    "id": "fun_log_1_02",
+    "classLevel": "Fundamentals",
+    "subject": "Mathematics",
+    "chapter": "Logarithm Rules",
+    "title": "Logarithm ↔ Exponential Conversion",
+    "latexCode": "\\begin{aligned} \\log_b a = x &\\iff b^x = a \\\\ \\text{e.g. } \\log_2 8 = 3 &\\iff 2^3 = 8 \\end{aligned}",
+    "explanation": "To convert between log and exponential form: the base stays the base, the log value becomes the exponent, and the argument becomes the result. This conversion is the most fundamental skill in logarithms.",
+    "containsFormulas": true,
+    "searchTags": [
+      "conversion",
+      "exponential form",
+      "log form",
+      "base",
+      "argument"
+    ]
+  },
+  {
+    "id": "fun_log_1_03",
+    "classLevel": "Fundamentals",
+    "subject": "Mathematics",
+    "chapter": "Logarithm Rules",
+    "title": "Conditions for Logarithm to Exist",
+    "latexCode": "\\log_b a \\text{ is defined only when:} \\quad a > 0, \\quad b > 0, \\quad b \\neq 1",
+    "explanation": "You cannot take the log of zero or a negative number (in real numbers). The base cannot be 0, 1, or negative. These conditions must always be checked when solving log equations.",
+    "containsFormulas": true,
+    "searchTags": [
+      "domain",
+      "conditions",
+      "defined",
+      "positive",
+      "base not 1"
+    ]
+  },
+  {
+    "id": "fun_log_2_01",
+    "classLevel": "Fundamentals",
+    "subject": "Mathematics",
+    "chapter": "Logarithm Rules",
+    "title": "Common Logarithm (Base 10)",
+    "latexCode": "\\log_{10} a = \\log a \\quad \\text{(written without base)}",
+    "explanation": "When no base is written, it is assumed to be 10. Called the common logarithm. Used in pH calculations, Richter scale, and decibels. log 10 = 1, log 100 = 2, log 1000 = 3.",
+    "containsFormulas": true,
+    "searchTags": [
+      "common logarithm",
+      "log base 10",
+      "log without base",
+      "log 10"
+    ]
+  },
+  {
+    "id": "fun_log_2_02",
+    "classLevel": "Fundamentals",
+    "subject": "Mathematics",
+    "chapter": "Logarithm Rules",
+    "title": "Natural Logarithm (Base e)",
+    "latexCode": "\\ln a = \\log_e a \\quad (e \\approx 2.718)",
+    "explanation": "The natural logarithm uses Euler's number e ≈ 2.718 as the base. Written as ln(a). Fundamental in calculus: d/dx(ln x) = 1/x and ∫(1/x)dx = ln|x| + C. ln e = 1, ln 1 = 0.",
+    "containsFormulas": true,
+    "searchTags": [
+      "natural logarithm",
+      "ln",
+      "log base e",
+      "euler",
+      "2.718"
+    ]
+  },
+  {
+    "id": "fun_log_2_03",
+    "classLevel": "Fundamentals",
+    "subject": "Mathematics",
+    "chapter": "Logarithm Rules",
+    "title": "Binary Logarithm (Base 2)",
+    "latexCode": "\\log_2 a \\quad \\text{(binary logarithm)}",
+    "explanation": "Base 2 logarithm used in computer science (bits, data structures, algorithms). log₂ 2 = 1, log₂ 4 = 2, log₂ 8 = 3, log₂ 1024 = 10. Time complexity O(log n) in algorithms typically means base 2.",
+    "containsFormulas": true,
+    "searchTags": [
+      "binary logarithm",
+      "log base 2",
+      "log2",
+      "computer science",
+      "bits"
+    ]
+  },
+  {
+    "id": "fun_log_3_01",
+    "classLevel": "Fundamentals",
+    "subject": "Mathematics",
+    "chapter": "Logarithm Rules",
+    "title": "Log of 1 is Always Zero",
+    "latexCode": "\\log_b 1 = 0 \\quad \\text{for any valid base } b",
+    "explanation": "Because b⁰ = 1 for any b. No matter what base is used, the log of 1 is always 0. This is one of the most-used results when simplifying log expressions.",
+    "containsFormulas": true,
+    "searchTags": [
+      "log 1",
+      "zero",
+      "property",
+      "any base",
+      "basic"
+    ]
+  },
+  {
+    "id": "fun_log_3_02",
+    "classLevel": "Fundamentals",
+    "subject": "Mathematics",
+    "chapter": "Logarithm Rules",
+    "title": "Log of Base Itself is Always One",
+    "latexCode": "\\log_b b = 1 \\quad \\text{for any valid base } b",
+    "explanation": "Because b¹ = b. The log of any number to its own base is always 1. For example: log₂ 2 = 1, log₁₀ 10 = 1, ln e = 1. Used constantly for simplification.",
+    "containsFormulas": true,
+    "searchTags": [
+      "log b base b",
+      "one",
+      "property",
+      "ln e",
+      "log 10"
+    ]
+  },
+  {
+    "id": "fun_log_3_03",
+    "classLevel": "Fundamentals",
+    "subject": "Mathematics",
+    "chapter": "Logarithm Rules",
+    "title": "Exponential–Log Inverse Identity",
+    "latexCode": "\\begin{aligned} b^{\\log_b a} &= a \\\\ \\log_b (b^x) &= x \\end{aligned}",
+    "explanation": "Log and exponent with the same base cancel each other — they are inverse operations. First identity: b raised to log_b(a) = a. Second identity: log_b of b^x = x. Both are used to simplify expressions.",
+    "containsFormulas": true,
+    "searchTags": [
+      "inverse",
+      "cancel",
+      "b to log",
+      "log b to x",
+      "identity"
+    ]
+  },
+  {
+    "id": "fun_log_4_01",
+    "classLevel": "Fundamentals",
+    "subject": "Mathematics",
+    "chapter": "Logarithm Rules",
+    "title": "Product Rule",
+    "latexCode": "\\log_b (m \\times n) = \\log_b m + \\log_b n",
+    "explanation": "The log of a product equals the sum of individual logs (with the same base). Extends to any number of factors: log(abc) = log a + log b + log c. This is the most-used log rule in simplification.",
+    "containsFormulas": true,
+    "searchTags": [
+      "product rule",
+      "log product",
+      "sum of logs",
+      "multiplication",
+      "log mn"
+    ]
+  },
+  {
+    "id": "fun_log_4_02",
+    "classLevel": "Fundamentals",
+    "subject": "Mathematics",
+    "chapter": "Logarithm Rules",
+    "title": "Product Rule — Extended Form",
+    "latexCode": "\\log_b (a_1 \\cdot a_2 \\cdot a_3 \\cdots a_n) = \\log_b a_1 + \\log_b a_2 + \\log_b a_3 + \\cdots + \\log_b a_n",
+    "explanation": "The product rule extends to any finite number of factors. All factors must be positive. Used to break down complex log expressions into simpler individual terms.",
+    "containsFormulas": true,
+    "searchTags": [
+      "product rule",
+      "extended",
+      "multiple factors",
+      "sum",
+      "log"
+    ]
+  },
+  {
+    "id": "fun_log_5_01",
+    "classLevel": "Fundamentals",
+    "subject": "Mathematics",
+    "chapter": "Logarithm Rules",
+    "title": "Quotient Rule",
+    "latexCode": "\\log_b \\left(\\frac{m}{n}\\right) = \\log_b m - \\log_b n",
+    "explanation": "The log of a quotient equals the difference of the individual logs. The order matters: log of numerator minus log of denominator. Used to simplify division inside a logarithm.",
+    "containsFormulas": true,
+    "searchTags": [
+      "quotient rule",
+      "log division",
+      "difference of logs",
+      "log m/n",
+      "subtraction"
+    ]
+  },
+  {
+    "id": "fun_log_5_02",
+    "classLevel": "Fundamentals",
+    "subject": "Mathematics",
+    "chapter": "Logarithm Rules",
+    "title": "Product & Quotient Rule Together",
+    "latexCode": "\\log_b \\frac{mn}{pq} = \\log_b m + \\log_b n - \\log_b p - \\log_b q",
+    "explanation": "Combine both rules: numerator terms add, denominator terms subtract. Used to expand complex log expressions or to condense individual log terms back into a single logarithm.",
+    "containsFormulas": true,
+    "searchTags": [
+      "product quotient combined",
+      "expand logs",
+      "condense logs",
+      "numerator denominator"
+    ]
+  },
+  {
+    "id": "fun_log_6_01",
+    "classLevel": "Fundamentals",
+    "subject": "Mathematics",
+    "chapter": "Logarithm Rules",
+    "title": "Power Rule",
+    "latexCode": "\\log_b (m^n) = n \\cdot \\log_b m",
+    "explanation": "The exponent of the argument comes out as a multiplying factor in front of the log. This rule works for any real exponent n (positive, negative, or fractional). It is the key to solving equations where the variable is in an exponent.",
+    "containsFormulas": true,
+    "searchTags": [
+      "power rule",
+      "exponent",
+      "log m^n",
+      "n log m",
+      "coefficient"
+    ]
+  },
+  {
+    "id": "fun_log_6_02",
+    "classLevel": "Fundamentals",
+    "subject": "Mathematics",
+    "chapter": "Logarithm Rules",
+    "title": "Power Rule — Negative Exponent",
+    "latexCode": "\\log_b \\left(\\frac{1}{m}\\right) = \\log_b (m^{-1}) = -\\log_b m",
+    "explanation": "A direct consequence of the power rule with n = −1. The log of a reciprocal is the negative of the log. For example: log(1/2) = −log 2, ln(1/e) = −1.",
+    "containsFormulas": true,
+    "searchTags": [
+      "negative exponent",
+      "reciprocal",
+      "log 1/m",
+      "negative log",
+      "power rule"
+    ]
+  },
+  {
+    "id": "fun_log_7_01",
+    "classLevel": "Fundamentals",
+    "subject": "Mathematics",
+    "chapter": "Logarithm Rules",
+    "title": "Root Rule — Square Root",
+    "latexCode": "\\log_b \\sqrt{m} = \\log_b m^{1/2} = \\frac{1}{2}\\log_b m",
+    "explanation": "The square root is a power of ½, so the power rule applies. The log of a square root is half the log of the number. For example: log√100 = ½ log 100 = ½ × 2 = 1.",
+    "containsFormulas": true,
+    "searchTags": [
+      "root rule",
+      "square root",
+      "half log",
+      "1/2",
+      "log sqrt"
+    ]
+  },
+  {
+    "id": "fun_log_7_02",
+    "classLevel": "Fundamentals",
+    "subject": "Mathematics",
+    "chapter": "Logarithm Rules",
+    "title": "Root Rule — nth Root (General)",
+    "latexCode": "\\log_b \\sqrt[n]{m} = \\log_b m^{1/n} = \\frac{1}{n}\\log_b m",
+    "explanation": "The nth root of m is m^(1/n). Applying the power rule gives (1/n)·log_b m. For cube root: log(∛m) = (1/3)log m. Works for any positive integer n.",
+    "containsFormulas": true,
+    "searchTags": [
+      "root rule",
+      "nth root",
+      "cube root",
+      "1/n",
+      "log nth root"
+    ]
+  },
+  {
+    "id": "fun_log_7_03",
+    "classLevel": "Fundamentals",
+    "subject": "Mathematics",
+    "chapter": "Logarithm Rules",
+    "title": "Root Rule — General Fractional Power",
+    "latexCode": "\\log_b \\left(m^{p/q}\\right) = \\frac{p}{q} \\log_b m",
+    "explanation": "For any fractional exponent p/q, the power rule applies directly. This covers all root forms: ∛m² = m^(2/3) so log(∛m²) = (2/3)log m. Most general form of the root rule.",
+    "containsFormulas": true,
+    "searchTags": [
+      "fractional power",
+      "p/q",
+      "general root",
+      "power rule",
+      "fraction"
+    ]
+  },
+  {
+    "id": "fun_log_8_01",
+    "classLevel": "Fundamentals",
+    "subject": "Mathematics",
+    "chapter": "Logarithm Rules",
+    "title": "Change of Base Formula",
+    "latexCode": "\\log_b a = \\frac{\\log_c a}{\\log_c b} = \\frac{\\ln a}{\\ln b} = \\frac{\\log a}{\\log b}",
+    "explanation": "Converts a logarithm from any base b to any other base c. Most commonly used to convert to base 10 (log) or base e (ln) for calculator computation. The new base c can be anything valid.",
+    "containsFormulas": true,
+    "searchTags": [
+      "change of base",
+      "base conversion",
+      "log a / log b",
+      "ln a / ln b",
+      "calculator"
+    ]
+  },
+  {
+    "id": "fun_log_8_02",
+    "classLevel": "Fundamentals",
+    "subject": "Mathematics",
+    "chapter": "Logarithm Rules",
+    "title": "Change of Base — Common Forms",
+    "latexCode": "\\begin{aligned} \\log_b a &= \\frac{\\log a}{\\log b} \\quad \\text{(to base 10)} \\\\ \\log_b a &= \\frac{\\ln a}{\\ln b} \\quad \\text{(to base e)} \\\\ \\log_b a &= \\frac{1}{\\log_a b} \\quad \\text{(reciprocal form)} \\end{aligned}",
+    "explanation": "Three useful forms of the change of base formula. The reciprocal form log_b(a) = 1/log_a(b) is derived directly from change of base and is used in inequality problems and simplification.",
+    "containsFormulas": true,
+    "searchTags": [
+      "change of base",
+      "common forms",
+      "log base 10",
+      "ln",
+      "reciprocal form"
+    ]
+  },
+  {
+    "id": "fun_log_9_01",
+    "classLevel": "Fundamentals",
+    "subject": "Mathematics",
+    "chapter": "Logarithm Rules",
+    "title": "Reciprocal Relation",
+    "latexCode": "\\log_b a = \\frac{1}{\\log_a b}",
+    "explanation": "The log of a to base b and the log of b to base a are reciprocals of each other. For example: log₂ 8 = 3 and log₈ 2 = 1/3. Derived from the change of base formula with c = a.",
+    "containsFormulas": true,
+    "searchTags": [
+      "reciprocal",
+      "log_b a",
+      "log_a b",
+      "inverse bases",
+      "relation"
+    ]
+  },
+  {
+    "id": "fun_log_9_02",
+    "classLevel": "Fundamentals",
+    "subject": "Mathematics",
+    "chapter": "Logarithm Rules",
+    "title": "Chain Rule of Logarithms",
+    "latexCode": "\\log_a b \\times \\log_b c = \\log_a c",
+    "explanation": "When the argument of the first log equals the base of the second log, they collapse into a single log. Extends to any chain: log_a(b)·log_b(c)·log_c(d) = log_a(d). Useful for simplifying products of logs.",
+    "containsFormulas": true,
+    "searchTags": [
+      "chain rule",
+      "log product",
+      "telescoping",
+      "collapse",
+      "log_a b log_b c"
+    ]
+  },
+  {
+    "id": "fun_log_9_03",
+    "classLevel": "Fundamentals",
+    "subject": "Mathematics",
+    "chapter": "Logarithm Rules",
+    "title": "Extended Chain Rule",
+    "latexCode": "\\log_a b \\cdot \\log_b c \\cdot \\log_c d = \\log_a d",
+    "explanation": "The chain rule extends to any number of steps — each middle base cancels with the argument of the next term. The result is always log of the last argument to the first base. Very useful in olympiad and JEE problems.",
+    "containsFormulas": true,
+    "searchTags": [
+      "extended chain rule",
+      "telescoping",
+      "log chain",
+      "multiple logs",
+      "collapse"
+    ]
+  },
+  {
+    "id": "fun_log_10_01",
+    "classLevel": "Fundamentals",
+    "subject": "Mathematics",
+    "chapter": "Logarithm Rules",
+    "title": "Log of a Power of the Base",
+    "latexCode": "\\log_b (b^n) = n",
+    "explanation": "Directly from the inverse identity. Any log where the argument is the base raised to a power immediately simplifies to that power. For example: log₂(2⁵) = 5, log(10³) = 3, ln(e⁷) = 7.",
+    "containsFormulas": true,
+    "searchTags": [
+      "log b^n",
+      "simplify",
+      "power of base",
+      "direct result",
+      "ln e"
+    ]
+  },
+  {
+    "id": "fun_log_10_02",
+    "classLevel": "Fundamentals",
+    "subject": "Mathematics",
+    "chapter": "Logarithm Rules",
+    "title": "Logarithm with Same Argument and Base",
+    "latexCode": "\\log_a a^x = x \\quad \\text{and} \\quad a^{\\log_a x} = x",
+    "explanation": "Two sides of the same inverse relationship. log_a(aˣ) = x because the log and the exponent cancel. a^(log_a x) = x for the same reason. Both are used to solve exponential and logarithmic equations directly.",
+    "containsFormulas": true,
+    "searchTags": [
+      "inverse",
+      "cancel",
+      "a log_a x",
+      "log a^x",
+      "identity"
+    ]
+  },
+  {
+    "id": "fun_log_10_03",
+    "classLevel": "Fundamentals",
+    "subject": "Mathematics",
+    "chapter": "Logarithm Rules",
+    "title": "Logarithm of Zero and Negative Numbers",
+    "latexCode": "\\begin{aligned} \\log_b 0 &= \\text{undefined} \\quad (b^x = 0 \\text{ has no solution}) \\\\ \\log_b (-a) &= \\text{undefined (in } \\mathbb{R}\\text{)} \\end{aligned}",
+    "explanation": "log of 0 is undefined because no power of b can equal 0. Log of a negative number is undefined in real numbers. Both conditions arise frequently in equations — always check the domain when solving.",
+    "containsFormulas": true,
+    "searchTags": [
+      "log zero",
+      "log negative",
+      "undefined",
+      "domain",
+      "no solution"
+    ]
+  },
+  {
+    "id": "fun_log_10_04",
+    "classLevel": "Fundamentals",
+    "subject": "Mathematics",
+    "chapter": "Logarithm Rules",
+    "title": "Inequality Behaviour of Logarithms",
+    "latexCode": "\\begin{aligned} b > 1: & \\quad \\log_b m > \\log_b n \\iff m > n \\quad \\text{(increasing)} \\\\ 0 < b < 1: & \\quad \\log_b m > \\log_b n \\iff m < n \\quad \\text{(decreasing)} \\end{aligned}",
+    "explanation": "For base > 1 (like log base 10 or ln), log is an increasing function — larger argument gives larger log. For 0 < base < 1, log is decreasing — the inequality FLIPS when taking log of both sides. Critical for solving log inequalities.",
+    "containsFormulas": true,
+    "searchTags": [
+      "inequality",
+      "increasing",
+      "decreasing",
+      "base greater than 1",
+      "flip inequality",
+      "log"
+    ]
+  },
+  {
+    "id": "fun_log_10_05",
+    "classLevel": "Fundamentals",
+    "subject": "Mathematics",
+    "chapter": "Logarithm Rules",
+    "title": "Key Values to Memorise",
+    "latexCode": "\\begin{aligned} \\log 1 &= 0 & \\log 2 &\\approx 0.301 \\\\ \\log 3 &\\approx 0.477 & \\log 4 &= 2\\log 2 \\approx 0.602 \\\\ \\log 5 &\\approx 0.699 & \\log 6 &= \\log 2 + \\log 3 \\approx 0.778 \\\\ \\log 8 &= 3\\log 2 \\approx 0.903 & \\log 9 &= 2\\log 3 \\approx 0.954 \\\\ \\log 10 &= 1 & \\ln 2 &\\approx 0.693 \\end{aligned}",
+    "explanation": "These approximate values (all base 10 unless stated) are useful for estimation. Values for 4, 6, 8, 9 can be derived from log 2 and log 3 using the product and power rules — you only need to memorise log 2, log 3, and ln 2.",
+    "containsFormulas": true,
+    "searchTags": [
+      "log values",
+      "log 2",
+      "log 3",
+      "log 5",
+      "memorise",
+      "approximate",
+      "0.301",
+      "0.693"
+    ]
+  },
+  {
+    "id": "fun_log_10_06",
+    "classLevel": "Fundamentals",
+    "subject": "Mathematics",
+    "chapter": "Logarithm Rules",
+    "title": "Condensing Logs — Reverse Rules",
+    "latexCode": "\\begin{aligned} \\log a + \\log b &= \\log(ab) \\\\ \\log a - \\log b &= \\log\\frac{a}{b} \\\\ n\\log a &= \\log(a^n) \\end{aligned}",
+    "explanation": "The product, quotient, and power rules work in reverse to condense multiple log terms into a single logarithm. Used in solving log equations: condense first, then convert to exponential form.",
+    "containsFormulas": true,
+    "searchTags": [
+      "condense",
+      "combine logs",
+      "reverse product rule",
+      "reverse power rule",
+      "single log"
+    ]
+  }
+]
